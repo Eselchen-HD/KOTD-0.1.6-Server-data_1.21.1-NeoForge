@@ -1,0 +1,73 @@
+["Cobblestone turret"]
+	# Default: 60
+	# Range: 10 ~ 1024
+	Integrity = 60
+	# Default: 3
+	# Range: 0 ~ 30
+	Armor = 3
+	# Default: 8
+	# Range: 32 ~ 200
+	Range = 32
+
+["Fireball turret"]
+	# Default: 10
+	# Range: 60 ~ 1024
+	Integrity = 60
+	# Default: 3
+	# Range: 0 ~ 30
+	Armor = 3
+	# Default: 8
+	# Range: 32 ~ 200
+	Range = 32
+
+["Arrow turret"]
+	# Default: 60
+	# Range: 10 ~ 1024
+	Integrity = 60
+	# Default: 3
+	# Range: 0 ~ 30
+	Armor = 3
+	# Default: 32
+	# Range: 8 ~ 200
+	Range = 32
+
+["Bullet turret"]
+	# Default: 60
+	# Range: 10 ~ 1024
+	Integrity = 60
+	# Default: 3
+	# Range: 0 ~ 30
+	Armor = 3
+	# Default: 32
+	# Range: 8 ~ 200
+	Range = 32
+
+["Brick turret"]
+	# Default: 60
+	# Range: 10 ~ 1024
+	Integrity = 60
+	# Default: 3
+	# Range: 0 ~ 30
+	Armor = 3
+	# Default: 32
+	# Range: 8 ~ 1024
+	Range = 32
+
+["Gauss turret"]
+	# Default: 60
+	# Range: 10 ~ 1024
+	Integrity = 60
+	# Default: 3
+	# Range: 0 ~ 30
+	Armor = 3
+	# Default: 32
+	# Range: 8 ~ 200
+	Range = 32
+
+["Storage drone"]
+	# Default: 0
+	# Range: 0 ~ 30
+	Armor = 0
+	# Default: 50
+	# Range: 10 ~ 1024
+	Health = 50

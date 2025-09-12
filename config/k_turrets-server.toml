@@ -1,0 +1,6 @@
+# Default: 10
+# Range: 1 ~ 300
+"Turret limit per player" = 10
+# Default: 10
+# Range: 1 ~ 300
+"Drone limit per player" = 10

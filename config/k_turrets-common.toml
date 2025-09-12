@@ -1,0 +1,64 @@
+[Common]
+	# Default: 50.0
+	# Range: 0.1 ~ 50.0
+	"Turret and drone projectile speed" = 50.0
+	#List of mob ids to be excluded from default targets
+	"Target list exceptions" = ["minecraft:zombified_piglin", "minecraft:ender_dragon"]
+	"Set ownership automatically" = true
+	# Default: 30
+	# Range: 1 ~ 128
+	"Drones will keep to the owner at such distance" = 30
+
+	[Stats."Arrow units"]
+		#In ticks
+		# Default: 20
+		# Range: 1 ~ 60
+		"Delay between shots" = 20
+		# Default: 6
+		# Range: 1 ~ 1024
+		"Base damage" = 6
+
+	[Stats."Bullet units"]
+		#In ticks
+		# Default: 20
+		# Range: 1 ~ 60
+		"Delay between shots" = 20
+		# Default: 8
+		# Range: 1 ~ 1024
+		Damage = 8
+
+	[Stats."Fireball units"]
+		#In ticks
+		# Default: 20
+		# Range: 1 ~ 60
+		"Delay between shots" = 20
+		# Default: 6
+		# Range: 1 ~ 1024
+		Damage = 6
+
+	[Stats."Brick units"]
+		#In ticks
+		# Default: 20
+		# Range: 1 ~ 60
+		"Delay between shots" = 20
+		# Default: 9
+		# Range: 1 ~ 1024
+		Damage = 9
+
+	[Stats."Gauss units"]
+		#In ticks
+		# Default: 20
+		# Range: 1 ~ 60
+		"Delay between shots" = 20
+		# Default: 12
+		# Range: 1 ~ 1024
+		Damage = 12
+
+	[Stats."Cobble units"]
+		#In ticks
+		# Default: 20
+		# Range: 1 ~ 60
+		"Delay between shots" = 20
+		# Default: 3
+		# Range: 1 ~ 1024
+		Damage = 3
