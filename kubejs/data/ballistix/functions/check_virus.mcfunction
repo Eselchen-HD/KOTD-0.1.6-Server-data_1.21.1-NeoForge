@@ -1,0 +1,1 @@
+execute if entity @a[nbt={active_effects:[{id:"ballistix:virus"}]}] run effect clear @e ballistix:virus
