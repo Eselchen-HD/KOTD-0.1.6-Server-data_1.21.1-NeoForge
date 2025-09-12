@@ -1,4 +1,4 @@
-- KOTD -
+ -KOTD- 
 ======
 This is the official repository and issue-tracker for KOTD 1.21.1 NeoForge
 
