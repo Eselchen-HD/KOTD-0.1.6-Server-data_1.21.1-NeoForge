@@ -1,0 +1,520 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "590ACDB4C189F8D5"
+	id: "07F63BBAA5206B3F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["245E0AB038AD5423"]
+			id: "0BEC7F8F9E34616D"
+			rewards: [{
+				count: 5
+				id: "699CA70DACAB796C"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AA5FAA8E907F031"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BEC7F8F9E34616D"]
+			id: "27B1E7A5ECE629C2"
+			rewards: [{
+				count: 2
+				id: "76BF4EC892782EE0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36B1D5CC40E51658"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27B1E7A5ECE629C2"]
+			id: "32D2590FA8588687"
+			rewards: [{
+				count: 8
+				id: "63BCB341B18CEBEB"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D105D1DC243BDE8"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BEC7F8F9E34616D"]
+			id: "5F6235F86AF32A4F"
+			rewards: [{
+				count: 3
+				id: "492DAFD2F3A3E80D"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "186DA818B3223281"
+				item: { count: 1, id: "ars_nouveau:blue_archwood_log" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F6235F86AF32A4F"]
+			id: "04B289B475EB9E24"
+			rewards: [{
+				count: 4
+				id: "386327F7248258B7"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CFE908FFF411DF1"
+				item: { count: 1, id: "ars_nouveau:dowsing_rod" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F6235F86AF32A4F"]
+			id: "61166EEA922D8AD5"
+			rewards: [{
+				count: 2
+				id: "41144ADEEF155245"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2CFEA2D8F05182DD"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F6235F86AF32A4F"]
+			id: "69CCE63FCDE46FC2"
+			rewards: [{
+				count: 2
+				id: "3645BB1A8199E854"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40ADA01C2B7D2168"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69CCE63FCDE46FC2"]
+			id: "675DC7C92B2A8757"
+			rewards: [
+				{
+					id: "39F9537116FBD654"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6FDF731DFED133B0"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "13957E9C2776E7EC"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["675DC7C92B2A8757"]
+			id: "42DD6CFCAA682845"
+			rewards: [{
+				count: 6
+				id: "28BFBCDD7AB57489"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "220573465C75B507"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42DD6CFCAA682845"]
+			id: "1FFE32FA18F1C7A1"
+			rewards: [{
+				count: 2
+				id: "4C7E95AC57155369"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38C5FF86AB3EC6AC"
+				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42DD6CFCAA682845"]
+			id: "4F4EB779CF918EAF"
+			rewards: [{
+				count: 2
+				id: "3425467E030A9B1F"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03C44801D05E7AE4"
+				item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
+				type: "item"
+			}]
+			x: 10.105102040816334d
+			y: -1.4571428571428555d
+		}
+		{
+			dependencies: ["42DD6CFCAA682845"]
+			id: "16A45972F19D8512"
+			rewards: [{
+				count: 2
+				id: "730AA71A81E8FAD2"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AAD247C2F6AD465"
+				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42DD6CFCAA682845"]
+			id: "31CA532E25912FE6"
+			rewards: [{
+				count: 2
+				id: "07CDF3D2D0D7C8F3"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "595E0664DFE7DF04"
+				item: { count: 1, id: "ars_nouveau:potion_jar" }
+				type: "item"
+			}]
+			x: 8.505102040816332d
+			y: 1.2571428571428598d
+		}
+		{
+			dependencies: ["31CA532E25912FE6"]
+			id: "45B669ABB5861286"
+			rewards: [{
+				count: 2
+				id: "083DEB26A0993C0D"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "654B1DBD3104BB8B"
+				item: { count: 1, id: "ars_nouveau:alchemical_sourcelink" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42DD6CFCAA682845"]
+			id: "5D39C9CF0365FC71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "379D569E5101BBA5"
+					table_id: 4108383404435779231L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2F27CFB2641C01C7"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "48BE43981C891C6E"
+				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D39C9CF0365FC71"]
+			id: "53053EF46849DC2A"
+			rewards: [{
+				count: 2
+				id: "1D240ECC6CB1E780"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "15020EEC43AE8F5A"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+				{
+					id: "1720EF42CB5819AA"
+					item: { count: 1, id: "ars_nouveau:ritual_burrowing" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D39C9CF0365FC71"]
+			id: "41D880CB15E1A369"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46CC8AA8251B983E"
+					table_id: 4108383404435779231L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1D7D9415F3250D24"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3EB01ECE463D9862"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					id: "2F78B42DE5714314"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "245E0AB038AD5423"
+			rewards: [{
+				count: 2
+				id: "77E887872C3DAE7B"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "29C7F54C609F0A60"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41D880CB15E1A369"]
+			id: "01BA68F258DEDF71"
+			rewards: [{
+				count: 2
+				id: "23FDDF04B6D4D6B5"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D4685DECAA0BB3F"
+				item: { count: 1, id: "ars_nouveau:dominion_wand" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41D880CB15E1A369"]
+			id: "0D79ECEE5068877D"
+			tasks: [{
+				id: "478221F7E8B07D1E"
+				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D79ECEE5068877D"]
+			id: "5158F7AEB7EAB066"
+			rewards: [{
+				count: 3
+				id: "5F856A0FF505ED30"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "41D0211B0F76D201"
+					item: { count: 1, id: "ars_nouveau:spell_parchment" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0CCFC43458BFBDC6"
+					item: { count: 1, id: "ars_nouveau:blank_parchment" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5158F7AEB7EAB066"]
+			id: "0BE2D2498EB2DCF7"
+			rewards: [{
+				count: 2
+				id: "3D39CCD80D16BFAB"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D85C976CC403721"
+				item: { count: 1, id: "ars_nouveau:runic_chalk" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42DD6CFCAA682845"]
+			id: "3A001DACDA5F58EA"
+			rewards: [{
+				count: 2
+				id: "7C55313B5B613D20"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CCB9A863571D11E"
+				item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
+				type: "item"
+			}]
+			x: 9.553571428571423d
+			y: -2.3392857142857117d
+		}
+	]
+}

@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "einfhrung"
+	group: ""
+	id: "6D5BF9676FF7CE0A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08755AACDAC3C0AB"
+			rewards: [{
+				count: 32
+				id: "2959D84B9A618050"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "140ABDAFB43E2FC4"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			id: "36A0331B2EF53FBC"
+			rewards: [
+				{
+					count: 10
+					id: "558E089468255C4B"
+					item: {
+						count: 1
+						id: "pamhc2foodextended:papayajuiceitem"
+					}
+					type: "item"
+				}
+				{
+					id: "7494802B008A1DA4"
+					item: {
+						count: 1
+						id: "pamhc2trees:papaya_sapling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "201B603738E4CCF4"
+				item: { count: 1, id: "pamhc2foodcore:juiceritem" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "1CD9E9B89AB56B69"
+			tasks: [
+				{
+					id: "715B957AD9D61BD6"
+					item: { count: 1, id: "rechiseled:chisel" }
+					type: "item"
+				}
+				{
+					id: "5F5E0EE196AB78E9"
+					item: { count: 1, id: "chisel:chisel" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			id: "030AB78358BB0C63"
+			rewards: [{
+				id: "20D802A3101A9ACD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7CD7F54C1D6841E5"
+				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			id: "218C18638BB574D9"
+			tasks: [{
+				id: "7B5029C05407CA0E"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			id: "3662AA4205EAE259"
+			rewards: [{
+				id: "0FC9D94C8A26F7EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4BF07FE9BFBC42A7"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			icon: {
+				id: "lightmanscurrency:wallet_netherite"
+			}
+			id: "06E4D4A34942E253"
+			rewards: [{
+				id: "7CF79954196E1D46"
+				item: {
+					count: 1
+					id: "lightmanscurrency:wallet_netherite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D768CC4CF841968"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			icon: {
+				id: "projecte:repair_talisman"
+			}
+			id: "6FC630541FD3F1E9"
+			rewards: [{
+				id: "5EC6200132F54403"
+				item: {
+					count: 1
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "396CE6C3760B8473"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "4A38F33347AA742F"
+			rewards: [{
+				id: "6A3205856341E4D9"
+				item: {
+					count: 1
+					id: "farmingforblockheads:market"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36895C38861F58CE"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			id: "39DFEE5A30AF9748"
+			rewards: [{
+				advancement: "kotd:kotd"
+				criterion: ""
+				id: "51796153700B4DB9"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "618B184D5A0C17CC"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			id: "1FF43418888CE57C"
+			tasks: [{
+				id: "4137BF27FCA2A837"
+				item: { count: 1, id: "simplemagnets:basic_demagnetization_coil" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			id: "21E503AD2FB12F19"
+			rewards: [{
+				count: 4
+				id: "3B1E5747349BA98C"
+				item: {
+					count: 1
+					id: "pamhc2foodextended:deluxecheeseburgeritem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "08B34BBA7EE61641"
+				item: { count: 8, id: "minecraft:cooked_beef" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			id: "42DB63E57E884514"
+			rewards: [{
+				id: "0F069062D5D82B79"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				count: 128L
+				id: "290A3270AFB49105"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+	]
+}

@@ -1,0 +1,1044 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energetics"
+	group: "4B962CBA93919BC4"
+	id: "0CB0B3EB903E172A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4B11BCD003E211CB"
+			rewards: [
+				{
+					count: 2
+					id: "3D751BC99D4A1ABA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1727203CD814E409"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "46FF3107FB698C04"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B11BCD003E211CB"]
+			hide_until_deps_visible: true
+			id: "0DAD421F478AE244"
+			rewards: [
+				{
+					count: 2
+					id: "670A6CEA22E95A8D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54C4589D7CF01574"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "25402D63873A405D"
+					item: { count: 1, id: "ae2:meteorite_compass" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3AAB44A9675A2CA5"
+					item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DAD421F478AE244"]
+			id: "649EFA093B87DA21"
+			rewards: [
+				{
+					count: 2
+					id: "3EA5F73626F5F548"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3098DD74503D7EB8"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "093CF19EEA1412DC"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+				{
+					id: "09547B01E162D85D"
+					item: { count: 1, id: "ae2:calculation_processor_press" }
+					type: "item"
+				}
+				{
+					id: "0AB26D599085B6D5"
+					item: { count: 1, id: "ae2:engineering_processor_press" }
+					type: "item"
+				}
+				{
+					id: "5AA2D6940DA7A9B6"
+					item: { count: 1, id: "ae2:logic_processor_press" }
+					type: "item"
+				}
+				{
+					id: "42BF1F50F10AA9EA"
+					item: { count: 1, id: "ae2:silicon_press" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46A54A9E3269D109"]
+			hide_until_deps_visible: true
+			id: "6394D06B589BA038"
+			rewards: [
+				{
+					count: 2
+					id: "1F9FABB0557096C7"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75E2062B2DEC71BD"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "6D7CC2C985DF1848"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+				{
+					id: "5898F43FC6198EA5"
+					item: { count: 1, id: "ae2:crafting_terminal" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["649EFA093B87DA21"]
+			id: "46CDC29AAFE96DD9"
+			rewards: [
+				{
+					id: "1C40AA189303A54E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "367D1325C2BB4E52"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52242B7E45B13E8C"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "5031AC1568603B9D"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FFC97E35C117D51"]
+			id: "21ECC3F38608378D"
+			rewards: [
+				{
+					id: "5F86D80DCC0E5880"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "11EF2499154255E3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68E09AAA4FA6A8B4"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5FB6D204EDB1FC3B"
+				item: { count: 1, id: "ae2:fluix_smart_cable" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6394D06B589BA038"]
+			id: "49480D398248CE3B"
+			rewards: [
+				{
+					count: 2
+					id: "32DDD8AC81EFB661"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5232ECA11096C187"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2FFE243B113AF71C"
+				item: { count: 1, id: "ae2:wireless_access_point" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49480D398248CE3B"]
+			id: "4E726F7601DEDE66"
+			rewards: [
+				{
+					count: 2
+					id: "147DCEDD09560512"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7899AB9B23813009"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "51166B689BA0D507"
+				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E726F7601DEDE66"]
+			id: "5D17ABD8DEA5C1D3"
+			rewards: [
+				{
+					id: "716877983B02F4E1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2BBB549D6FBA93D8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B9C2A8A8CFBA1A3"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "07DA169B7CEE65C4"
+					item: { count: 1, id: "aeinfinitybooster:infinity_card" }
+					type: "item"
+				}
+				{
+					id: "72DEB28E63E0A6C5"
+					item: { count: 1, id: "aeinfinitybooster:dimension_card" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6394D06B589BA038"]
+			hide_dependency_lines: true
+			id: "3EBFAE9B1E5F6605"
+			rewards: [
+				{
+					count: 2
+					id: "520A6EF7BEB85C44"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23FCA4FA3ED0BB37"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "3A0259FC85E6EEB7"
+				item: { count: 1, id: "ae2:item_storage_cell_4k" }
+				type: "item"
+			}]
+			x: -1.642857142857146d
+			y: -3.6607142857142847d
+		}
+		{
+			dependencies: ["3EBFAE9B1E5F6605"]
+			id: "0564FB5ED377D418"
+			rewards: [
+				{
+					count: 2
+					id: "23ED1E34D16D6587"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10867BDD3CE26C29"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "3D2A8FEDA947A414"
+				item: { count: 1, id: "ae2:item_storage_cell_16k" }
+				type: "item"
+			}]
+			x: -2.285714285714292d
+			y: -3.053571428571427d
+		}
+		{
+			dependencies: ["0564FB5ED377D418"]
+			id: "7C80F8CE76C39E92"
+			rewards: [
+				{
+					count: 2
+					id: "01383A0EDC26A988"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A9E4DFD12C00B32"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "0368700F1768117B"
+				item: { count: 1, id: "ae2:item_storage_cell_64k" }
+				type: "item"
+			}]
+			x: -2.892857142857153d
+			y: -3.6607142857142847d
+		}
+		{
+			dependencies: ["7C80F8CE76C39E92"]
+			id: "008140939588EC76"
+			rewards: [
+				{
+					count: 2
+					id: "087A641AA549863A"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "057EEB03EA63D3EE"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "628098E6073D87DE"
+				item: { count: 1, id: "ae2:item_storage_cell_256k" }
+				type: "item"
+			}]
+			x: -2.250000000000007d
+			y: -4.267857142857146d
+		}
+		{
+			dependencies: ["649EFA093B87DA21"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "12FE69188E6021A6"
+			rewards: [
+				{
+					count: 2
+					id: "0CADA8E8632D6DE6"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FE206981CD02F32"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.6d
+			tasks: [
+				{
+					id: "3BDE06B9CD5719DC"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "74A3FE1DED1DEF38"
+					item: { count: 1, id: "ae2:pattern_access_terminal" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12FE69188E6021A6"]
+			id: "36A87F27EF006C58"
+			rewards: [
+				{
+					count: 2
+					id: "561E503B1A062176"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28BD70B809BBBA35"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0CF3738FFFE1B6F8"
+				item: { count: 1, id: "ae2:1k_crafting_storage" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12FE69188E6021A6"]
+			id: "34FF071C4B5720DE"
+			rewards: [
+				{
+					count: 2
+					id: "73F0858A75F6A79A"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69A401926FB23102"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "711B5628520B2FB0"
+				item: { count: 1, id: "ae2:blank_pattern" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36A87F27EF006C58"]
+			id: "7724E14CF7F8A25B"
+			rewards: [
+				{
+					count: 2
+					id: "02A77A81CB20F9DF"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41059B1E96C4602F"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "58A1C6E32E9442A9"
+				item: { count: 1, id: "ae2:crafting_accelerator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34FF071C4B5720DE"]
+			id: "59C22C30F4ED2180"
+			rewards: [
+				{
+					count: 2
+					id: "345E77674522F64A"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75F8C4B7C422784C"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1F646D31E479E601"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12FE69188E6021A6"]
+			hide_dependency_lines: true
+			id: "6C6547325519CD90"
+			rewards: [
+				{
+					count: 2
+					id: "442C9E65D35C6057"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "043A2C40BB9D00A4"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7210A81A4D3E1DF8"
+				item: { count: 1, id: "ae2:import_bus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12FE69188E6021A6"]
+			hide_dependency_lines: true
+			id: "5C423795EE5AE9FA"
+			rewards: [
+				{
+					count: 2
+					id: "65FD13181FF31C12"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70E7962C73DE9D19"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44444B8B6BDF4CAA"
+				item: { count: 1, id: "ae2:export_bus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6394D06B589BA038"]
+			id: "485A7150F4570F1E"
+			rewards: [
+				{
+					count: 2
+					id: "508CFC9DB1FE0DE8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DA3F6BAED82CCE7"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1273EA9870BBB13D"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					id: "517B613A93158619"
+					item: { count: 1, id: "ae2:item_storage_cell_1k" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46CDC29AAFE96DD9"]
+			id: "46A54A9E3269D109"
+			rewards: [
+				{
+					count: 2
+					id: "047E734B614542A2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D7CDB4F9DB97152"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3838AEF34A8657E8"
+					item: { count: 1, id: "ae2:annihilation_core" }
+					type: "item"
+				}
+				{
+					id: "7A8622685CDCB340"
+					item: { count: 1, id: "ae2:formation_core" }
+					type: "item"
+				}
+				{
+					id: "03CF887DB93C6E19"
+					item: { count: 1, id: "ae2:quartz_glass" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6394D06B589BA038"
+				"0BC02A253E2321EA"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2FFC97E35C117D51"
+			rewards: [
+				{
+					count: 2
+					id: "400BBB19033C5BAC"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6ECC406471588090"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "430FD1916F6C4B27"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["649EFA093B87DA21"]
+			id: "65043E0B6CB2D5D0"
+			rewards: [
+				{
+					count: 2
+					id: "1FC8C8D60B28D0D4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FD9651FB7D217DF"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A9BA04C064D4FFC"
+				item: { count: 1, id: "ae2:flawed_budding_quartz" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65043E0B6CB2D5D0"]
+			id: "045ED008F2C76881"
+			rewards: [
+				{
+					count: 2
+					id: "0A4786D524BF712D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08296A1D3DD281F5"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6668B60DAD753773"
+				item: { count: 1, id: "ae2:growth_accelerator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0BC02A253E2321EA"
+			rewards: [
+				{
+					count: 2
+					id: "2EEC8A73025A46DE"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "514A10224CC795B3"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "5D007B28F02191E2"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["21ECC3F38608378D"]
+			id: "164A0FA3AFC122F1"
+			rewards: [
+				{
+					id: "08A3946F760F016D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5ACE9F60FDE29538"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "624B4C064F916ECC"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "228993FD8F99CE07"
+				item: { count: 1, id: "ae2:fluix_smart_dense_cable" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6394D06B589BA038"]
+			hide_dependency_lines: true
+			id: "01C58B95423B3A66"
+			rewards: [
+				{
+					count: 2
+					id: "5653CA4D98FCFEDC"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FE98B225E190E69"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "0BB9B7DED100E811"
+				item: { count: 1, id: "ae2:fluid_storage_cell_4k" }
+				type: "item"
+			}]
+			x: -1.8214285714285694d
+			y: 0.3035714285714235d
+		}
+		{
+			dependencies: ["01C58B95423B3A66"]
+			id: "4D05C1E6310D7FC0"
+			rewards: [
+				{
+					count: 2
+					id: "2D2A434C1E5C1356"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F66B497BA5E42F8"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "1E7858E6A2C2271D"
+				item: { count: 1, id: "ae2:fluid_storage_cell_16k" }
+				type: "item"
+			}]
+			x: -2.392857142857146d
+			y: 0.8392857142857082d
+		}
+		{
+			dependencies: ["4D05C1E6310D7FC0"]
+			id: "7DECF0A7D2F76E60"
+			rewards: [
+				{
+					count: 2
+					id: "1FA26DED1C23C057"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57C82C835441733E"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "5BEC1E846ED8AA6A"
+				item: { count: 1, id: "ae2:fluid_storage_cell_64k" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.2678571428571388d
+		}
+		{
+			dependencies: ["7DECF0A7D2F76E60"]
+			id: "1E60EA6CA74E244D"
+			rewards: [
+				{
+					count: 2
+					id: "3E298D15951B9445"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72083A2AB77D416D"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "2F7CA4F5100C51E7"
+				item: { count: 1, id: "ae2:fluid_storage_cell_256k" }
+				type: "item"
+			}]
+			x: -2.4285714285714306d
+			y: -0.3035714285714306d
+		}
+		{
+			dependencies: ["485A7150F4570F1E"]
+			id: "683213567D8A52AB"
+			rewards: [
+				{
+					id: "526471EE67C00D5B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "0606AD10A75D8765"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C9D5BCA517A1C25"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6BBEB532E13C39AB"
+					item: { count: 1, id: "extendedae:infinity_water_cell" }
+					type: "item"
+				}
+				{
+					id: "783A5C27A7C679D8"
+					item: { count: 1, id: "extendedae:infinity_cobblestone_cell" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,928 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "skyblock"
+	group: ""
+	id: "1A8B171382B1B3FF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F4F164226134E87"
+			rewards: [
+				{
+					count: 192
+					id: "7FD48D044DE0B13D"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "72CB1F6CF09FB5EA"
+					item: {
+						count: 1
+						id: "minecraft:oak_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "44AF75F4CCC5700E"
+					item: {
+						components: {
+							"ftbquests:missing_item": "exnihilosequentia:wooden_crook"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AC3E397AA4A203B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "kotd:skyblock"
+				id: "75A1C4DD4DE73233"
+				type: "dimension"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F4F164226134E87"]
+			id: "4E2ECE4A1E39F480"
+			rewards: [{
+				count: 2
+				id: "40929DEBE0189809"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 24L
+				id: "48A0C40821CEAC21"
+				item: { count: 24, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E2ECE4A1E39F480"]
+			id: "21942BA9D5FE958F"
+			rewards: [
+				{
+					count: 2
+					id: "05233C65F1B960EA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3501AEDA187199C3"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6907039206765ED6"
+					item: { components: { "ftbquests:missing_item": "exnihilosequentia:silkworm" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "49B1A76BD4B2B79A"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E2ECE4A1E39F480"]
+			id: "2FDE35D2D0803D65"
+			rewards: [{
+				count: 2
+				id: "3385A7A338219065"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "508DB443210EFBA6"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:oak_barrel" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FDE35D2D0803D65"]
+			id: "468F2787CB83E147"
+			rewards: [
+				{
+					count: 2
+					id: "16BBA1A783A57C66"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "40705E9E7EC7C360"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6756D09457BD7B93"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21942BA9D5FE958F"]
+			id: "1F6778561A0F6670"
+			rewards: [{
+				count: 2
+				id: "7FB0855094259EC2"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77C2868E854E9A1F"
+					item: { components: { "ftbquests:missing_item": "exnihilosequentia:string_mesh" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3EDD0FFC2B00618C"
+					item: { components: { "ftbquests:missing_item": "exnihilosequentia:oak_sieve" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42D1479C580160B9"]
+			id: "074D2E357111E0FB"
+			rewards: [{
+				count: 2
+				id: "58FEFD76A5437367"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13F9B0F4F3F20577"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["074D2E357111E0FB"]
+			id: "260DA9B0DE8959EB"
+			rewards: [{
+				count: 2
+				id: "6E296B1DC83B9958"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B0E570921B5EA9C"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["260DA9B0DE8959EB"]
+			id: "4D511711796AEF76"
+			rewards: [{
+				count: 2
+				id: "1CC4CCA1252F8D01"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2415F35ED96C8FB4"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:dust" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E6BFCE92C0AE433"]
+			id: "42D1479C580160B9"
+			rewards: [
+				{
+					count: 2
+					id: "7AFB3E8F2A250D71"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3F5AB1C554623AB0"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00D42059445E7BF6"
+					item: { components: { "ftbquests:missing_item": "exnihilosequentia:wooden_hammer" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "201F98114F99511F"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["468F2787CB83E147"]
+			id: "5E6BFCE92C0AE433"
+			rewards: [{
+				count: 2
+				id: "09192265B2FB27F9"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ECDD9FC07D1FEEB"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:stone_pebble" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2FDE35D2D0803D65"]
+			id: "14F46BBADE2D02E8"
+			rewards: [{
+				count: 2
+				id: "3B2212048F8B0F59"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FE33B9D60EED456"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:stone_barrel" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1F6778561A0F6670"
+				"74A7C47690B24CB3"
+			]
+			id: "643C1D223ED82B7B"
+			rewards: [{
+				count: 2
+				id: "01E7939C664A6B91"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C77EA4B2321BFAF"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:iron_pieces" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["643C1D223ED82B7B"]
+			id: "7AED461A7A21CC1D"
+			rewards: [
+				{
+					count: 2
+					id: "5F5E6221EDE7028F"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "50F611D438DA704D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "267E77B72EA900C0"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2FDE35D2D0803D65"]
+			hide_dependency_lines: true
+			id: "75102873B374BFC5"
+			rewards: [
+				{
+					id: "430B090734169904"
+					item: {
+						count: 1
+						id: "aether:skyroot_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4045599FDC0D8B33"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78E929F731A8CB1A"
+					item: { components: { "ftbquests:missing_item": "exnihilosequentia:oak_crucible" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5ADFB833AA12EB2B"
+					item: { count: 1, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4D511711796AEF76"
+				"75102873B374BFC5"
+			]
+			id: "677B4FD0F8D8EFBD"
+			rewards: [
+				{
+					id: "7CF43F0B61FCBFF3"
+					item: {
+						count: 1
+						id: "minecraft:clay"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4FD1783BC604B451"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11286DD56BA744CD"
+					item: { count: 1, id: "aether:skyroot_water_bucket" }
+					type: "item"
+				}
+				{
+					id: "69A8CAD746162FF1"
+					item: { components: { "ftbquests:missing_item": "exnihilosequentia:dust" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["677B4FD0F8D8EFBD"]
+			id: "199CB37E1A9B13E3"
+			rewards: [{
+				count: 2
+				id: "34C46EE82A293DD5"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78F79921D719FA31"
+					item: { components: { "ftbquests:missing_item": "exnihilosequentia:fired_crucible" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3BE592D994F9C280"
+					item: { count: 4, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["199CB37E1A9B13E3"]
+			id: "74A7C47690B24CB3"
+			rewards: [{
+				count: 2
+				id: "0A402ED78C28D269"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14DA3A011C72AEF6"
+				item: { components: { "ftbquests:missing_item": "cobblefordays:tier_1" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74A7C47690B24CB3"]
+			id: "45F0AE9B5E100A5A"
+			rewards: [{
+				count: 4
+				id: "115C4E788CA31416"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F5AED614BD4C001"
+				item: { components: { "ftbquests:missing_item": "cobblefordays:tier_2" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45F0AE9B5E100A5A"]
+			id: "3E937206FF7F56E1"
+			rewards: [{
+				count: 6
+				id: "686913BBA35A2CA6"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0050C28CE14B0A65"
+				item: { components: { "ftbquests:missing_item": "cobblefordays:tier_3" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E937206FF7F56E1"]
+			id: "69B20BBA467B0519"
+			rewards: [{
+				id: "554F5532D46184DD"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19F8EBADF587807D"
+				item: { components: { "ftbquests:missing_item": "cobblefordays:tier_4" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69B20BBA467B0519"]
+			id: "5B5018B2E200BE95"
+			rewards: [{
+				count: 2
+				id: "6DAFD34B182520E5"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "080BB6264214AADD"
+				item: { components: { "ftbquests:missing_item": "cobblefordays:tier_5" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1F6778561A0F6670"]
+			id: "1BEA66C873D670BA"
+			rewards: [{
+				count: 2
+				id: "2ADE550F23EAEDDE"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03055C16E5A3A6C0"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:flint_mesh" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BEA66C873D670BA"]
+			id: "5D85D503B1F4FB43"
+			rewards: [{
+				count: 4
+				id: "13BA2FAF32DBAF84"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33613B6EDB48F87E"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:iron_mesh" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D85D503B1F4FB43"]
+			id: "262FF649584AE4E2"
+			rewards: [{
+				id: "2D7212EC8759ECA8"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C2259E6E2270F4A"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:diamond_mesh" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["262FF649584AE4E2"]
+			id: "580B0DC9027C652D"
+			rewards: [{
+				count: 2
+				id: "37FF0B78B67001D7"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23EA29A1FE2ED385"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:emerald_mesh" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["580B0DC9027C652D"]
+			id: "47223A6661E69970"
+			rewards: [{
+				count: 3
+				id: "7154F3AB8B99E2B3"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18249DC41BAD0137"
+				item: { components: { "ftbquests:missing_item": "exnihilosequentia:netherite_mesh" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F6778561A0F6670"]
+			id: "7ADCF15A8D9D0DE4"
+			rewards: [{
+				id: "46126DF4EE4D7C84"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3722C6CAF5963EC8"
+				item: { components: { "ftbquests:missing_item": "exmachinis:flux_sieve" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F6778561A0F6670"]
+			id: "053A30E2FE3F3A72"
+			rewards: [{
+				id: "48E24B9FF70E8788"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "226F7408DC76FC93"
+				item: { components: { "ftbquests:missing_item": "exmachinis:flux_hammer" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F6778561A0F6670"]
+			id: "3A50ABFD9D1401C0"
+			rewards: [{
+				id: "322A8D06F98636FF"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3438F4D8DFCA6371"
+				item: { components: { "ftbquests:missing_item": "exmachinis:flux_compactor" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7ADCF15A8D9D0DE4"]
+			hide_dependency_lines: true
+			id: "24C26C6200BAB539"
+			rewards: [{
+				id: "1799A2A5F720271B"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16915EF10EEEEAE0"
+				item: { components: { "ftbquests:missing_item": "exmachinis:gold_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24C26C6200BAB539"]
+			id: "6E96CE017CE9228A"
+			rewards: [{
+				count: 2
+				id: "014CDA2BD136AD52"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28D12833F4C003A7"
+				item: { components: { "ftbquests:missing_item": "exmachinis:diamond_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E96CE017CE9228A"]
+			id: "4C7DD613509688FB"
+			rewards: [{
+				count: 4
+				id: "0A4BF56999B862D0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D4EC64E1A1764EA"
+				item: { components: { "ftbquests:missing_item": "exmachinis:netherite_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7AED461A7A21CC1D"
+				"715E252C7A29606E"
+			]
+			id: "704229E64132FAAE"
+			rewards: [
+				{
+					count: 2
+					id: "3FC603FCA2240E1E"
+					item: {
+						count: 1
+						id: "alltheores:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B64D6E614C15698"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "3DEE7C46679A8B33"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+					id: "0145F8E69CAA86E8"
+					type: "advancement"
+				}
+				{
+					count: 27L
+					id: "65BBE32BE47D2156"
+					item: { count: 27, id: "immersiveengineering:blastbrick" }
+					type: "item"
+				}
+				{
+					id: "27F71AF7BCF2E741"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"199CB37E1A9B13E3"
+				"14F46BBADE2D02E8"
+			]
+			id: "42705F4BE69FF027"
+			rewards: [
+				{
+					count: 2
+					id: "77A115D890649F7E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					id: "345FBCACD797A9F2"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "061729EA7D59C42E"
+				item: { count: 10, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42705F4BE69FF027"]
+			id: "715E252C7A29606E"
+			rewards: [
+				{
+					count: 2
+					id: "72F4E13B77ED209F"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CF3D9B0151BF9ED"
+					table_id: 7603564415533391308L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "619413744C4C4B2D"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+}

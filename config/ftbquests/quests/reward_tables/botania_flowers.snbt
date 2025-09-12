@@ -1,0 +1,183 @@
+{
+	id: "129BBEE2418753DE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 5
+			id: "33D07C5E9C8C6306"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:red_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "1FEC66FFD5D811DD"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:orange_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "227367FB2FA40D78"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:yellow_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "6F1BFB8C806D30C6"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:lime_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "4CD8AC600F9B47CD"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:green_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "1FEDED40D1438A27"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:cyan_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "6116A5EDB3B5EA30"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:light_blue_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "599E7F42109AD19F"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:blue_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "1332E2FC52EC0611"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:purple_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "265072F14D3E9131"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:magenta_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "5E8A9128F00320D7"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:pink_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "1E3044B1E81DC2E9"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:brown_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "2D141536574C0F48"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:white_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "3207FFFB7D52D47A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:light_gray_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "68ECE18325E99ADE"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:gray_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "38BE15CF899CAF47"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:black_mystical_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+	]
+}

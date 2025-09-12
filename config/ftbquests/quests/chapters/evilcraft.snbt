@@ -1,0 +1,1060 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "evilcraft"
+	group: "590ACDB4C189F8D5"
+	id: "3456E0C530C0038E"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "31FD9EA513E0D010"
+			rewards: [
+				{
+					id: "27EAEB9369B92D43"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "72E17B7654E32AF4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6467C991A6D45E36"
+					item: { count: 1, id: "evilcraft:darkened_apple" }
+					type: "item"
+				}
+				{
+					id: "79F59E00EFE3482B"
+					item: { count: 1, id: "evilcraft:origins_of_darkness" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31FD9EA513E0D010"]
+			id: "7E79F52147B606F9"
+			min_width: 250
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B1AC214CAAC35D0"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "47C92745264ADA72"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "306BBDF6711B0C8B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3DCF9B950A836935"
+				item: { count: 1, id: "evilcraft:blood_extractor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31FD9EA513E0D010"]
+			id: "2CB69634F6A6E53E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "274FD83268B97D3F"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "1D2A6BD57767B921"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 7
+					id: "5FC5DCD7DB04D350"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "52D6F14FEB974305"
+				structure: "evilcraft:dark_temple"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E79F52147B606F9"]
+			id: "64EC182B81BD8B86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68FD17A0DF088BA3"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "64E447CC5A543294"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "679E6E4A0D05B368"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B4C9F78177AE9B5"
+				item: { count: 1, id: "evilcraft:dark_power_gem" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E79F52147B606F9"]
+			id: "1E3471513C75CC54"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A1E48D068175183"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "0459B93C052F519B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "299987FBEFFD4F69"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3EB33B838372C035"
+				item: { count: 1, id: "evilcraft:hardened_blood_shard" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68318811CCC28320"]
+			id: "62A262A706CFCAF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34ED8C3B8CC630CA"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "173EF0031734B431"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "42B76F8622020C04"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0BE59456FB7744CE"
+				item: { count: 1, id: "evilcraft:blood_infuser" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"64EC182B81BD8B86"
+				"1E3471513C75CC54"
+			]
+			id: "68318811CCC28320"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11CC009B068D104B"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "7E28A39E1447CF3A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "622F9CDA740A6134"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "734B129022B49A38"
+				item: { count: 1, id: "evilcraft:blood_infusion_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62A262A706CFCAF0"]
+			id: "40888A2C17D8FFF6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B6E919276C8F1A2"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "352AA0893B127276"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "75921568218B4129"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2379362CB6DAE025"
+					item: { count: 1, id: "evilcraft:undead_sapling" }
+					type: "item"
+				}
+				{
+					id: "758C54EFB1301C68"
+					item: { count: 1, id: "evilcraft:undead_planks" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["62A262A706CFCAF0"]
+			id: "62CE0FFAF6352287"
+			rewards: [
+				{
+					id: "448851E30BF3A2D9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "04F6724D7CDE016C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "689026A3ED7A863A"
+					item: { count: 1, id: "evilcraft:bowl_of_promises_tier0" }
+					type: "item"
+				}
+				{
+					id: "68A9C99DC3DFD901"
+					item: { count: 1, id: "evilcraft:promise_tier_1" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["68318811CCC28320"]
+			id: "74B0308336F5E017"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C0C54B87A03F1D2"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "253E9653A75A538B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "54F7692F39716E01"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45053D11D2454483"
+				item: { count: 1, id: "evilcraft:blood_chest" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["62CE0FFAF6352287"]
+			id: "1D794DE95C9FF6C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "362801F7A9EDD76D"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "3F5DB1C3D8F4468D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "2D4E5D2B6C3E583E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "776844C7221C165C"
+				item: { count: 1, id: "evilcraft:promise_speed_0" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62CE0FFAF6352287"]
+			id: "12F3A604329EC604"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77395930D140E807"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "021809D0577370B6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "505F1516D48E0D3B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B55C293EACD60B9"
+				item: { count: 1, id: "evilcraft:promise_efficiency_0" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E79F52147B606F9"]
+			id: "51B24CC5E9332C1E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5ADA78F1C2C772ED"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "32E1BD15DDDD99B6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "7661FF67F35AF149"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "048E4473A97AD33E"
+					item: { count: 1, id: "evilcraft:vengeance_essence" }
+					type: "item"
+				}
+				{
+					id: "1F78BC1E71207D66"
+					item: { count: 1, id: "evilcraft:vengeance_ring" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62CE0FFAF6352287"]
+			id: "4978A9B616362CCE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "726B4CB73514DAD2"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "26B65922BE81B24E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "7FC863726E342618"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "48A4C8390243406C"
+					item: { count: 1, id: "evilcraft:bowl_of_promises_tier1" }
+					type: "item"
+				}
+				{
+					id: "703639D39EF4884C"
+					item: { count: 1, id: "evilcraft:promise_tier_2" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4978A9B616362CCE"]
+			id: "4EBED8ABC8C863A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7822EA12EF81C4EA"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "79AC26FC2012ADA2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "382E994F0EEC958A"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "1812768537DE49D7"
+					item: { count: 1, id: "evilcraft:bowl_of_promises_tier2" }
+					type: "item"
+				}
+				{
+					id: "3B0932C1D1C8734F"
+					item: { count: 1, id: "evilcraft:promise_tier_3" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7E79F52147B606F9"]
+			id: "75CF9EAB75C3907E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21261E43154D9972"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "3D3EAE032673B96C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "5FEF8F0667514BE0"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7FAA4F7F27A63395"
+				item: { count: 1, id: "evilcraft:dark_tank" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40888A2C17D8FFF6"]
+			id: "10EF30B919EBA5C6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30CA54B7D68A0FEC"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "3EB65F6BBCFCDEF3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "148A0B997D2C3382"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "56C5BE8015C28FBC"
+				item: { count: 1, id: "evilcraft:vengeance_pickaxe" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4978A9B616362CCE"
+				"066438B01655D866"
+			]
+			id: "1DA0A87C471A38AC"
+			min_width: 400
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E86747E5E65C608"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "6689C397E5960B91"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "52D9567341A6AA4C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 33L
+					id: "69D96EE6DC2179D1"
+					item: { count: 1, id: "evilcraft:dark_blood_brick" }
+					type: "item"
+				}
+				{
+					id: "3CAAC4AF810BF534"
+					item: { count: 1, id: "evilcraft:spirit_furnace" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51B24CC5E9332C1E"]
+			id: "066438B01655D866"
+			min_width: 250
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E0530F6FB4A5A7B"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "4E246CAB1B584FB1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "0E8BEA3D2D3E83A7"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2161414994EAB2A9"
+					item: { count: 1, id: "evilcraft:box_of_eternal_closure" }
+					type: "item"
+				}
+				{
+					id: "2228CC59A99F49E9"
+					item: { count: 1, id: "evilcraft:vengeance_focus" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA0A87C471A38AC"]
+			id: "59036A2741E7A8AA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D1C925F4CB7567F"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "1FB5ED3DF7B6AC7B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "71EBD5F4510B7648"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "4D297E4145C19440"
+				item: { count: 1, id: "evilcraft:spirit_reanimator" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.125d
+		}
+		{
+			dependencies: [
+				"026A71F98A52E3A5"
+				"753B3EF7CC94A6DD"
+			]
+			dependency_requirement: "one_completed"
+			id: "600F66B13B29708B"
+			rewards: [
+				{
+					id: "1853D8E78E2A1682"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "11E496E63C049E4C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5DA025E8807292CC"
+				item: { count: 1, id: "evilcraft:flesh_rejuvenated" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4EBED8ABC8C863A4"]
+			id: "35FA55BE8DF49EE8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23AB023224276D8B"
+					table_id: 7482740998888138375L
+					type: "random"
+				}
+				{
+					id: "737E46F6AB10F512"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "3F8C4B8D0C961001"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "25714C3E4C8266CD"
+				item: { count: 1, id: "evilcraft:garmonbozia" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35FA55BE8DF49EE8"]
+			id: "63AE4568375DD1BF"
+			rewards: [
+				{
+					id: "05E294959C8F918F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "3CC7D7CF70EE8A80"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "58D7956E86F91083"
+				item: { count: 1, id: "evilcraft:sanguinary_environmental_accumulator" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35FA55BE8DF49EE8"]
+			id: "753B3EF7CC94A6DD"
+			rewards: [
+				{
+					id: "0354885167881B05"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "657A371CF471C676"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19C973A3F42D631C"
+				item: { count: 1, id: "evilcraft:flesh_humanoid" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["35FA55BE8DF49EE8"]
+			id: "026A71F98A52E3A5"
+			rewards: [
+				{
+					id: "128F76AD2008EC5E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "2E93877225DD092E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7217F680E0AA4389"
+				item: { count: 1, id: "evilcraft:flesh_werewolf" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["40888A2C17D8FFF6"]
+			id: "7B524DAD8A33BF85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07375BCFE91437B3"
+					table_id: 7482740998888138375L
+					type: "loot"
+				}
+				{
+					id: "7131BA97015DC647"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "04E07450228469F7"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "19AAADDD210A2AF9"
+				item: { count: 1, id: "evilcraft:vein_sword" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["40888A2C17D8FFF6"]
+			icon: {
+				id: "evilcraft:broom"
+			}
+			id: "28BF66D1B8CD4D44"
+			rewards: [
+				{
+					id: "7882A83FC533B42E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "3A4C3D670A6280CE"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "73427CBDD811273E"
+					item: { count: 1, id: "evilcraft:broom_part" }
+					type: "item"
+				}
+				{
+					id: "499D24D1F87BF794"
+					item: { count: 1, id: "evilcraft:broom_part" }
+					type: "item"
+				}
+				{
+					id: "2148DCC201648C0A"
+					item: { count: 1, id: "evilcraft:broom_part" }
+					type: "item"
+				}
+				{
+					id: "1E0F142EBB4085FF"
+					item: { count: 1, id: "evilcraft:broom" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2CB69634F6A6E53E"]
+			id: "690A7E4B737DC711"
+			rewards: [{
+				count: 2
+				id: "44EE27BA9457D192"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "336C4DC7B842B612"
+				item: { count: 1, id: "evilcraft:weather_container" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["690A7E4B737DC711"]
+			id: "3F908827109BA5FE"
+			rewards: [{
+				count: 2
+				id: "2401C1C87B0FB0F0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FA9BAD15C96B04C"
+				item: { count: 1, id: "evilcraft:weather_container" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["690A7E4B737DC711"]
+			id: "03021FA46CED6CB3"
+			rewards: [{
+				count: 2
+				id: "2C481261BF9E8637"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EDA43347D2E760D"
+				item: { count: 1, id: "evilcraft:weather_container" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["690A7E4B737DC711"]
+			id: "2E1301BFE188BF0B"
+			rewards: [{
+				count: 2
+				id: "0C09492365BD883E"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "263F9BD2AAE05A86"
+				item: { count: 1, id: "evilcraft:weather_container" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+}

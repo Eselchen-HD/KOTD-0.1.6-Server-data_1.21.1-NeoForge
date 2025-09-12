@@ -1,0 +1,167 @@
+{
+	id: "1B86EB3B622F2B5C"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			count: 4
+			id: "56E8BF3CF6EC8D69"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_lv"
+			}
+		}
+		{
+			count: 2
+			id: "4F1B2158718AC0B5"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_mv"
+			}
+		}
+		{ id: "7F75C188EEFAB2A2", item: { count: 1, id: "immersiveengineering:connector_hv" } }
+		{
+			count: 2
+			id: "1E6F0AB00401E0D7"
+			item: {
+				count: 1
+				id: "more_immersive_wires:ae_connector"
+			}
+		}
+		{ id: "0EE1B75D2221AB03", item: { count: 1, id: "more_immersive_wires:ae_dense_connector" } }
+		{
+			count: 2
+			id: "318BE6C388E11B17"
+			item: {
+				count: 1
+				id: "more_immersive_wires:rs_connector"
+			}
+		}
+		{
+			count: 4
+			id: "229B96EA27076154"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_redstone"
+			}
+		}
+		{
+			count: 2
+			id: "2798DC8FCDC9A014"
+			item: {
+				count: 1
+				id: "more_immersive_wires:ae_relay"
+			}
+		}
+		{ id: "63F2930B3C5C0753", item: { count: 1, id: "more_immersive_wires:ae_dense_relay" } }
+		{
+			count: 2
+			id: "3B8271A44E545131"
+			item: {
+				count: 1
+				id: "more_immersive_wires:rs_relay"
+			}
+		}
+		{
+			count: 4
+			id: "1DA5E95A16E072B6"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_lv_relay"
+			}
+		}
+		{
+			count: 2
+			id: "00FC2669B9F7872E"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_mv_relay"
+			}
+		}
+		{ id: "21E50330E8520D44", item: { count: 1, id: "immersiveengineering:connector_hv_relay" } }
+		{
+			count: 2
+			id: "66F57FDB59007BF3"
+			item: {
+				count: 1
+				id: "immersiveengineering:rs_engineering"
+			}
+		}
+		{ id: "3D41BEE3CC5990A9", item: { count: 1, id: "immersiveengineering:heavy_engineering" } }
+		{
+			count: 3
+			id: "278B2DE919F7D807"
+			item: {
+				count: 1
+				id: "immersiveengineering:light_engineering"
+			}
+		}
+		{
+			count: 8
+			id: "74030D359C2D353D"
+			item: {
+				count: 1
+				id: "immersiveengineering:sheetmetal_steel"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			id: "477262534CD38A44"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_copper_ins"
+			}
+		}
+		{
+			count: 2
+			id: "1FD5C7B1E75814DD"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_electrum_ins"
+			}
+		}
+		{ id: "17B12E96CF892E50", item: { count: 1, id: "immersiveengineering:wirecoil_steel" } }
+		{
+			count: 12
+			id: "2352C2E31F9DAE3F"
+			item: {
+				count: 1
+				id: "immersiveengineering:treated_wood_horizontal"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			id: "60637EC35D6F0394"
+			item: {
+				count: 1
+				id: "immersiveengineering:component_iron"
+			}
+		}
+		{
+			count: 2
+			id: "1292506351AB95AA"
+			item: {
+				count: 1
+				id: "immersiveengineering:component_steel"
+			}
+		}
+		{
+			count: 6
+			id: "39FD3CCDA5C489A7"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_redstone"
+			}
+		}
+		{
+			count: 10
+			id: "123B30B13624D81C"
+			item: {
+				count: 1
+				id: "immersiveengineering:hemp_fabric"
+			}
+		}
+	]
+}

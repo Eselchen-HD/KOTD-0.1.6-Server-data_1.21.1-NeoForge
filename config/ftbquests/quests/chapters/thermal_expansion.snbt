@@ -1,0 +1,1095 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "06FD30CD760A0669"
+	id: "658721DF03EC997D"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "patchouli:guide_book"
+			}
+			id: "2C50B0E024C3D92E"
+			rewards: [
+				{
+					id: "184363B38B8B2CBA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3D5F3BB1334069B7"
+					item: {
+						count: 1
+						id: "alltheores:tin_gear"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61F7E3099AA1E483"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.3d
+			tasks: [{
+				id: "37547F63C72EED17"
+				item: { count: 1, id: "patchouli:guide_book" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55C8DD9A754545BD"]
+			id: "22BC123D486CC3E3"
+			rewards: [
+				{
+					id: "0A1D78CA3C9E6128"
+					item: {
+						count: 1
+						id: "minecraft:blast_furnace"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BE7721B96ADC6A7"
+					table_id: 5835547548158323268L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6441A428886FCC9C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "288B38C43A7C6D48"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_furnace" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			id: "55C8DD9A754545BD"
+			rewards: [
+				{
+					count: 8
+					id: "5D077513017A1B1C"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "523BAC6842712BCE"
+					table_id: 5835547548158323268L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "24578FF444323BC5"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06665E87CB134F3C"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_pulverizer" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22BC123D486CC3E3"]
+			id: "452F51995AD0461C"
+			rewards: [
+				{
+					count: 8
+					id: "001D8157BEE61891"
+					item: {
+						components: {
+							"ftbquests:missing_item": "thermal:obsidian_glass"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4810B475E9D0CEED"
+					table_id: 5835547548158323268L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6C6F2666CC97D227"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63C10CF0EF19F2C8"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_smelter" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			id: "5F385CBA98795C62"
+			rewards: [
+				{
+					id: "157563CE4EFA237B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3514A489AD13498F"
+					table_id: 5835547548158323268L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4F4DB4D22090A28F"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EC446E752907C94"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_frame" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "3DA93308D19BA85F"
+			rewards: [
+				{
+					id: "108A20AE0FED5D27"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "4313720D8253210E"
+					item: {
+						components: {
+							"ftbquests:missing_item": "thermal:coal_coke_block"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "45A74D3FDC7A30AA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BEE939AC38768ED"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_stirling" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "7FE2EED58AB791E8"
+			rewards: [
+				{
+					id: "7B21F4A9F2C52F51"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0CFD57D3A177D727"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E5C2E9D729210C9"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_compression" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "2F71FCE4E576C977"
+			rewards: [
+				{
+					id: "317ED7FF0734E5F1"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "79A13EA08A164B86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7597AD3452945D27"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "52A52D9AC73D57A6"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_magmatic" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "72C1C2CE02DCBDFF"
+			rewards: [
+				{
+					count: 2
+					id: "2D68111DA1CB4560"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "48E74944FEA0ECC1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0C989957EFB24735"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B973B2B2EED7921"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_lapidary" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "2EAE9EDE6EFA59F0"
+			rewards: [
+				{
+					id: "7A632E03F9CD6324"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "47096C6969AB1279"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7FF1A084CCD78DF0"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E3CDD1130A56248"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_disenchantment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "40ADAB71DB70EF32"
+			rewards: [
+				{
+					count: 4
+					id: "557845C485F475BB"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "7C366B7A8CE82E4B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "51DBFF72957EA209"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "795A2D642A7B7D50"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_gourmand" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "76084BE1BBCF941F"
+			rewards: [
+				{
+					id: "7CD91CF01EAA7BCD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "009775819ED80678"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EE6189C5B2FDD2F"
+				item: { components: { "ftbquests:missing_item": "thermal:upgrade_augment_1" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "246CD1925FD6761C"
+			rewards: [
+				{
+					id: "723FE016CAA6566D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "79E70DFD8EEBD9C4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AD321AC8D6BFDAD"
+				item: { components: { "ftbquests:missing_item": "thermal:upgrade_augment_2" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "034FC4BCCCD7D154"
+			rewards: [
+				{
+					id: "6724D7DE6CC92091"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7788DC680903D674"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5237B4381DA7BE1B"
+				item: { components: { "ftbquests:missing_item": "thermal:upgrade_augment_3" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "5FDEAA78891874FD"
+			rewards: [
+				{
+					id: "16C939074FA98D0B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "54BEFA92C4C8B25B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2BB7C4355B61F638"
+				item: { components: { "ftbquests:missing_item": "thermal:charge_bench" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: false
+			id: "4EA8BA9753D0DD81"
+			optional: true
+			rewards: [
+				{
+					id: "600EF049B3363CCC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "724F3091A1447FC8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2720B59BB163F73B"
+				item: { components: { "ftbquests:missing_item": "thermal:device_rock_gen" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			id: "0897F7A3203E45AF"
+			rewards: [
+				{
+					id: "4C62A0183D243C27"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "73A99CF63B302BE2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3D2DFF6062AED26E"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_crucible" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			id: "74F524F4F0231A78"
+			rewards: [
+				{
+					id: "4E1086FC2DA044FC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "066C466F8216F2F3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5835951863555C2E"
+				item: { components: { "ftbquests:missing_item": "thermal:tinker_bench" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "037E566ACC83FE07"
+			rewards: [
+				{
+					id: "54DBA686738A0538"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "6BA5B598C9886292"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "64186CC4330A70D8"
+				item: { components: { "ftbquests:missing_item": "thermal:energy_cell" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "4389E906A2A74867"
+			rewards: [
+				{
+					id: "4AE007FFAF1003F8"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "43B8F1F2FBA0D4EA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "79A8A02DCD9585BE"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "694DB377E094D28E"
+				item: { components: { "ftbquests:missing_item": "thermal:fluid_cell" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "0837E35C9C6881B4"
+			rewards: [
+				{
+					id: "3990D47351D43E1C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "3B0A50EC3DB53782"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2F608F433D9A3363"
+				item: { components: { "ftbquests:missing_item": "thermal:rf_coil_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "3320ADFD7DC4CA00"
+			rewards: [
+				{
+					id: "204DB02FD7E9A4F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0CB66AE14F25A71E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7B5C9FA866C0588A"
+				item: { components: { "ftbquests:missing_item": "thermal:rf_coil_storage_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "6DF4B859ACBCD408"
+			rewards: [{
+				count: 2
+				id: "6896E1D2C3C45976"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5DFD1C0334466FF2"
+				item: { components: { "ftbquests:missing_item": "thermal:fluid_tank_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.9642857142857153d
+			y: 3.6964285714285694d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "74DD4F8A13EAD3ED"
+			rewards: [
+				{
+					id: "10EE19CDB35235F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "3A52E39AD9CAAB75"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "46E665F97A2BECB6"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_speed_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "61E2FC5D363A5CA4"
+			rewards: [
+				{
+					id: "5534C32BABF19B6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "3DAE379562D0D01D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1E0593F1AA073CFD"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_efficiency_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.6999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "58C6BAC128155B4E"
+			rewards: [
+				{
+					id: "1672462285E4696D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "1A0F63CD481A5321"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "497485048E0AD20D"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_output_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.6999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "234CD79746FCAA18"
+			rewards: [{
+				count: 2
+				id: "68145EAAD9C66609"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "784D4494897AF202"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_null_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.4285714285714306d
+			y: 3.1964285714285694d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "7C83735C2D746162"
+			rewards: [
+				{
+					id: "4B8F25D9433225BF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0060A8F0472C527D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3861678346D376C1"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_output_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "467CDD14AE21A850"
+			rewards: [
+				{
+					id: "6D0FE4CFD7575A75"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "3BD5F0F0398E0108"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D6A9C7EE22C2ADF"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_fuel_augment" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			id: "3475E12711B6BB98"
+			rewards: [{
+				count: 2
+				id: "6CA2D8AB55F08149"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2183800CED355EEB"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_centrifuge" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			hide_dependency_lines: true
+			id: "5963FBEB78A79668"
+			rewards: [
+				{
+					id: "650B53A376632EC3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "2D939C8985873DC4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0C6725EA57E7D9EE"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_press" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			id: "469443A3BA0C3BEE"
+			rewards: [{
+				count: 2
+				id: "78119EAA5D1B088A"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "66AF5C07727A5B39"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_chiller" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			hide_dependency_lines: true
+			id: "627D6FDC3D8C42F6"
+			rewards: [
+				{
+					id: "7D725FF8CB44785C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "435058DD8663333F"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3B188F7D7009093C"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_refinery" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			hide_dependency_lines: true
+			id: "5ECC93FB8F676E3F"
+			rewards: [
+				{
+					id: "5AA3B772E203E40C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "5064365EE339911C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "76A0C32FB86A089D"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_pyrolyzer" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			hide_dependency_lines: true
+			id: "469663FE3DA932EF"
+			rewards: [
+				{
+					id: "05CAA4581B7D1435"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "0A6D53C349D7D7D4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "05867D444D20EABE"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_bottler" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+}

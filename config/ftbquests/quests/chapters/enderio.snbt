@@ -1,0 +1,299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enderio"
+	group: "06FD30CD760A0669"
+	id: "41954416F145C49C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "26B6B21A582CA516"
+			rewards: [{
+				count: 2
+				id: "3C375A3345F626CB"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5AD62619190F39AC"
+				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				type: "item"
+			}]
+			x: -2.978571428571435d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26B6B21A582CA516"]
+			id: "3EDB1B6B9AFF602D"
+			rewards: [{
+				count: 2
+				id: "2C9ABA8DF542F73E"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AF69BA971906200"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["141D1EAE194E9CAF"]
+			id: "1CD926DB85864489"
+			rewards: [{
+				count: 2
+				id: "41F1D1B3024E68C6"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF09EBB1CF02193"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["141D1EAE194E9CAF"]
+			id: "3A99476933385391"
+			rewards: [{
+				count: 2
+				id: "7ED4FF54217C3A56"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39856B97D334B21E"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["141D1EAE194E9CAF"]
+			id: "2E1C79A4268F8D73"
+			rewards: [{
+				count: 2
+				id: "069A0545332751B2"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2870E4F85FD058A7"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EDB1B6B9AFF602D"]
+			id: "48E7EDF3E6C65541"
+			rewards: [{
+				count: 2
+				id: "2D9E8AB9EB020C56"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5BB0D5B73693B7C3"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43CEF5DB2CB11B26"]
+			id: "78F1CEECA4880BD1"
+			rewards: [{
+				count: 2
+				id: "13CC17C1F5720136"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11CC577A8FE512B4"
+				item: { count: 1, id: "enderio:vacuum_chest" }
+				type: "item"
+			}]
+			x: 7.6499999999999915d
+			y: 0.4642857142857082d
+		}
+		{
+			dependencies: ["1CD926DB85864489"]
+			id: "43CEF5DB2CB11B26"
+			rewards: [{
+				count: 2
+				id: "040CC6CC7DEC33BB"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "24674092A4FC1E32"
+				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CD926DB85864489"]
+			id: "1F979792594F0B7D"
+			rewards: [{
+				count: 2
+				id: "591366AD5B293B56"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "5877EFEBCF9B4112"
+				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CD926DB85864489"]
+			id: "4656DEEDAD0804A0"
+			rewards: [{
+				count: 2
+				id: "661D6BC0F1736573"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "0E07DF81E5A97AE7"
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48E7EDF3E6C65541"]
+			id: "141D1EAE194E9CAF"
+			rewards: [{
+				count: 2
+				id: "139955B783556BCE"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "409E05134DD0ABA9"
+				item: { count: 1, id: "enderio:basic_capacitor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["141D1EAE194E9CAF"]
+			id: "0411F76D170698F6"
+			rewards: [{
+				count: 2
+				id: "227A1C60C1EA94E9"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57C655CF55F0A9BC"
+				item: { count: 1, id: "enderio:double_layer_capacitor" }
+				type: "item"
+			}]
+			x: 3.010714285714286d
+			y: 0.7249999999999943d
+		}
+		{
+			dependencies: [
+				"4656DEEDAD0804A0"
+				"0411F76D170698F6"
+			]
+			id: "2CC517AFFE1B54C8"
+			rewards: [{
+				count: 2
+				id: "08F16E47EE11756F"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E4741E8A2D3220D"
+				item: { count: 1, id: "enderio:octadic_capacitor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E1C79A4268F8D73"]
+			id: "1711708678EE6068"
+			rewards: [{
+				count: 2
+				id: "5F4CE9306EE69CEE"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3339F178346DFED6"
+				item: { count: 1, id: "enderio:impulse_hopper" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+	]
+}

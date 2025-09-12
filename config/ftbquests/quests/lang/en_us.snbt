@@ -1,0 +1,1748 @@
+{
+	chapter.0000000000000002.title: "Immersive Engineering"
+	chapter.000000000000044C.title: "Powah!"
+	chapter.004F28C5C85F467B.title: "Blood Magic"
+	chapter.0301A7E5BE826970.title: "Iron's Spells 'n Spellbooks"
+	chapter.07F63BBAA5206B3F.title: "Ars Nouveau"
+	chapter.0CB0B3EB903E172A.title: "Applied Energistics"
+	chapter.0EB6C9A7B16C0AAA.title: "Productive Bees"
+	chapter.100C477F4E63F20A.title: "Create"
+	chapter.15AAF17B6665223D.title: "Refined Storage"
+	chapter.193F91842D2ED7D9.title: "Industrial Foregoing"
+	chapter.1A8B171382B1B3FF.title: "Skyblock"
+	chapter.1C446DBBCE429389.title: "POWAH"
+	chapter.20976C5387E68683.title: "Apotheosis"
+	chapter.23983F4DC524B14B.title: "Mekanism"
+	chapter.2AC4B5C6BC48D02E.title: "Botania"
+	chapter.2F64E10FDEF94643.title: "Shop"
+	chapter.3456E0C530C0038E.title: "Evilcraft"
+	chapter.3BEA22F5E3DAB03B.title: "Storage Drawers"
+	chapter.41954416F145C49C.title: "EnderIO"
+	chapter.4351A2B2F092D7AF.title: "ElementalCraft"
+	chapter.658721DF03EC997D.title: "Thermal Expansion"
+	chapter.6D5BF9676FF7CE0A.title: "Einführung"
+	chapter.7732CF7AAA63DB3A.title: "Twilight Forest"
+	chapter.7C7C8811F86D1623.title: "Mystical Agriculture"
+	chapter_group.06FD30CD760A0669.title: "Technik"
+	chapter_group.1871E46F4ABD44A6.title: "Resources"
+	chapter_group.26C8615937FD6953.title: "Erkundung"
+	chapter_group.4B962CBA93919BC4.title: "Storage"
+	chapter_group.590ACDB4C189F8D5.title: "Magie"
+	quest.0000000000000004.quest_desc: [
+		"Immersive Engineering ist ein vielseitiger Tech-Mod mit Schwerpunkt auf großen Multiblock-Strukturen und Logistik, der gleichzeitig aussieht, als käme er aus einer Fabrik aus dem 19. Jahrhundert. "
+		""
+		"Das „Engineer's Handbook“ deckt die Dinge wunderbar ab, also schauen Sie sich es unbedingt von Zeit zu Zeit an."
+	]
+	quest.0000000000000004.title: "Immersive Engineering"
+	quest.0000000000000007.quest_desc: [
+		"Der Fabrikbau wäre ohne eine angemessene Logistik zur Weiterleitung von Artikeln, Flüssigkeiten und Strom zu den Maschinen, die sie benötigen, nicht vollständig. Daher bietet Immersive Engineering eine Reihe robuster Tools, die Sie dabei unterstützen. "
+		""
+		"Bevor wir jedoch zu sehr in die Tiefe gehen, müssen einige Tools vorgestellt werden, da sie in Zukunft benötigt werden."
+		""
+		"Der bewährte Ingenieurshammer wird hauptsächlich zum Formen von Multiblock-Maschinen und zum Drehen anwendbarer Blöcke verwendet. Sie sind auch nützlich, um zur Not Metallplatten herauszuschlagen."
+		""
+		"Drahtschneider für Ingenieure sind für viele Handwerksberufe unerlässlich, eignen sich aber möglicherweise am besten zum schnellen und sicheren Trennen stromführender hängender Drähte."
+		""
+		"Der Schraubenzieher des Ingenieurs ist unter anderem praktisch, um präzise Änderungen an Redstone-Anschlüssen vorzunehmen."
+		""
+		"Alle diese Werkzeuge und mehr können für einen einfachen Zugriff in einer Engineer’s Toolbox gespeichert werden."
+	]
+	quest.0000000000000007.title: "Getting Started: Logistics and Storage"
+	quest.0000000000000009.quest_desc: [
+		"Der Coke oven ist von entscheidender Bedeutung für die Herstellung von Stahl und wird hauptsächlich zur Verarbeitung von Kohle zu coal coke und Creosot verwendet, zwei Materialien, die im gesamten Immersive Engineering häufig verwendet werden."
+		""
+		"Gegenstände und Flüssigkeiten können automatisch ein- und ausgeleitet werden."
+		""
+		""
+		"Das Ingenieurhandbuch zeigt, wie diese Struktur aufgebaut ist. Klicken Sie mit einem Ingenieurhammer mit der rechten Maustaste auf den im Handbuch rot hervorgehobenen Block, um die Struktur zu bilden."
+	]
+	quest.0000000000000009.title: "Coke Oven"
+	quest.000000000000000D.quest_desc: [
+		"Früher dienten Windmühlen dazu, Wasser zu pumpen oder Getreide zu mahlen. Heute nutzen sie die Brise, um Strom zu erzeugen. es für weitaus vielfältigere Aufgaben nutzen zu können. "
+		""
+		"Platzieren Sie immer zuerst den kinetischen Dynamo und dann die Windmühle auf der Fläche mit dem schwarzen Kreis. Mit einem Rechtsklick können Windmühlensegel darauf angebracht werden, damit es mehr Wind einfängt und sich dadurch schneller dreht. Eine höhere Platzierung in der Luft hat einen ähnlichen Effekt."
+	]
+	quest.000000000000000F.quest_desc: [
+		"Zur Übertragung von FE werden Drähte verwendet, die in drei verschiedenen Schichten erhältlich sind und jeweils unterschiedliche Eingangs- und Ausgangsraten sowie maximale Übertragungsraten bieten. Die genauen Tarife für jede Stufe finden Sie im Handbuch des Technikers."
+		""
+		"Anschlüsse werden zum Festlegen eines Ein- oder Ausgangspunkts verwendet und sollten entsprechend platziert werden. Auf Drähte kann mit der rechten Maustaste geklickt werden, wobei ein einzelner Draht mehrere Blöcke strecken kann. Ein einzelner Draht darf jedoch nur so weit gedehnt werden."
+		""
+		"Relais können verwendet werden, um die Reichweite eines Kabels zu vergrößern. Sie übertragen keinen Strom in den Block, auf dem sie platziert sind, ermöglichen jedoch mehrere Kabelverbindungen. Verwenden Sie sie immer dann, wenn eine Stromleitung über weite Distanzen verlaufen oder Stromleitungen teilen/vereinigen muss. "
+		""
+		"Seien Sie vorsichtig in der Nähe von stromführenden Leitungen, da diese jedem, der das Pech hat, hineinzusteigen, einen Schlag versetzen. "
+		""
+		"Hinweis: Drähte übertragen Strom durch unbelastete Abschnitte, solange die Start- und Endpunkte belastet sind, was sie für Langstreckenläufe mit Strom sehr nützlich macht."
+	]
+	quest.000000000000000F.title: "Basic Wiring"
+	quest.0000000000000014.quest_desc: [
+		"Hinweis: Drähte übertragen Strom durch unbelastete Abschnitte, solange die Start- und Endpunkte belastet sind, was sie für Langstreckenläufe mit Strom sehr nützlich macht. "
+		""
+		"Durch die Isolierung von Drähten wird verhindert, dass durch sie hindurchgehende Personen Stromstöße erhalten. Daher eignen sie sich ideal für Verbindungen in der Nähe von Maschinen, in denen man sich möglicherweise bewegen muss. "
+		""
+		"Hochspannungskabel dürfen jedoch nicht isoliert sein und werden daher am besten als Stromübertragungsleitungen über große Entfernungen verwendet, wobei Transformatoren verwendet werden, um Mittel- oder Niederspannung an einen bestimmten Ort zu bringen."
+	]
+	quest.0000000000000014.title: "Insulated Wiring"
+	quest.0000000000000017.quest_desc: [
+		"Akkumulatoren dienen als Energiespeicher in einem Netzwerk."
+		""
+		"Klicken Sie mit der rechten Maustaste auf eine Seite mit einem Ingenieurshammer, um zwischen Eingabe (blau), Ausgabe (orange) und Aus umzuschalten."
+	]
+	quest.0000000000000019.quest_desc: [
+		"Ingenieure verbringen viel Zeit an ihren Werkbänken, basteln an Werkzeugen und formen sorgfältig empfindliche Teile. "
+		""
+		"The Engineer´s workbench bietet Platz zum Modifizieren von Werkzeugen aus der Mod und dient gleichzeitig als Herstellungsbank für Gegenstände, die einen Bauplan eines Ingenieurs erfordern."
+	]
+	quest.000000000000001B.quest_desc: [
+		"Obwohl sich die Form der Energie, die sie erzeugen, im Laufe der Zeit weiterentwickelt hat, sind Wasserräder selbst ziemlich alt. Anstatt jedoch einen Mühlstein direkt in Bewegung zu setzen, werden sie heutzutage an einen Dynamo angeschlossen, um elektrische Energie zu erzeugen. "
+		""
+		"Platzieren Sie immer zuerst den kinetischen Dynamo und dann das Wasserrad auf der Fläche mit dem schwarzen Kreis. Bis zu drei Wasserräder können an denselben Dynamo angeschlossen werden. Bringen Sie es nach dem Aufbau zum Drehen, indem Sie Wasser über oder unter die Wasserräder laufen lassen."
+	]
+	quest.000000000000001E.quest_desc: [
+		"Einfache Flüssigkeitsrohre, um Flüssigkeiten in der Fabrik zu transportieren. Diese Rohre werden nicht von selbst aus den angeschlossenen Beständen entnommen. Für alles, was nicht automatisch Flüssigkeitsausgänge fördert, ist eine Flüssigkeitspumpe erforderlich."
+		""
+		"Selbst wenn keine Pumpe erforderlich ist, erhöht der Einsatz einer Pumpe die Durchflussrate von Fluid Pipes erheblich. Um die Seiten auf Eingang (blau) oder Ausgang (orange) zu stellen, ist Strom und ein Ingenieurshammer erforderlich. Zum Einschalten ist außerdem ein Redstone-Signal erforderlich.  "
+		""
+		"Die Rohre selbst können mit Gerüstblöcken aus Stahl oder behandeltem Holz abgedeckt oder durch Klicken mit der rechten Maustaste mit einem Farbstück eingefärbt werden. Eingefärbte Rohre lassen sich nicht mit Rohren einer anderen Farbe verbinden."
+	]
+	quest.0000000000000020.quest_desc: [
+		"Eine Allzweck-Crusher, die häufig zur Verarbeitung von Erzen und anderen Schüttgütern verwendet wird."
+		""
+		"Gegenstände können in die offene Oberseite fallen gelassen werden, wo sie in der Reihenfolge ihres Eingangs aufgenommen und verarbeitet werden. Sie können auch in die Oberseite geleitet werden, um zu vermeiden, dass Gegenstände in die Welt fallen, wenn auch nur kurz."
+		""
+		"Wenn sie fertig ist, werden die Gegenstände automatisch auf ein Band oder in ein Inventar vor der Maschine ausgegeben."
+		""
+		"Vorsicht, die Mahlklingen können großen Schaden anrichten, indem sie leicht Mobs töten und alle Gegenstände, die hineinfallen und für die es kein Rezept gibt, schnell zerstören."
+	]
+	quest.0000000000000020.title: "Crusher"
+	quest.0000000000000022.quest_desc: [
+		"Die Metallpresse ist ein Grundbestandteil jedes Maschinenraums und kann zur effizienten Herstellung von Platten, Zahnrädern, Drähten und anderen gestanzten Produkten verwendet werden."
+		""
+		"Klicken Sie mit der rechten Maustaste auf eine geeignete Form auf dem zentralen Kolben, um die Maschine einzurichten. Formen können jederzeit ausgetauscht werden, obwohl es oft praktischer ist, mehrere Pressen zu bauen, die jeweils einem Typ zugeordnet sind."
+		""
+		"Die Gegenstände werden über die eingebauten Förderbänder in die Mühle eingespeist und die fertigen Gegenstände werden auf dem Band weiterbefördert."
+	]
+	quest.0000000000000022.quest_subtitle: "Technik erwache"
+	quest.0000000000000022.title: "Metal Press"
+	quest.0000000000000024.quest_desc: [
+		"Ein leistungsstarker Ofen, der dabei hilft, den spezifischen Wärmebedarf zum Schmelzen von Stahl aufrechtzuerhalten."
+		""
+		"Brennstoff und Eingangsmaterial gelangen nach oben, während die Ergebnisse vorne und hinten herauskommen. Der Vorgang kann erheblich beschleunigt werden, indem man Blast Furnace Preheater an den Seiten anbringt und mit Strom versorgt."
+		""
+		"Die Ergebnisse werden automatisch in benachbarte Lager oder auf benachbarte Förderbänder eingefügt."
+		""
+		"Hinweis: Der Blast Furnace ist für Enigmatica 9 deaktiviert."
+	]
+	quest.0000000000000024.title: "Improved Blast Furnace"
+	quest.0000000000000032.quest_desc: [
+		"Dank der intensiven Hitze, die durch den elektrischen Lichtbogen zwischen den Elektroden entsteht, erledigt der Lichtbogenofen das Legieren und andere Metallbearbeitungsaufgaben im Handumdrehen. Dafür verbraucht er allerdings eine ganze Menge Energie."
+		""
+		"Gegenstände werden über die beiden Schlitze oben eingelegt, die jeweils einem der beiden Inventare in der GUI entsprechen. Gegenstände werden automatisch über die vorderen und hinteren Schlitze ausgegeben, Schlacke kommt ausschließlich über die Rückseite heraus."
+		""
+		"Obwohl die Elektroden manuell eingelegt werden müssen, halten sie in der Regel sehr lange und können sogar über einen Komparator überwacht werden, um Ingenieure in der Nähe zu warnen, wenn die Elektroden abgenutzt sind."
+	]
+	quest.0000000000000032.title: "Arc Furnace"
+	quest.0000000000000034.quest_desc: [
+		"Sie brauchen nicht viel Energie, um zu funktionieren, aber sie sind die Mühe wert. Mit Strom versorgte Laternen unterdrücken das Auftauchen von Mobs in einem Bereich von bis zu 32 Blöcken, obwohl sie nur denselben Bereich beleuchten wie eine normale Laterne. Drähte werden direkt an sie angeschlossen und sie fungieren effektiv als Drahtrelais."
+		""
+		"Flutlichter erhellen einen viel größeren Bereich und können mit einem Ingenieurshammer nach oben oder unten geneigt werden, um sie genau auf die richtige Stelle leuchten zu lassen. Wie bei mit Strom versorgten Laternen werden Drähte direkt an sie angeschlossen, ohne dass ein Drahtverbinder erforderlich ist."
+	]
+	quest.0000000000000036.quest_desc: ["Auch wenn der Effekt recht gering ist, lässt sich ein Wärmeunterschied für eine zuverlässige Energiequelle nutzen, die nicht ausfällt, da sie keine beweglichen Teile besitzt."]
+	quest.0000000000000038.quest_desc: [
+		"Eine große Mühle zur effizienten Verarbeitung von Baumstämmen zu Brettern. Ohne installiertes Sägeblatt wird nur die Rinde von den Stämmen entfernt. Mit installiertem Sägeblatt werden die entrindeten Stämme jedoch auch zu Brettern zerschnitten."
+		""
+		"Die Gegenstände werden über die eingebauten Förderbänder in die Mühle geführt und die entstehenden Blöcke werden auf dem Band weiterbefördert, während Nebenprodukte wie Sägemehl in ein Förderband oder ein Lager an der Vorderseite eingebracht werden."
+		""
+		"Sägeblätter haben eine begrenzte Haltbarkeit und müssen regelmäßig ausgetauscht werden. Ein neues Sägeblatt kann durch Rechtsklicken an beliebiger Stelle auf der Maschine installiert werden."
+	]
+	quest.0000000000000038.title: "Sawmill"
+	quest.000000000000003A.quest_desc: ["Große Pressen wie diese werden häufig verwendet, um Flüssigkeiten aus Materialien zu extrahieren oder trockene Güter in eine festere Form zu pressen. Sie sind ein unschätzbar wertvolles Werkzeug für jeden Ingenieur."]
+	quest.000000000000003A.title: "Industrial Squeezer"
+	quest.000000000000003C.quest_desc: [
+		"Manchmal ist es am besten, Dinge in die Luft zu jagen."
+		""
+		"Naja, zumindest in gewisser Weise."
+		""
+		"Dieselgeneratoren sind notorisch laut, da so viel Verbrennung stattfindet, aber sie sind auch zuverlässig, effektiv und kümmern sich nicht allzu sehr darum, was in ihnen brennt."
+		""
+		"Der Dieselgenerator akzeptiert alle Kraftstoffe wie der Thermokompressionsdynamo mit ungefähr derselben Geschwindigkeit."
+		""
+		"Er verbrennt jedoch nicht immer sauber und es ist möglich, dass eine unverbrennbare Menge Kraftstoff im Tank verbleibt, wodurch ein anderer Kraftstoff nicht hineingelangen und funktionieren kann. Es wird daher empfohlen, den Generator entweder auf einen einzigen Kraftstoff zu beschränken oder den Multiblock zu zerlegen und neu zu formen, wenn der Kraftstoff gewechselt wird."
+	]
+	quest.000000000000003C.title: "Diesel Generator"
+	quest.0000000000000040.quest_desc: [
+		"Sobald ein Knotenpunkt gefunden wurde, sollte ein Bagger darauf gebaut werden. Ressourcen werden aufgesammelt und automatisch an der Rückseite der Maschine ausgegeben. Achten Sie darauf, genügend Speicherplatz bereitzustellen, da sonst möglicherweise etwas davon verloren geht!"
+		""
+		"Es gibt viele verschiedene Arten von Mineraladern. Sehen Sie also unbedingt im Ingenieurhandbuch unter „Übersicht und Ressourcen“ nach, um eine vollständige Liste der Mineralvorkommen und deren Fundorte zu erhalten!"
+	]
+	quest.0000000000000040.title: "Excavator"
+	quest.0000000000000061.quest_desc: [
+		"Wie im Abschnitt „Mineralien“ des Ingenieurhandbuchs beschrieben, gibt es unter dem Grundgestein massive Mineraladern, die ohne die richtige Ausrüstung nicht zugänglich sind."
+		""
+		"Der erste Schritt zur Erschließung dieser Adern besteht darin, sie mit Vermessungswerkzeugen und einem Kernprobenbohrer zu lokalisieren. Vermessungswerkzeuge helfen dabei, die Mineralien in einem großen Bereich zu triangulieren, während der Kernprobenbohrer eine genaue Messung des verfügbaren Materials ermöglicht."
+		""
+		"Verwenden Sie die Vermessungswerkzeuge, um einen Knoten zu finden und sich dem Zentrum zu nähern, und dann den Bohrer, um das Zentrum anzupeilen, wo die Mineralien am reichsten sind."
+	]
+	quest.0000000000000061.title: "Mineral Veins"
+	quest.0000000000000241.quest_desc: ["Von Hochleistungslampen und Aushubwerkzeugen bis hin zu Revolvern und Schienenkanonen bietet Immersive Engineering für nahezu jede Aufgabe das passende Werkzeug."]
+	quest.0000000000000241.quest_subtitle: "Getting Clocher"
+	quest.0000000000000243.quest_desc: [
+		"Sie brauchen nicht viel Energie, um zu funktionieren, aber sie sind die Mühe wert. Mit Strom versorgte Laternen unterdrücken das Auftauchen von Mobs in einem Bereich von bis zu 32 Blöcken, obwohl sie nur denselben Bereich beleuchten wie eine normale Laterne. Drähte werden direkt an sie angeschlossen und sie fungieren effektiv als Drahtrelais."
+		""
+		"Flutlichter erhellen einen viel größeren Bereich und können mit einem Ingenieurshammer nach oben oder unten geneigt werden, um sie genau auf die richtige Stelle leuchten zu lassen. Wie bei mit Strom versorgten Laternen werden Drähte direkt an sie angeschlossen, ohne dass ein Drahtverbinder erforderlich ist."
+	]
+	quest.0000000000000243.title: "Engineered Lighting"
+	quest.0000000000000708.quest_desc: ["These can be used to charge items in your inventory, or can be used to increase the overall power capacity of an &7Ender Network&r channel."]
+	quest.000000000000070A.quest_desc: ["&5Ender Gates&r are used to transfer power wirelessly to and from an adjacent block into the &7Ender Network&r.\\n\\nThink of these like wireless access points to your wireless network of power.\\n\\nNote: You can only add &apower storage capacity&r using an Ender Cell."]
+	quest.0000000000000F6C.quest_desc: ["The &7Furnator&r will burn items like coal and wood to produce FE."]
+	quest.0000000000000F6E.quest_desc: ["The &9Power Bank&r of Powah.\\n\\nThese can also be used to upgrade the total power storage capacity of your wireless &7Ender Networks&r."]
+	quest.0000000000000F70.quest_desc: ["The &5Ender Cell&r will store power for a channel in your &7Ender Network&r. To increase the power capacity of the network, right click on the Ender Cell to open up the interface, then add either a &aBattery&r or an &9Energy Cell&r to increase the overall capacity."]
+	quest.0000000000000F72.quest_desc: ["The basic cables for transferring power."]
+	quest.0000000000000F74.quest_desc: ["The &cMagmator&r will generate FE when supplied with Lava."]
+	quest.0000000000000F76.quest_desc: ["You'll need The Energizing orb to craft higher tiers of matieral."]
+	quest.0000000000000F78.quest_desc: ["Used to energize items using the Energizing Orb."]
+	quest.0000000000000F88.quest_desc: ["One of the best options for \"Passive Power\", the &9Thermal Generator&r will produce FE when placed over a &cHeat Source&r and given a steady supply of water.\\n\\nThere are currently 3 blocks you can place this over: a Magma block which produces the lowest, a lava source block which is a little better, or a &cBlock of Blazing Crystal&r, which provides the most heat. "]
+	quest.0000000000000F8A.quest_desc: ["The Solar Panel generates FE when given direct access to the sun. However, you can use a &7Lens of Ender&r to ignore blocks in its way."]
+	quest.0000000000000F8C.quest_desc: ["The &9Reactor&r is a 3x4x3 multiblock generator that burns &aUrananite&r as fuel to produce FE.\\n\\nTo build it, you'll need to make a total of 36 Reactor Blocks. While holding 36 in hand, placing one block will auto-build the reactor. Make sure to clear out some room first!\\n\\nYou'll want to cool the reactor down for it to create more FE, and you can do this with either solid or liquid &bcoolant&r. To use a solid coolant, you'll also need to give it some liquid coolant as well. &bDry Ice&r makes for a great solid coolant! (Note: 1 Water Bucket will do).\\n\\nYou can also increase the FE generation by keeping the fuel buffer full, as well as adding both Coal and Redstone to the Reactor. Using Blocks of either will also work!"]
+	quest.0000000000000F8E.quest_desc: [
+		"The &9Player Transmitter&r will charge a player's items wirelessly. You must first bind this to a player using a &9Binding Card&r. This is the basic card which allows the transmitter to only work in the same dimension. You can upgrade this by using a &dBinding Card (Dimensional)&r instead. "
+		""
+		"Note: To get a Player Aerial Pearl, use an Aerial Pearl on a Zombie or Husk."
+	]
+	quest.0000000000000F90.quest_desc: ["The &9Energy Hopper&r will charge any chargeable item inside of the inventory of the block it is pointed to, like a chest."]
+	quest.0000000000000F92.quest_desc: ["This block will drain FE from any charged item."]
+	quest.001DE8028CAF0A08.quest_subtitle: "Reduziert Geräusche"
+	quest.0107D516E038E0DB.quest_desc: [
+		"Es ist ein 3-Phasen-Kampf."
+		""
+		"Phase 1: Der Lich umgibt sich mit Schilden und greift dich mit Enderperlen an, die wie Ghast-Feuerbälle herausschießen. Reflektiere diese zurück zum Lich, um seine Schilde zu brechen! Wenn seine Schilde brechen, sendet er Duplikate aus, um dich abzulenken."
+		""
+		"Phase 2: Der Lich wechselt das Zepter, um Zombies zu beschwören, die ihm im Kampf helfen. Wenn seine Verteidigung geschwächt ist, kannst du ihn im Nahkampf angreifen!"
+		""
+		"Phase 3: Sobald alle Ladungen für sein Zepter verbraucht sind, wechselt er zu einem Goldenen Schwert und wird wütend. Töte ihn schnell!"
+	]
+	quest.01AC1BF1B22B22BE.quest_subtitle: "Löscht überschüssige Items"
+	quest.01BA68F258DEDF71.quest_desc: ["Dieser Stab ist dafür da, Kreaturen um dich herum zu Kontrollieren. Jede Kreatur reagiert anders auf den Stab. Was genau, kannst du im &9Worn Notebook&r nachlesen."]
+	quest.01F18150EC923482.quest_desc: ["Der &9Controller&r ist der Kern deines Systems. Jedes Netzwerk kann nur einen &9Controller&r haben."]
+	quest.0217C32942F026AF.quest_desc: ["Dragon Egg Seeds require a Dragon Egg Crux placed below in order for them to grow."]
+	quest.023C2C0632BC0934.quest_desc: [
+		"Der &9Element Extractor&f extrahiert Elemente aus den Elementquellen, die auf der ganzen Welt generiert werden. Der Extraktor muss direkt unter der Quelle und gleichzeitig über einem &9Element Container&f platziert werden."
+		""
+		"Der &9Element Vaporator&f verwandelt Elementarsplitter in Elemente. Muss auf einen Behälter gestellt werden"
+	]
+	quest.026A71F98A52E3A5.quest_desc: ["In Dörfern sind manche Werwölfe als Villager getarnt."]
+	quest.02C61B2F5B62486E.quest_desc: ["Witherproof Blocks, Witherproof Bricks and Witherproof Glass have a very high blast resistance and cannot be destroyed by the Wither or the Ender Dragon."]
+	quest.02C61B2F5B62486E.title: "Wither proof blocks"
+	quest.03021FA46CED6CB3.title: "Lass es &1Regnen"
+	quest.030AB78358BB0C63.quest_desc: ["Damit lässt du nie wieder unabsichtlich Items liegen."]
+	quest.034FC4BCCCD7D154.quest_desc: ["Upgrade für alle Thermal Maschinen."]
+	quest.034FC4BCCCD7D154.quest_subtitle: "Tier 3 Base Upgrade"
+	quest.037E566ACC83FE07.quest_desc: ["Tipp: Du kannst den Block mit &9Capacity&r verzaubern, damit er mehr Speichern kann. "]
+	quest.037E566ACC83FE07.title: "Stromspeicher"
+	quest.03C78165C5CBD9E1.quest_desc: [""]
+	quest.03E8D8D549D4F433.quest_desc: ["Traitors banished from their home will often wear this to bring doom to their former village."]
+	quest.0422FF203F4745DC.quest_desc: ["Perfect for scaring some crows. Or something like that?"]
+	quest.04440BB2EFFD6DD9.quest_desc: [
+		"In den Tiefen des Labyrinthsumpfes befindet sich ein riesiger Minoshroom."
+		""
+		"Sobald es besiegt ist, lässt es &9Meef Stroganoff&r fallen. Um den nächsten Bereich freizuschalten, musst du es essen."
+	]
+	quest.045ED008F2C76881.quest_desc: ["Mit diesem Block, wächst das Certus Quarz schneller."]
+	quest.048BD38532A1DDCF.quest_subtitle: "Speichert maximal 1M LP"
+	quest.0498A578D0EC3254.quest_desc: ["Lege Osmium und Redstone in den &9Metallurgic Infuser&r um es herzustellen."]
+	quest.04A6B38121BED6B8.quest_subtitle: "Kann jeweils bis zu 8 Stacks von 4 verschieden Items lagern"
+	quest.04B289B475EB9E24.quest_desc: ["Damit kannst du Magische Kreaturen in deiner Nähe sehen. Hilft auch beim finden von Amethysten"]
+	quest.053A30E2FE3F3A72.quest_desc: [
+		"Ihr möchtet nicht mehr andauert mit eurem Hammer rumfuchteln und zu nix kommen?"
+		"Dann haben wir hier die Lösung!"
+		""
+		"Einfach Cobblestone rein und schon Hammert er es für euch klein (Ohne Strom geht hier nix)"
+	]
+	quest.053A30E2FE3F3A72.quest_subtitle: "Ihr habt echt keine Lust mehr auf euren Hammer?"
+	quest.064E86502B5FD737.title: "Aaaahh th Light"
+	quest.0650996C7818ADB5.quest_desc: [
+		"Der Generator hat 2 Modis:"
+		""
+		"&9Passiv:&r Hitze um den Block herum wird zu Energie umgewandelt (zb. Lava)"
+		""
+		"&9Aktiv:&r Brennbare Materialien können in den Generator gelegt werden. Produziert deutlich mehr Strom."
+	]
+	quest.066438B01655D866.quest_desc: [
+		"Obwohl ihre &dEssenz&r nützlich ist, kannst du diese Geister auch für die spätere Verwendung einfangen."
+		""
+		"Um ein Geisterjäger zu werden, musst du zuerst den &9Vengeance Focus&r herstellen. Wird verwendet um einen Geist in die Box zu schieben."
+	]
+	quest.066438B01655D866.title: "&dGeister&r fangen"
+	quest.069E8622AD246D09.quest_desc: [
+		"Grants:"
+		""
+		"-Absorption II (3:00)"
+		"-Speed II (3:00)"
+	]
+	quest.06AAC66822DE0F2C.quest_desc: ["Muss auf einen &9Element Container&r platziert werden."]
+	quest.06E4D4A34942E253.quest_desc: ["Auf dem KOTD Server könnt ihr, mit den durch Quests gewonnenen Coins, handeln. Die Coins erhält ihr durch absolvieren von Quests und durch das Abgeben von Wertvollen Items."]
+	quest.06E4D4A34942E253.quest_subtitle: "Kaufen und Verkaufen"
+	quest.06E4D4A34942E253.title: "Währung"
+	quest.0709FB7BF3ED741F.quest_desc: [""]
+	quest.07405FDC188781AC.quest_desc: ["Muss auf einem Container platziert werden. (Keine kleinen!)"]
+	quest.0759CA52EECF3B49.quest_desc: [
+		"Der &9Pflug&r zerstört jeden nicht festen Block, verwandelt Erde in Ackerland und schleudert Kreaturen, ohne Schaden anzurichten. "
+		""
+		"Wenn es über ein angeschlossenes Inventar verfügt, werden die Items darin gelagert."
+	]
+	quest.0774FB49CC6FA607.quest_desc: ["I'd be careful not to burn myself."]
+	quest.07804CF625C7E110.title: "psssst you will wake up the Mobs"
+	quest.07AD45DCF9EE3C2E.quest_desc: ["Dieses Upgrade ist für deine Maschinen. Es erweitert die Slots. "]
+	quest.08143AD0D63FFD1F.quest_subtitle: "Speichert maximal 25k LP"
+	quest.0837E35C9C6881B4.quest_subtitle: "Erhöht RF Kapazität und Durchflussrate"
+	quest.0837E35C9C6881B4.title: "Expanded RF Coil"
+	quest.08755AACDAC3C0AB.quest_desc: ["Mit dem Kompass kannst du nach jedem Biom suchen, dass du benötigst."]
+	quest.08755AACDAC3C0AB.title: "Das Abenteuer beginnt!"
+	quest.0888F8EABF24BEB2.quest_subtitle: "&2Mit dem Mana Tablett kannst du dein Mana mitnehmen / transportieren"
+	quest.0888F8EABF24BEB2.title: "Mana Speicher auf der Hand"
+	quest.0897F7A3203E45AF.quest_desc: [
+		"Wandelt Blöcke in Flüssigkeiten um."
+		""
+		"Nützlich um Cobblestone zu Lava umzuwandeln."
+	]
+	quest.08C4785DB2B812DD.title: "Other Way around"
+	quest.08C9FCA25A274DAF.quest_subtitle: "Kann bis zu 128 Stacks von 1 Item lagern"
+	quest.08DDE018A804BFE7.quest_desc: [
+		"Diese Maschine pulverisiert 3 rohe Erze in 4 Staub varianten. "
+		""
+		"Kann upgegraded werden, um mehr Slots zu haben."
+	]
+	quest.08F28A9E4DEA7CD0.quest_desc: [
+		"Diese Rune erhöht die Menge an LP, die durch das Entziehen von Blut von Kreaturen gewonnen wird. "
+		""
+		"Jede Rune gibt einen Bonus von 10%."
+	]
+	quest.09408C6DCAC90318.quest_desc: ["Kann zum Aufladen von Items benutzt werden."]
+	quest.09408C6DCAC90318.quest_subtitle: "Speichert Strom"
+	quest.09809002DFD911AE.quest_desc: ["You will be needing the &2Inferium armor&f to upgrade it into higher tiers later on."]
+	quest.09809002DFD911AE.title: "Inferium armor"
+	quest.09830BB2A23E94B4.quest_desc: ["Erhöht die Effizienz von Maschinen, die Gas verwenden."]
+	quest.0990D6CEE042F44E.quest_desc: ["Zeigt dir Strukturen und Bosse in deiner Nähe"]
+	quest.09936F8FCEA72C5C.quest_desc: [
+		"Der &9Cart Assembler&r kann auf Schienen platziert werden. Alles was du darüber platzierst, wird an ein Minecart geklebt, sofern ein Redstone Signal vorhanden ist."
+		""
+		"Die Blöcke müssen zusammengeklebt werden und alle Blöcke, die Rotationskraft erfordern, funktionieren automatisch."
+		""
+		"Um die Blöcke vom Minecart zu „abmontieren“, schalte einfach das Redstone-Signal aus und lass das Minecart durchfahren."
+	]
+	quest.09AEE48CED288DD1.quest_desc: ["Durch Wärmemanagement und sorgfältige Ausnutzung von Dichteunterschieden zerlegen Raffinerien Flüssigkeiten in andere nützliche Materialien. Diese Raffinerien können verschiedene Umwandlungen durchführen."]
+	quest.09AEE48CED288DD1.title: "Refinery"
+	quest.09BD4B0F5660A3B6.quest_desc: ["Baue aus diesen Blöcken ein Portal. Wie es aktiviert wird, erfährst du im nächsten Schritt."]
+	quest.09BD4B0F5660A3B6.title: "Elfenhandel"
+	quest.0A476C6332EB6477.quest_desc: [
+		"Ein handgeführter Tunnelbohrer, der sich schnell durch die härtesten Felsen graben kann."
+		""
+		"Dieses Werkzeug wird mit Biodiesel betrieben, der interne Tank ist jedoch eher klein. Sie sollten einen Tank mitnehmen, um ihn unterwegs nachzutanken. Platzieren Sie ihn einfach im Einlassschlitz des Tanks, um ihn aufzufüllen."
+		""
+		"Platzieren Sie ihn in einer Ingenieurswerkbank, um Erweiterungen hinzuzufügen oder zu entfernen."
+	]
+	quest.0A476C6332EB6477.quest_subtitle: "Workin' in a coal mine. Oops, about to slip down."
+	quest.0A6A93DF23F469FD.quest_subtitle: "Who build something like this?"
+	quest.0A6A93DF23F469FD.title: "Wait whats thi...?"
+	quest.0A9779C870BB6B89.quest_desc: ["With the Tinkering table you are able to craft all the augments."]
+	quest.0ACE573560A19309.quest_desc: ["Erhöht die Kapazität und Effizienz der Energie"]
+	quest.0B050A47FCBBCEA3.quest_desc: ["Nether Star Seeds require a Nether Star Crux placed below in order for them to grow."]
+	quest.0B2B8247DA280E90.quest_desc: ["Erhöht die Gesamtkapazität des Altars um 20% für jede Rune."]
+	quest.0B35172E47705205.quest_desc: ["Die Washing Factory reinigt Materialien und gewinnt zusätzliche Ressourcen aus Erzen"]
+	quest.0BCA17744BF828F2.title: "Spawn Range"
+	quest.0BE2D2498EB2DCF7.quest_desc: [
+		"Wird dafür verwendet, Runen auf den Boden zu zeichnen. Diese Runen aktivieren Zaubersprüche, wenn Kreaturen darüber laufen."
+		""
+		"Um einen Zauberspruch der Rune zuzuweisen, brauchst du das Item der vorherigen Quest."
+		""
+		"&cHinweis:&r Die Rune braucht &5Source&r um den Spruch auszuführen"
+	]
+	quest.0BEC7F8F9E34616D.quest_desc: [
+		"Hier kannst du deine eigenen Zaubersprüche erstellen. Halte das Buch in der Hand und drücke C. "
+		""
+		"Jetzt kannst du deine eigenen Zaubersprüche erstellen! Um bessere Zauber zu erstellen, benötigst du ein bessers Buch."
+	]
+	quest.0C38206737A0C56B.quest_desc: [
+		"Transformatoren ermöglichen die Herabstufung von einer höheren auf eine niedrigere Ebene."
+		""
+		"Beispielsweise könnte eine einzelne Hochspannungsleitung durch einen Bereich verlaufen, in dem mehrere Maschinen Strom benötigen. Anstatt gefährliche Hochspannungsleitungen direkt zu jeder Maschine zu verlegen, könnte ein Transformator zur Herabstufung auf Mittelspannung verwendet werden, sodass stattdessen ein isoliertes Kabel zu jeder Maschine geführt werden kann."
+	]
+	quest.0C5F307C84EECADF.quest_desc: ["Hörst du das Summen? Das ist der Klang der Industrie, die darauf wartet, dass es passiert. Es ist Zeit, sein Potenzial freizusetzen. "]
+	quest.0C5F307C84EECADF.title: "Getting Started: Power Generation"
+	quest.0CF69DBA9573A7B3.quest_desc: ["Damit können Gebäude kopiert werden."]
+	quest.0DAD421F478AE244.quest_desc: ["Mit dem &6Meteoriten Kompass&r kannst du dir Meteoriten anzeigen lassen. Dort findest du Certus Quartz und die"]
+	quest.0DEE7955FFD17C8A.quest_subtitle: "Versteckt oder zeigt die Item menge an"
+	quest.0E51D6BB2BC756B6.quest_subtitle: "Speichert maximal 150k LP"
+	quest.0E74E2DD26D0CED0.quest_desc: [
+		"Redstone Wiring stellt einen Fortschritt in der Redstone-Technologie dar und ermöglicht es einem engagierten Ingenieur, komplexe Logikschaltungen zu bauen, die weniger anfällig für die Fehler des herkömmlichen Redstone Dust sind. Ein farbcodiertes Kanalsystem ermöglicht außerdem die Interaktion eines einzelnen kleinen Netzwerks mit mehreren unabhängigen Maschinen. "
+		""
+		"Redstone-Drähte können zwischen Redstone-Drahtanschlüssen, Sondenanschlüssen oder Schnittstellenanschlüssen gespannt werden. Diese übertragen das Redstone-Signal, ohne dass das Signal abfällt. "
+		""
+		"Redstone-Drahtanschlüsse fungieren als Eingangs- und Ausgangspunkte für ein Signal und können direkt auf einem Block platziert werden. Der Modus und der Farbkanal müssen mithilfe eines Schraubendrehers eingestellt werden."
+		""
+		"Redstone Probe Connectors verhalten sich sehr ähnlich wie Komparatoren mit einigen zusätzlichen integrierten Funktionen. Die meisten Immersive Engineering-Maschinen geben spezielle Komparatorsignale aus, die auch von diesem Connector gelesen werden können. Einzelheiten zu den einzelnen Maschinen finden Sie im Handbuch für Techniker."
+		""
+		"Redstone-Schnittstellenanschlüsse werden in Verbindung mit speziellen Blöcken wie Artikel-Batchern und Logikeinheiten verwendet, sodass die von diesen Blöcken verwendeten Signale gelesen werden können."
+	]
+	quest.0E74E2DD26D0CED0.title: "Redstone Wiring"
+	quest.0E8418B42A744030.quest_desc: [
+		"Nicht unbedingt notwendig."
+		""
+		"Um ein Ritual auszusuchen, einfach Shift + Rechtsklick mit dem &9Ritual Diviner&r drücken. Platziere irgendwo einen &9Master Ritual Stone&r und halte rechtsklick auf ihn gedrückt mit dem Ritual Diviner. Jetzt baut er für dich das Ritual auf, sofern du die benötigten Items im Inventar hast."
+		""
+		"Beginne mit dem Ritual „Edge of the Hidden Realm\" (Rand des verborgenen Reiches), da wir für den Anfang einige Gegenstände aus der Dimension benötigen."
+		""
+		"Sobald das Ritual aufgebaut ist, kannst du mit einem &9Weak activation Crystal&r rechtsklick auf den &9Master Ritual Stone&r machen. Sollte etwas nicht funktionieren, kannst du jederzeit im Buch nachschauen."
+	]
+	quest.0E8647B8EB4AAC41.title: "Pink Slime \\& Liquid Meat"
+	quest.0E9D06836F657AB5.title: "Minimum Spawn Delay"
+	quest.0E9DE6293DF611E1.quest_desc: [
+		"Wenn du es bei normalen Tieren verwendest, werden sie in die Twilight Forest Variante verwandelt."
+		""
+		"Du kannst dieses Item in Dungeon Truhen im Twilight Forest finden."
+	]
+	quest.0EBE89982E3C95BB.quest_desc: [
+		"Der Item Router ist ein fortschrittlicher Artikelsortierer, der für die Arbeit mit Förderbändern entwickelt wurde."
+		""
+		"Auf einer Seite eingefügte Item werden in jedes Inventar oder Band auf der Seite ausgegeben, das dem Filter entspricht. Wenn ein Item keinem Filter entspricht, wird er auf eine ungefilterte Seite umgeleitet."
+		""
+		"Item Router unterstützen das Filtern nach Itemltyp sowie nach NBT, Schaden und Tag."
+	]
+	quest.0EC2053B191C55C6.quest_desc: ["Extrahiert Latex aus Holzstämmen"]
+	quest.0ED7B25DC1AA767B.quest_desc: [
+		"In Twilight Forest gibt es Kisten, in denen seltene Setzlinge sein können."
+		""
+		"Sammle sie alle!"
+	]
+	quest.0ED7B25DC1AA767B.quest_subtitle: "Wachsende Bäume"
+	quest.0EE2D22A577D10B0.quest_desc: [
+		"Beschleunigt die Operationen anderer Runen, wie der Aufladungs- oder Verschiebungsrune."
+		""
+		"Es entfernt 1 Tick Verzögerung pro Rune, bis zu einem Minimum von 1 Vorgang pro Tick."
+	]
+	quest.0F00BBDF3618B3BA.quest_desc: ["Hiermit kannst du auf dein Lager zugreifen und hast zusätzlich ein Crafting Table verbaut."]
+	quest.0F16498769DFB3B0.quest_desc: ["Hauptbestandteil der meisten Rezepte"]
+	quest.0F326EEEC2EBE4E5.quest_desc: [
+		"Angereicherte Items geben 8x mehr mb in einem &9Metallurgic Infuser&r."
+		""
+		"Wenn du viel Stahl machen möchtest, solltest du deine Kohle vorher anreichern."
+	]
+	quest.0F401FE63291A1A7.quest_desc: ["Stelle einen Blütenapotheker her. (Petal Apothecary)"]
+	quest.0F401FE63291A1A7.quest_subtitle: "Kann mit Wasser befüllt werden"
+	quest.0F575A97FC131C70.quest_subtitle: "Lässt den Drawer in der dunkelheit leuchten"
+	quest.0FA1F0D17C4CFAAB.quest_desc: ["With this armor you will let you enemys burn as hot as the &4nether!"]
+	quest.10AF409CFB4F3CC5.quest_desc: ["Befülle den Blütenapotheker mit Wasser und Sammle 8 Weizenkörner."]
+	quest.10EF30B919EBA5C6.quest_desc: [
+		"Spitzhacke mit Glück 5."
+		""
+		"Benutzen auf eigene Gefahr :)"
+	]
+	quest.111F2EE85FB0A455.quest_desc: [
+		"Das Feurige Schwert wird bei der Herstellung mit &5Fire Aspect II&r geliefert."
+		""
+		"Die Feurige Spitzhacke verfügt über eine automatische &cSchmelzfunktion&r."
+	]
+	quest.11D37E7391B49A88.quest_desc: [
+		"Demon Will stapelt sich sehr schnell im Inventar."
+		""
+		"Da du eine Menge davon brauchst, musst du eine Möglichkeit finden, alles zu speichern. Der &9Tartaric Gem&r wird dir dabei helfen."
+		""
+		"Für den &9Petty Tartaric Gem&r wirst du den ersten &9Demon Will&r brauchen. Damit kannst du bis zu 64 &9Demon Will&r lagern."
+	]
+	quest.11D37E7391B49A88.title: "Lagern von Demon Will"
+	quest.12A43F82FC67A289.quest_desc: ["Hier werden deine &9Festplatten&r gelagert."]
+	quest.12BBC87D40762F6E.title: "Kristalle"
+	quest.12F3A604329EC604.quest_subtitle: "Erhöht die Effizient"
+	quest.12FE69188E6021A6.title: "Auto Crafting"
+	quest.13AA0065B8167EF4.quest_desc: [
+		"Bohrköpfe nutzen sich mit der Zeit ab, können aber vom Bohrer abgenommen und in einem Amboss repariert werden."
+		""
+		"Das Aufrüsten auf einen Stahlbohrkopf erhöht nicht nur die Haltbarkeit, sondern ermöglicht auch den Abbau von Obsidian, ohne Ihre wertvollen, glänzenden blauen Steine ​​zu verschwenden."
+		""
+		"Bis zu drei zusätzliche Bohrer können zu einem Bohrer hinzugefügt werden, wobei jeder die Abbaugeschwindigkeit erhöht und sogar den Schaden verbessert, der allem zugefügt wird, das das Pech hat, davor zu stehen."
+	]
+	quest.13AA0065B8167EF4.quest_subtitle: "Diggy Diggy Hole"
+	quest.13AEBC331F29BC3D.quest_desc: ["&9Förderbänder&r können zwischen 2 &9Shafts&r platziert werden. Transportiert Items und Mobs."]
+	quest.13B7B1537CC2C130.quest_desc: ["45 blocks range."]
+	quest.14239740A0F66C69.quest_desc: ["Verbindet die Zaubersprüche mit dem Zauberbuch, damit du sie einsetzen kannst."]
+	quest.1487479CFA348530.quest_desc: [
+		"Eine Handsäge, die sich perfekt zum Fällen von Bäumen oder zum Durchhacken von Zombies eignet."
+		""
+		"Dieses Werkzeug läuft mit Biodiesel, der interne Tank ist allerdings eher klein. Sie sollten einen Tank mitnehmen, um unterwegs nachzutanken. Platzieren Sie ihn einfach im Einlassschlitz des Tanks, um ihn aufzufüllen."
+		""
+		"Platzieren Sie ihn in einer Ingenieurswerkbank, um Erweiterungen hinzuzufügen oder zu entfernen."
+	]
+	quest.1487479CFA348530.quest_subtitle: "Goes Brrr"
+	quest.149EC37E85BC39BB.quest_desc: [
+		"Die Railgun ist zwar mächtig, hat aber relativ wenig Energie. Ein Kondensatorrucksack ist eine hervorragende Möglichkeit, die Batterielebensdauer zu verlängern."
+		""
+		"Obwohl er in einen Curios-Slot passt, lässt sich der Kondensatorrucksack vielleicht besser mit einer Brustpanzerung in einem Crafting-Raster kombinieren."
+	]
+	quest.149EC37E85BC39BB.quest_subtitle: "Pain is a tool, after all. Sometimes it's the best tool."
+	quest.14F46BBADE2D02E8.quest_desc: ["Platziert man über dem Stone Barrel eine Wasserquelle, so kann man das Lava in dem Barrel direkt in Obsidian umwandeln."]
+	quest.15006CF73F8CAB7C.quest_desc: ["Wie auch &9Charm of Life I&r, verhindert es dass du stirbst. Du regenerierst alle Herzen, bekommst Regeneration 4, Resistenz und  Feuer Resistenz für 30 Sekunden."]
+	quest.15583CF5916E0716.quest_desc: ["I think something spat this out..."]
+	quest.15A2F43CD7C19C53.title: "No AI"
+	quest.15DC2A73A3B66DBD.quest_desc: ["Grants:\\n\\n - Absorption II (3:00)\\n - Speed II (3:00)\\n - Resistance II (3:00)\\n - Regeneration II (3:00)\\n - Strength II (3:00)"]
+	quest.162CE44400A63575.quest_desc: ["Der &9Metallurgic Infuser&r wird zb. für die Stahl Produktion benötigt."]
+	quest.166971866A9234C7.quest_desc: ["Lege Eisen und Redstone in einen &9Metallurgic Infuser&r um &4Infused Alloy&r zu bekommen."]
+	quest.16A45972F19D8512.quest_desc: [
+		"Produziert &5Source&r indem Items verbrannt werden (zb. Kohle oder Holz)"
+		""
+		"Stein in der Nähe wird zu Lava umgewandelt."
+	]
+	quest.1711708678EE6068.quest_desc: ["Besser als ein normaler Hopper. Kann bis zu 6 unterschiedliche Items gleichzeitig weitergeben."]
+	quest.17641AF0310D3333.quest_desc: ["\"This armor allows you to better control your &2nature &floving powers better."]
+	quest.17885C2DE986F1BD.quest_desc: [""]
+	quest.1823CC81D613892B.quest_desc: [""]
+	quest.1823CC81D613892B.quest_subtitle: "Tötet Mobs"
+	quest.1848E59BC6D42342.quest_desc: [
+		"Einfache Flüssigkeitsrohre, um Flüssigkeiten in der Fabrik zu transportieren. Diese Rohre werden nicht von selbst aus den angeschlossenen Beständen entnommen. Für alles, was nicht automatisch Flüssigkeitsausgänge fördert, ist eine Flüssigkeitspumpe erforderlich."
+		""
+		"Selbst wenn keine Pumpe erforderlich ist, erhöht der Einsatz einer Pumpe die Durchflussrate von Fluid Pipes erheblich. Um die Seiten auf Eingang (blau) oder Ausgang (orange) zu stellen, ist Strom und ein Ingenieurshammer erforderlich. Zum Einschalten ist außerdem ein Redstone-Signal erforderlich.  "
+		""
+		"Die Rohre selbst können mit Gerüstblöcken aus Stahl oder behandeltem Holz abgedeckt oder durch Klicken mit der rechten Maustaste mit einem Farbstück eingefärbt werden. Eingefärbte Rohre lassen sich nicht mit Rohren einer anderen Farbe verbinden."
+	]
+	quest.189018F641FBB44E.quest_desc: [""]
+	quest.18A90602FE956429.quest_desc: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
+	quest.18D88932916C7A98.quest_desc: ["Spaltet Gas oder Flüssigkeiten."]
+	quest.199CB37E1A9B13E3.quest_desc: ["Der &lFIRED &rCrucible erzeugt durch das Schmelzen von Cobblestone, Lava. Dafür braucht er aber eine Wärmequelle. Eventuell könnte eine Fackel fürs erste genügen."]
+	quest.1AA61783109D2406.quest_desc: ["The &4Master Infusion&f crystal fulfills the same purpose as the regular &3Infusion crystal&f, but it's infinite."]
+	quest.1AC0B7934F275EDE.quest_desc: [
+		"Das &9Water Wheel&r ist eine der einfachsten Wege um Rotationsenergie zu erzeugen. "
+		""
+		"Du kannst das Aussehen ändern, indem du mit einem Holzbrett rechtsklickst"
+	]
+	quest.1AC819882704B814.quest_subtitle: "Transportiert Elemente"
+	quest.1B182A30604655E2.quest_desc: ["Um den &9Blaze Burner&r zu erhalten, brauchst du einen &9Empty Blaze Burner&r und musst mit ihm die rechte Maustaste auf einen Blaze klicken."]
+	quest.1B6DDF50D00CBB31.quest_desc: [
+		"Lege Eisen und Kohle/Holzkohle in einen &9Metallurgic Infuser&r um angereichertes Eisen zu erhalten."
+		""
+		"Wenn du das angereicherte Eisen erneut in den &9Metallurgic Infuser&r legst, bekommst du Stahlstaub. Diesen Staub kannst du einfach Schmelzen."
+	]
+	quest.1B6DDF50D00CBB31.title: "Steel"
+	quest.1BEA66C873D670BA.quest_desc: [
+		"Sobald du das Flint Mesh hast kannst du es dierkt in dein Sieb ramen hineingeben."
+		""
+		"Mit dem kannst du für das erste mit Gravel dir Erze beschaffen."
+	]
+	quest.1BEA66C873D670BA.quest_subtitle: "Das Flint Mesh, so benutzt man es richtig"
+	quest.1C2309DB4B890E71.quest_desc: ["Der &9Spout&r dient zum Befüllen von Gegenständen mit Flüssigkeit."]
+	quest.1C313635EBC05D1D.quest_desc: [
+		"Salvaging Table: A Must-Have Early Tool"
+		""
+		"The Salvaging Table is a crucial tool in the early game. It allows you to recycle unwanted items, such as armor and tools with affixes, into useful resources like Gem Dust. Craft one early to maximize your resources and progress faster!"
+	]
+	quest.1C313635EBC05D1D.title: "&#AB9E9ES&#AB9E9Ea&#AB9E9El&#AB9E9Ev&#AB9E9Ea&#AB9E9Eg&#AB9E9Ei&#AB9E9En&#AB9E9Eg &#AB9E9ET&#AB9E9Ea&#AB9E9Eb&#AB9E9El&#AB9E9Ee"
+	quest.1CD926DB85864489.quest_subtitle: "Verwendet Strom und keine Kohle"
+	quest.1CD9E9B89AB56B69.quest_desc: ["Verwende Chisel, um aus einfachen Blöcken Cooooolerer Blöcke zu machen."]
+	quest.1CD9E9B89AB56B69.title: "Meister der Blöcke"
+	quest.1D4C0C339A39AF4A.quest_desc: ["Findest du in Truhen oder wenn du bestimmte Monster tötest."]
+	quest.1D794DE95C9FF6C7.quest_subtitle: "Erhöht die Geschwindigkeit"
+	quest.1DA078471CA464FC.quest_desc: [
+		"Adding Sockets Made Simple"
+		""
+		"New to Apotheosis? Sockets can be a bit confusing at first."
+		"Weapons and armor need sockets to use gems—but what if your item doesn’t have one?"
+		"That’s where the Sigil of Socketing comes in!"
+		"Combine it with your item in a Smithing Table, and boom—you can add up to 3 sockets."
+	]
+	quest.1DA078471CA464FC.title: "&#431BD4S&#431BD4i&#431BD4g&#431BD4i&#431BD4l &#431BD4o&#431BD4f &#431BD4S&#431BD4o&#431BD4c&#431BD4k&#431BD4e&#431BD4t&#431BD4i&#431BD4n&#431BD4g"
+	quest.1DA0A87C471A38AC.quest_desc: [
+		"Um eine Mobfarm in &cEvilcraft&r zu bauen, benötigst du &9Dark Blood Bricks&r und einen &9Spirit Furnace&r."
+		""
+		"Baue jetzt einen Würfel aus den &9Dark Blood Bricks&r. Lasse einen Hohlraum, so groß wie das Monster dessen Items du möchtest."
+		""
+		"Irgendwo in die Wand vom Würfel, setzt du den &9Spirit Furnace&r"
+		""
+		"Wenn es funktioniert hat, leuchtet der Würfel leicht rot."
+		""
+		"Jetzt kannst du einen Geist in einer Box fangen und diesen in den Ofen legen."
+	]
+	quest.1DA0A87C471A38AC.title: "&aMob Farm durch &cBlut"
+	quest.1DDA8AA88DDFEB9A.quest_desc: ["\"How do you get Gem Dust?                                                                 You can find it in Loot Chests at first. However, the most efficient way to get Gem Dust early in the game is by smashing gems with a falling anvil. To make this process easier, craft a Salvaging Table"]
+	quest.1DDA8AA88DDFEB9A.title: "&#3800FFG&#3800FFe&#3800FFm &#3800FFD&#3800FFu&#3800FFs&#3800FFt"
+	quest.1E3471513C75CC54.quest_desc: ["Schmelze einen &cGetrockneten Blut&r Block oder baue ihn mit einem Feuerzeug ab."]
+	quest.1E3471513C75CC54.title: "&cGetrocknetes Blut"
+	quest.1F3B9803AFAEED5F.quest_desc: [
+		"Mit dem Alchemietisch kannst du &9Arkane Asche&r herstellen."
+		""
+		"Mit der Asche kannst du einen Kreis auf den Boden zeichnen, der als Alchemie-Array bekannt ist. Du kannst zwei Gegenstände einfügen, indem du mit der rechten Maustaste klickst und entweder einen neuen Gegenstand herstellst oder eine Aktion ausführst, z. B. den Tag in die Nacht verwandeln!"
+	]
+	quest.1F58AA51814C7568.quest_desc: ["&9Super Kleber&r kann verwendet werden, um Blöcke aneinander zu befestigen, um sie mit Kolben oder anderen Mitteln zu bewegen."]
+	quest.1F6778561A0F6670.quest_desc: [
+		"Sieben ist die Haubtquelle für Rohstoffe. Durch das Sieben von Dirt, Gravel, Sand und Dust, erhält man verschiedene Rohstoffe."
+		"Für manche Rohstoffe, muss der Sieb im Wasser platziert sein."
+		""
+		"Genauere Informationen bei \"JEI\""
+	]
+	quest.1F6778561A0F6670.title: "Sieben"
+	quest.1FC7E9DBF92BE6AA.quest_desc: [
+		"Funktioniert wie eine Batterie."
+		""
+		"Wird auch für viele Craftin Rezepte benötigt."
+	]
+	quest.1FF43418888CE57C.quest_desc: ["Verhindern den Magneten, in dem markierten Gebiet einzusammeln."]
+	quest.1FF5906DF721D091.quest_desc: [
+		"Die Hyrda lässt Feuriges Blut fallen, das zur Herstellung feuriger Rüstungen verwendet werden kann."
+		""
+		"Wenn du das vollständige Set trägst, werden Gegner die dich angreifen, 10 Sekunden lang in Brand gesetzt."
+	]
+	quest.1FF5906DF721D091.title: "Fiery Armor"
+	quest.1FFE32FA18F1C7A1.quest_desc: [
+		"Produziert &5Source&r wenn Pflanzen in der nähe Wachsen. "
+		""
+		"&cWichtig:&r Knochenmehl hilft dir nicht dabei."
+	]
+	quest.1FFE32FA18F1C7A1.quest_subtitle: "Wachstum"
+	quest.20436AFCC7E6855D.quest_desc: [
+		"Suche nach einer großen Wolke."
+		""
+		"Pflanze die Zauberbohnen in die Erde, sodass eine Bohnenstange ganz nach oben wächst. Hier findest du die Giants."
+	]
+	quest.20458B8987CD6CB9.quest_desc: [""]
+	quest.20458B8987CD6CB9.quest_subtitle: "Lagert 4096 Demon Will"
+	quest.2049298DC63A1C32.quest_desc: [
+		"Diese Strukturen leiten elementare Energie in die Welt. "
+		""
+		"Sie können Aufgaben wie die Beschleunigung des Pflanzenwachstums, die Umwandlung von Stein in Lava oder die Gewinnung von Erzen übernehmen. "
+		""
+		"Um zu funktionieren, müssen Schreine mit einer Elementarquelle verbunden sein."
+	]
+	quest.20DF556DB212FF33.quest_desc: [
+		"Grants:"
+		""
+		"-Absorption II (3:00)"
+		"-Speed II (3:00)"
+		"-Resistance II (3:00)"
+	]
+	quest.212EC1F41227184D.quest_desc: ["Kombiniere es zum Aufladen mit einer Enderperle im Crafting Table."]
+	quest.213D0EBB0BE86C19.quest_desc: ["I would interact with him before the killing."]
+	quest.215AD1198A1BF8D0.quest_desc: [
+		"Item Batcher ist ein fortschrittlicher Filterblock, der speziell für die Verwendung mit Förderbändern und die Erstellung von Artikelchargen für Maschinen entwickelt wurde."
+		""
+		"Wenn man beispielsweise so sparsam wie möglich mit Kraftstoff umgehen möchte, könnte ein Item Batcher so konfiguriert werden, dass er immer dann, wenn er acht rohe Rinder hat, nur eine einzige Kohle ausgibt. Auf diese Weise wird sichergestellt, dass die Kohle vollständig zum Braten aller acht Steaks verwendet wird."
+		""
+		"Er kann auch beim Handwerk eingesetzt werden, um sicherzustellen, dass eine Maschine genau das Verhältnis an Artikeln erhält, das sie zum Fertigstellen eines Handwerks benötigt. Nicht mehr und nicht weniger."
+		""
+		"Durch Anbringen eines Redstone-Schnittstellenanschlusses an einer Seite kann der Batcher den Status seiner Filter auch an ein Redstone-Wire-Netzwerk übermitteln."
+		""
+		"Weitere Informationen und andere Anwendungsfälle finden Sie im Ingenieurhandbuch."
+	]
+	quest.21695E7B92F0C6B5.quest_desc: ["The Unattuned augments are the core of all the other augments in this mod."]
+	quest.218C18638BB574D9.quest_desc: ["Verhindert das spawnen von Monstern in einem 64 Blöcke Radius."]
+	quest.21942BA9D5FE958F.quest_desc: ["Baut man Blätter mit einem Crook ab, so erhält man Silkworms. Diese könnt ihr in Blätter reinsetzen. Nach dem es sich Infiziert hat, könnt ihr diese erneut mit einem Crook abbauen, um String zu erhalten."]
+	quest.21E503AD2FB12F19.quest_desc: ["Es gibe viele verschiedene Gerichte, welche ihr zubereiten könnt."]
+	quest.2214B7DCE4075A02.quest_desc: [
+		"Um den Altar auf Stufe 5 zu verbessern, brauchst du insgesamt 108 Runen sowie 4 Dämonenblöcke."
+		""
+		"Bau des Altars am besten wieder im Buch nachschauen."
+	]
+	quest.2214B7DCE4075A02.quest_subtitle: "Verbesserung des Altars"
+	quest.2214B7DCE4075A02.title: "Stufe 5"
+	quest.22AB111B322DA550.title: "Imperium armor"
+	quest.22BC123D486CC3E3.quest_desc: ["Verwendet RF/RE statt Kohle"]
+	quest.22BC123D486CC3E3.quest_subtitle: "Elektrischer Ofen"
+	quest.22BC123D486CC3E3.title: "The Redstone Furnace"
+	quest.22CCDD2250BF803C.quest_desc: ["Be aware of your distances..."]
+	quest.22FC363DBE79732E.quest_desc: ["I CAN HEAL NOW!!!!"]
+	quest.232B0DF534EC5F85.quest_desc: [
+		"Grants\\n\\n - Absorption II (3:00)\\n - Speed II (3:00)\\n - Resistance II (3:00)\\n - Regeneration II (3:00)"
+		"          "
+	]
+	quest.234CD79746FCAA18.quest_subtitle: "Zerstört Nebenprodukte"
+	quest.23A9617F183C4EB1.quest_desc: ["Das &9Cogwheel&r Transportiert Rotationsenergie. Kann die geschwindigkeit halbieren oder verdoppeln. (siehst du am besten, wenn du W gedrückt hältst auf das Rad)"]
+	quest.23F165DEAD225B10.quest_desc: [""]
+	quest.23F165DEAD225B10.quest_subtitle: "Transportiert Strom"
+	quest.23FA4FC3761C50AB.quest_desc: [
+		"Stelle einen Stab des Waldes her."
+		""
+		"Mithilfe des Stabes, kann eingestellt werden, (Shift + Rechtsklick) wohin der Manaverbreiter das gespeicherte Mana schießen soll."
+	]
+	quest.23FA4FC3761C50AB.quest_subtitle: "Auswahl des Manabeckens"
+	quest.23FA4FC3761C50AB.title: "Stab des Waldes"
+	quest.246CD1925FD6761C.quest_desc: ["Upgrade für alle Thermal Maschinen."]
+	quest.246CD1925FD6761C.quest_subtitle: "Tier 2 Base Upgrade"
+	quest.2493B0F358B9D79A.quest_desc: ["You'll need a whole lot of paper to forge yourself some scrolls with this scroll forge."]
+	quest.24BD32102AFA1691.quest_desc: [""]
+	quest.24C26C6200BAB539.quest_desc: ["Mit den Wunderstückchen könnt ihr euer Maschienen schneller machen "]
+	quest.24C26C6200BAB539.quest_subtitle: "Euch ist es wohl nicht schnell genug."
+	quest.24C326CBFBD4594D.title: "&4Besiege den Mächtigen &dGaia&4!"
+	quest.24E658BA47367A44.quest_desc: ["Das &9Rope Pulley&r kann Blöcke nach oben oder unten bewegen, sie können auch zusammengeklebt werden."]
+	quest.253089BB2115BA83.quest_desc: ["can you teach younger ones now?"]
+	quest.25343A0C4C22AA60.quest_desc: [
+		"Hoffentlich hast du dich zu diesem Zeitpunkt bereits mit &9Demon Will&r eingedeckt."
+		""
+		"Mit dem &9Saturated Tau&r und unserer &9Alchemical Reaction Chamber&r kannst du die erforderlichen Materialien herstellen, um den Altar zu verbessern."
+		""
+		"Dafür ist der &9Sanguine Reverter&r erforderlich, der einige Upgrades für den &9Tartaric Gem&r erfordert."
+	]
+	quest.253657BE5D9D9162.quest_desc: ["Verbindet Lagerblöcke (Kisten, Fässer...) mit dem System."]
+	quest.260F9ABD87B89B23.quest_desc: [
+		"\"With this armor, you will feel like a thunder god. "
+		""
+		""
+		""
+		""
+		"Didn't I hear that somewhere before?"
+	]
+	quest.262FF649584AE4E2.quest_desc: [
+		"Ihr hab immernoch nicht genug wertvolle Ressursen?"
+		""
+		"Der Diamanten Mesh hilft euch weiter!"
+		""
+		"der ermöglicht es euch eine höhere Warscheinlichkeit für die Ressursen zu erlangen die ihr braucht."
+	]
+	quest.263925A79EBB270F.quest_desc: [
+		"Jetzt brauchst du die Dusk-Version des &9Ritual Diviner&r."
+		""
+		"Dies verschafft dir Zugang zu noch mehr Ritualen, einschließlich des Rituals, das uns in das Dämonenreich führt."
+	]
+	quest.263925A79EBB270F.title: "Tier II Rituale"
+	quest.26D2C7BC19B98B55.quest_desc: ["Gibt dir extra Mana."]
+	quest.26D2C7BC19B98B55.title: "Magie Rüstung"
+	quest.27B1E7A5ECE629C2.quest_desc: [
+		"Hiermit erhöhst du deine maximale Mana und die Manaregeneration. "
+		"Du kannst nun Tier 2 Glyphen verwenden."
+	]
+	quest.2808EF594B7A251A.quest_desc: [
+		"Damit kannst du deine eigenen Zaubersprüche herstellen."
+		""
+		"Dafür brauchst du Papier, Tinte und ein weiteres Item deiner Wahl"
+	]
+	quest.281AAC27DEBEE84D.quest_desc: [
+		"Dieses Siegel hat zwei Hauptzwecke:"
+		""
+		"1) Wenn du mit dem Siegel in der Hand mit der rechten Maustaste klickst, wird die Menge an LP angezeigt, die du im Seelennetzwerk hast."
+		""
+		"2) Wenn du mit der rechten Maustaste auf einen Blutaltar klickst, siehst du, wie viel LP gespeichert sind, wie viel LP er speichern kann und welche Stufe der Altar hat."
+	]
+	quest.283516E560D1D20E.quest_desc: ["Der Klingenköcher kann an der Kreissäge in der Werkbank des Ingenieurs befestigt werden. Er bietet Platz für zusätzliche Klingen und ermöglicht es Ihnen, diese unterwegs schnell auszutauschen. Schleichen + Scrollrad zum Wechseln der Klingen."]
+	quest.283516E560D1D20E.quest_subtitle: "So Wait, Instead of Arrows..."
+	quest.28B528D52576BFF5.title: "Ignore Player"
+	quest.28BF66D1B8CD4D44.quest_desc: [
+		"Jeder Besen besteht aus 3 Teilen."
+		""
+		"Jedes Teil kann mit unterschiedlichen Items hergestellt werden. Was genau das ist, findest du im Buch vom Anfang :)"
+		""
+		"Um den Besen herzustellen, musst du nur die 3 Teile in eine Werkbank legen."
+	]
+	quest.28BF66D1B8CD4D44.quest_subtitle: "Broom Broom"
+	quest.28BF66D1B8CD4D44.title: "&cBlut&r &aBesen&r"
+	quest.2951B1D7080C5EF9.quest_desc: [
+		"Mit der Aschelampe kannst du jetzt die Dornen im Thornland Biom brechen."
+		""
+		"Sammel einige Dornrosen, um weiter zum letzten Plateau zu gelangen."
+	]
+	quest.297BD068C2CAADF2.quest_subtitle: "Kann bis zu 8 Stacks von jeweils 4 Items lagern"
+	quest.29917E6196649F5D.quest_desc: ["Der &9Speedometer&r zeigt die Rotationsgeschwindigkeit der verbundenen Blöcke an."]
+	quest.2A72C65F1EF01CAF.quest_desc: ["I cant read this Fragment. Looks like i'll be needing 8 of these."]
+	quest.2A72C65F1EF01CAF.title: "Long lost Knowledge Fragments..."
+	quest.2AAC9907B5B99448.quest_desc: ["Their are many &2Inferium tools&f. You can search them up in the search bar."]
+	quest.2AAC9907B5B99448.title: "Inferium Tools"
+	quest.2B27E4E04A628C60.quest_desc: ["Erhöht die Geschwindigkeit des Systems. (zb. Crafter) "]
+	quest.2BEBF66D7EA594FA.quest_desc: ["Diese Rüstung wird beim Craften automatisch Verzaubert."]
+	quest.2BEBF66D7EA594FA.title: "Steeleaf Armor"
+	quest.2BFA3C7E51CBBE79.quest_subtitle: "Kann bis zu 8 Stacks von jeweils 2 Items lagern"
+	quest.2C3CA7B9D1A7DC47.quest_desc: ["Da sich der Altar jetzt auf Stufe 2 befindet, kannst du noch bessere Runen herstellen. Du brauchst dafür &9Reinforced Slate&r."]
+	quest.2C50B0E024C3D92E.quest_desc: [""]
+	quest.2CA28551F2A5B761.quest_desc: ["Mit Beute aus dem Dämonenreich kannst du jede Rune aufwerten, um ihre Wirkung zu verdoppeln."]
+	quest.2CA28551F2A5B761.title: "Reinforced Runes"
+	quest.2CB69634F6A6E53E.quest_desc: [
+		"Sie sind gut Sichtbar, denn es kommt ein Leuchtstrahl aus der Mitte dieser Struktur. "
+		""
+		"Wird verwendet um Items herzustellen oder zu verbessern."
+	]
+	quest.2CFEE04BA574921E.quest_desc: ["Platziert einen ausgewählten Block in die Richtung, in die er schaut."]
+	quest.2CFEE04BA574921E.quest_subtitle: "Platziert Blöcke"
+	quest.2D3278A8CE15A3A8.quest_desc: ["\"With the inscription table, you can inscribe your found spells in your powerful spellbook."]
+	quest.2D40D8DD744014B0.quest_desc: [
+		"Combining Tools and Gems"
+		""
+		"Got a tool and a gem? First, check if the tool has an open socket."
+		"If it does, head to a Smithing Table and combine them to unlock new power."
+		"Not happy with your gem? Then it’s time to find or craft a better one."
+	]
+	quest.2D40D8DD744014B0.title: "Applying Gems"
+	quest.2D41B04C75FA02BC.quest_desc: ["Mit der &9Mechanical Press&r können Metallplatten oder Metallblöcke erstellt werden."]
+	quest.2DE609043F1FF19E.quest_desc: ["I feel like this wouldn't be good in the summer... almost like &bice&f."]
+	quest.2E1301BFE188BF0B.title: "Die &eSonne&r kommt raus!"
+	quest.2E14B84D1594EBE0.quest_desc: ["Ziegel, behandeltes Holz und Stahl; Darauf baut eine Immersive Factory auf und sie stehen im Mittelpunkt der ersten Bemühungen in der Mod."]
+	quest.2E14B84D1594EBE0.title: "Getting Started: Material Processing"
+	quest.2E1C79A4268F8D73.quest_desc: ["Dupliziert Erze. Nutze zb. Flint um mehr Output zu bekommen."]
+	quest.2E2811D1A0F2A492.quest_desc: ["Erhöht die Reichweite"]
+	quest.2E56CF03E26FEA72.quest_desc: [
+		"Konvertiert Zaubersprüche zu Tinte. Wird auch für das brauen von Tränken verwendet."
+		""
+		"Ich empfehle dir, nicht zu lange darin stehen zu bleiben ;)"
+		""
+		"Du kannst Zaubersprüche reinlegen (sofern Wasser darin ist), dann warten und sobald es verschwunden ist, mit einer Glasflasche Rechtsklicken. Dadurch bekommst du Tinte (nicht zu 100%)"
+	]
+	quest.2E56CF03E26FEA72.quest_subtitle: "Mit Wasser füllen"
+	quest.2E653B9AB3629710.title: "Awakened Supremium Tools"
+	quest.2EAE9EDE6EFA59F0.quest_desc: [""]
+	quest.2EAE9EDE6EFA59F0.quest_subtitle: "Generiert Energie durch Verzauberte Items"
+	quest.2EF4DD5CC254CC80.quest_subtitle: "Transportiert Flüssigkeiten"
+	quest.2F71FCE4E576C977.quest_subtitle: "Generiert Energie mit Lava"
+	quest.2FA5F3ADF68D080A.quest_desc: [
+		"Gem Cutting Table"
+		""
+		"To make your gems more powerful, you’ll need the Gem Cutting Table."
+		"Place 2 of the same gem along with some rarity materials into the table."
+		"This will increase the gem’s rarity, making it stronger and more effective when socketed into gear."
+	]
+	quest.2FA5F3ADF68D080A.title: "Getting better Gems"
+	quest.2FDE35D2D0803D65.quest_desc: [
+		"Der Barrel ermöglicht aus Bio zeug, Erde herzustellen. "
+		"Genauere Infos in \"JEI\"."
+	]
+	quest.3029E1E133B91ED8.quest_desc: [
+		"Der &9Drill&r baut jeden Block ab, der davor ist. "
+		""
+		"Wenn es über ein angeschlossenes Inventar verfügt, werden die Items darin gelagert."
+	]
+	quest.308581359FEF32E9.quest_desc: ["Du brauchst den &9Alchemical Reaction Chamber&r um &cWeak Blood Shards&r herzustellen. Werden für das nächste Altar Upgrade benötigt."]
+	quest.30A557F71A374F50.quest_desc: ["You are getting better and can cast more Spells now!"]
+	quest.31BB7EB95CE73C1A.quest_desc: [
+		"Nachdem du den Ur-Ghast besiegt hast, schaltest du die Biome des Schneewaldes frei."
+		""
+		"Es gibt viele Kreaturen, gegen die du kämpfen musst, aber um deinen Fortschritt fortzusetzen, musst du den Alpha Yeti töten."
+		""
+		"Der Alpha Yeti ist in einer Yeti Höhle auffindbar."
+	]
+	quest.31CA532E25912FE6.quest_desc: [""]
+	quest.31CA532E25912FE6.quest_subtitle: "Lagert Tränke"
+	quest.31FD39FA2E9FE171.title: "Activation Range"
+	quest.31FD9EA513E0D010.quest_desc: ["Fütter ein Mob mit dem Apfel und warte bis es stirbt. Danach kannst du ein Buch darauf werfen."]
+	quest.31FD9EA513E0D010.title: "&cEvilCraft&r"
+	quest.322F7E60078AC6F6.quest_desc: ["Der Motor des Bergbaubohrers kann normalerweise nicht unter Wasser betrieben werden. Mit einem zusätzlichen Druckluftbehälter kann er jedoch auf Hochtouren laufen."]
+	quest.322F7E60078AC6F6.quest_subtitle: "Don't Burst It"
+	quest.32D2590FA8588687.quest_desc: [
+		"Um das beste Buch zu craften, musst du den &6Wilden Chimera&r töten."
+		""
+		"Diesen kannst du spawnen, indem du ein Ritual mit dem &9Ritual Brazier&r machst."
+	]
+	quest.3314FBC4FEAE1D08.quest_desc: ["Der &9Deployer&r kann entweder zum Platzieren von Blöcken oder zum Verwenden von zb. Schwertern verwendet werden."]
+	quest.3320ADFD7DC4CA00.quest_subtitle: "Erhöht stark RF Kapazität und leicht die Durchflussrate"
+	quest.3371570F189DF994.quest_desc: [
+		"Dieses Zepter beschwört Schilde um dich herum zum Schutz."
+		""
+		"Zum Aufladen mit goldenen Äpfeln kombinieren."
+	]
+	quest.3371CDEDFFE924A6.quest_subtitle: "Kann jeweils bis zu 16 stacks von 2 beliebigen Items lagern"
+	quest.34173E17A12A4147.title: "Items Kaufen und Verkaufen"
+	quest.34470DCA972B829D.quest_subtitle: "I can read it now but... WHAT IS THAT..."
+	quest.34470DCA972B829D.title: "Long lost Knowledge..."
+	quest.3475E12711B6BB98.quest_desc: [
+		"Extrahiert Farbe von Blöcken."
+		""
+		"Beispiel: "
+		"Input: Rote Wolle"
+		"Output: Rote Farbe und weiße Wolle"
+	]
+	quest.34A1207AFB990E5F.quest_desc: ["Ein erweiterter Kraftstofftank, der im Bergbaubohrer und in der Kreissäge funktioniert. Das Geld absolut wert."]
+	quest.34BB06CD5582DDAD.quest_desc: ["Soulium dust will be needed for Soul jar's and the Thinkering Table. It can be aquired by mining the ore in the nether."]
+	quest.3531B28F14CF72A2.quest_desc: [
+		"Den ersten Boss findest du im Courtyard."
+		""
+		"Naga zu töten, erlaubt es dir den nächsten Boss zu bekämpfen, der Lich."
+	]
+	quest.3531B28F14CF72A2.title: "Zeit für den ersten Boss"
+	quest.353DD4E48BF7CE11.quest_desc: ["All the good gears starts with Apotheosis. The first thing u need is a Gem."]
+	quest.353DD4E48BF7CE11.title: "All the Gems"
+	quest.35FA55BE8DF49EE8.quest_desc: [""]
+	quest.3662AA4205EAE259.quest_subtitle: "Suche nach beliebigen Strukturen"
+	quest.36859C82B2F53BB3.quest_desc: ["Are you a master yet?"]
+	quest.36956624FA03C303.quest_desc: ["The Enchanter is a block that allows you to add enchantments to enchantable items using items and essences."]
+	quest.36A0331B2EF53FBC.quest_desc: ["Stelle einen Juicer her, um Fruchtsäfte und andere Getränke herzustellen."]
+	quest.36A0331B2EF53FBC.title: "Der Weg zum Saftbaron"
+	quest.3711F7F1B2AB4640.quest_desc: [
+		"What Sigils Do"
+		""
+		"Sigils let you change your Apotheosis Affixed items."
+		"You can remove sockets, add new ones, or delete the item’s name."
+		"Use them with a Smithing Table, Reforging Table, or Augmenting Table."
+	]
+	quest.375C292687CF5637.quest_desc: ["Mit der mittleren Maustaste wird das Zielfernrohr aktiviert, wenn es installiert ist, und durch Scrollen wird die Vergrößerungsstufe angepasst. Ideal, um ein Ziel aus der Ferne anzuvisieren."]
+	quest.375C292687CF5637.quest_subtitle: "All things serve the beam."
+	quest.375DC2FFFA2B90B6.quest_desc: [
+		"Getting Perfect Affixes"
+		""
+		"To get the best affixes, you’ll need a special table, a tool, and some Sigils of Enhancement."
+		"Once you have everything, you're ready!"
+		"You can reroll affixes, pick specific ones, or upgrade existing affixes."
+	]
+	quest.375DC2FFFA2B90B6.title: "&#DEB500A&#DEB500u&#DEB500g&#DEB500m&#DEB500e&#E6C600n&#EFD700t&#F7E700i&#FFF800n&#FFF800g &#FFF800T&#FFF800a&#FFF800b&#FFF800l&#FFF800e"
+	quest.375FF0D8ACD2E17F.quest_desc: ["Durch die Kombination von &9Reinforced Slate&r mit etwas Blut in dem neuen Altar bekommst du &9Imbued Slates&r."]
+	quest.37D4E5ACB35D8BF1.quest_subtitle: "Benötigt Hydrogen um zu funktionieren!"
+	quest.37F3086A687795FB.quest_desc: ["Durch kräftiges Rühren löst der Mixer Feststoffe in Flüssigkeiten auf. Obwohl sie oft für so banale Aufgaben wie das Mischen von Beton verwendet werden, eignen sie sich auch recht gut zum Brauen von Zaubertränken."]
+	quest.37F3086A687795FB.title: "Mixer"
+	quest.3908F7C80154D9CA.quest_desc: [
+		"Damit kannst du Zombies beschwören."
+		""
+		"Zum Aufladen mit Rotten Flesh kombinieren."
+	]
+	quest.396651A19AF834A4.quest_subtitle: "Kann bis zu 32 Stacks pro Drawer lagern"
+	quest.396AA75774059D0B.quest_desc: [""]
+	quest.39DFEE5A30AF9748.quest_desc: [
+		"&b&nWichtige Commands:&r"
+		""
+		"/spawn -> Teleportiert dich zurück zum Spawn"
+		"/back   -> Teleportiert dich an die letzte Stelle zurück, von der aus du dich weg teleportiert hast (z.B. TPA, Spawn, Home, etc.)"
+		"/tpa [Spielername] -> Sende eine Anfrage, um dich zu einem Spieler zu Teleportieren"
+		"/tpahere [Spielername] -> Sende eine Anfragen, um einen Spieler zu dir zu Teleportieren"
+		"/sethome [Name] -> Setzte einen Homepunkt."
+		"/home [Name] -> Nutze diesen Command, um dich zu deinem Homepunkt tpn zu können"
+		"/delhome [Name] -> Löscht deinen Homepunkt"
+		""
+		"&b&nDas Modpack:&r"
+		""
+		"Um in das Modpack starten zu können, müsst ihr den Multiblock \"Metal Press\" von \"Immersive Engineering\" bauen. Durch diesen könnt ihr euch Plates, Gears und weitere ähnliche Craftingmaterialien herstellen. Bitte beachtet, dass Multiblöcke wie dieser, in einem Chunk gebaut werden müssen. Informationen zum der Maschine gibt es im Quest Buch."
+		"Chapter -> Immersive Engineering"
+	]
+	quest.39DFEE5A30AF9748.quest_subtitle: "Einige Informationen"
+	quest.39DFEE5A30AF9748.title: "Willkommen bei KOTD"
+	quest.3A001DACDA5F58EA.quest_desc: [
+		"Produziert &5Source&r wenn Monster in der Nähe sterben oder wenn Tiere gepaart werden."
+		"Leben und Tot"
+	]
+	quest.3A001DACDA5F58EA.quest_subtitle: "Leben und Tot"
+	quest.3A3ED88027331A6C.quest_desc: ["Du behältst alle Items wenn du stirbst"]
+	quest.3A50ABFD9D1401C0.quest_desc: ["Einfach ein input mit euren Pieces machen und ihr bekommt das Erz mit einem output wieder raus! (Strom ist wichtig meine Freunde)"]
+	quest.3A50ABFD9D1401C0.quest_subtitle: "Compactor so ist es richtig."
+	quest.3A65173717C3D725.title: "Spawn Count"
+	quest.3A9B90A453C933C4.quest_desc: [""]
+	quest.3A9B90A453C933C4.title: "Welcome to &cBlood Magic!"
+	quest.3AADA53EC01FB0ED.quest_desc: [
+		"Wenn du mit dem Lava-Siegel in der Hand mit der rechten Maustaste klickst, erstellst du einen Lava-Quellenblock für 1.000 LP."
+		""
+		"Wenn du zu wenig LP hast, nimmt es einfach 5 Herzen von dir."
+	]
+	quest.3B43DB1A6B0A7B44.quest_desc: ["Kann für die Stromproduktion verwendet werden."]
+	quest.3B43DB1A6B0A7B44.title: "Bio Fuel"
+	quest.3B554ECB7BEADD2E.quest_desc: [
+		"Die Logic Unit stellt einen kompakten und möglicherweise sehr komplexen Redstone Logic-Computer dar. Bis zu zehn Logikschaltkreise müssen programmiert und im Inneren platziert und ein Redstone-Schnittstellenstecker an der Außenseite angebracht werden. "
+		""
+		"Immer wenn sich das eingehende Signal ändert, durchläuft das Gerät alle installierten Schaltkreise einmal und führt jede Operation aus. Dadurch können mehrere Logikgatter auf ein Signal angewendet oder sogar mehrere Farbcodes als Eingangs- und Ausgangssignale verwendet werden."
+	]
+	quest.3B6BD1CDDC7487CE.quest_desc: [
+		"The alchemist's cauldron is used to extract ink from your found scrolls with a 50% chance. "
+		"ink can also be used to upgrade into a higher variety of levels."
+	]
+	quest.3BC9C6036E913ADC.title: "Maximum Spawn Delay"
+	quest.3BE5AE7A9835E4A8.quest_desc: ["Wirf einen Diamant in das Manabecken"]
+	quest.3C14E045C261BDFA.quest_desc: ["Is this the start of something magical...?"]
+	quest.3C14E045C261BDFA.title: "The beginning"
+	quest.3C5D6D1B23BC0417.title: "Prudentium Tools"
+	quest.3C6A4FF4F12DCAB2.quest_desc: ["Für die Momente, in denen die Bestien zu nahe kommen oder die Munition ausgeht."]
+	quest.3C6A4FF4F12DCAB2.quest_subtitle: "The man in black fled across the desert..."
+	quest.3C8D9278B81BB37A.quest_subtitle: "Macht deine Maschinen schneller"
+	quest.3CD78061263B54DD.quest_desc: ["this seems like someting ancient..."]
+	quest.3D2A03EB2B91E9C1.quest_desc: ["Der &9Chute&r wird zum Importieren/Exportieren aus Inventaren oder zum Platzieren/Entnehmen von Gegenständen von einem Förderband verwendet."]
+	quest.3D4B4AE96A359837.quest_desc: ["With &8empty runes&f, you can craft a variety of runes, each with its own attributes, so you can become the most OP and spawn trap your friends ;)"]
+	quest.3D4B4AE96A359837.title: "Runes"
+	quest.3DA7D0BA045CE7AB.quest_desc: [
+		"Um mit der &cBlood Magic&r zu beginnen, brauchst du zuerst etwas Blut."
+		""
+		"Dazu müssen wir das &cSacrificil Knife&r und den &4Blood Altar&r herstellen. "
+		""
+		"Stelle den Altar an einem Ort auf, an dem viel Platz um ihn herum vorhanden ist. "
+		""
+		"Um &cBlut&r zu sammeln, einfach an den Altar stellen und mit dem Messer rechtsklick drücken. "
+		""
+		"Jeder Stich generiert 200 LP."
+	]
+	quest.3DA7D0BA045CE7AB.title: "Sammle &cBlut"
+	quest.3DA93308D19BA85F.quest_subtitle: "Generiert Energie indem es Items verbrennt"
+	quest.3DB667126DE46EA2.quest_desc: ["Some &4blood &ftheir and some their."]
+	quest.3DCF26B53AE1EBF6.quest_desc: [
+		"Im Dunklen Wald kannst du eine Struktur finden, die in den Untergrund führt."
+		""
+		"Um einzutreten, musst du eine der Trophäen, die du erworben hast, auf dem nahegelegenen Podest platzieren."
+		""
+		"Auf der 3. Ebene ist der Knight Phantoms. Besiege ihn, um den nächsten Boss freizuschalten."
+	]
+	quest.3DF01ADB6A441391.quest_desc: [
+		"Stelle eine Terrestrische Agglomerationsplatte her."
+		""
+		"Mit ihr kannst du Terrastahl herstellen."
+	]
+	quest.3E0D29502690E02F.quest_desc: ["Du hast jetzt unendlich Reichweite"]
+	quest.3E5E0C768038CDF4.quest_desc: ["Das &9Cogwheel&r gibt Rotationsenergie weiter."]
+	quest.3E890BABC4C41370.quest_desc: [""]
+	quest.3EC9D0DA61B45328.quest_desc: [
+		"Dieser Generator verbrennt Hydrogen und Ethylene um Strom zu produzieren."
+		""
+		"&cHinweis: &rEthylene bringt deutlich mehr Energie"
+	]
+	quest.3EE9958D84A1252C.quest_desc: ["Damit kannst du auch über andere Dimensionen auf dein System zugreifen"]
+	quest.3F1BB5676041137C.quest_desc: [
+		"Removing Gems Made Easy"
+		""
+		"Thanks to Apotheosis, removing gems from tools is now simple!"
+		"You no longer have to choose between keeping the tool or the gem—you get both."
+		"Just use a Sigil of Withdrawal with an affixed tool in a Smithing Table, and the gem will be separated."
+	]
+	quest.3F1BB5676041137C.title: "&#2BD419S&#2BD419i&#2BD419g&#2BD419i&#2BD419l &#2BD419o&#2BD419f &#2BD419W&#2BD419i&#2BD419t&#2BD419h&#2BD419d&#2BD419r&#2BD419a&#2BD419w&#2BD419a&#2BD419l"
+	quest.3F2C1A81C17D2D67.quest_desc: [
+		"Der &9Arm&r ist eine Maschine, die Gegenstände aus einem &9Depot&r oder einem Förderband nehmen und in einem anderen Depot, Förderband oder Crafter platzieren kann."
+		""
+		"Um Ein-/Ausgabe auszuwählen, halte den Arm in der Hand und klicke mit der rechten Maustaste auf die Blöcke, die du zuweisen möchtest."
+		""
+		"Um die Auswahl eines Blocks aufzuheben, klicke mit dem Arm in der Hand auf den Block."
+	]
+	quest.3F663416E824720C.quest_desc: [""]
+	quest.3F72BF5DCBF87719.quest_desc: [
+		"Lege alle Items (außer Lebestein) in den Altar (mit Rechtsklick)"
+		""
+		"Danach kannst du den Lebestein auf den Altar werfen und mit dem Stab rechtsklick machen. (Es muss genug Mana vorhanden sein)"
+	]
+	quest.3F72BF5DCBF87719.title: "Rune der Luft"
+	quest.3F8EEE1AD4420702.quest_desc: [""]
+	quest.3F908827109BA5FE.title: "Lass ein &6Gewitter&r erscheinen"
+	quest.3FAD086F7D9CCAE9.quest_desc: [""]
+	quest.3FC9C9BA6C4B9597.quest_desc: [
+		"Der Speedloader lädt den Revolver automatisch nach, wenn die Munition aufgebraucht ist, und ist somit eine großartige Möglichkeit, den Kampf fortzusetzen."
+		""
+		"Um ihn unterwegs nachzufüllen, klicken Sie einfach mit der rechten Maustaste und legen Sie Ihre Patronen hinein. Er kann jedoch auch in einem 3x3-Bastelgitter gefüllt werden, indem man ihn mit Munition umgibt."
+		""
+		"Es ist möglich, das Nachfüllen von Speedloadern in einem Immersive Engineering Assembler zu automatisieren. Mit ein wenig Einfallsreichtum ist es mehr als möglich, leere Speedloader automatisch aus dem Inventar zu ziehen, sie zu füllen und sie zurückzuschicken."
+	]
+	quest.3FC9C9BA6C4B9597.quest_subtitle: "When the shooting starts, we kill what moves."
+	quest.3FD801D7DE9176FB.quest_desc: [""]
+	quest.3FFF4844A0878D85.quest_desc: [
+		"Eine mächtige Waffe, die elementare Energien für den Kampf kanalisiert. "
+		""
+		"Es kann aufgerüstet werden, um verschiedene Elementarkräfte zu nutzen und verschiedene Angriffsfähigkeiten einzusetzen."
+	]
+	quest.40258842B0359A2D.quest_desc: ["Diese Rüstung wird beim Craften automatisch Verzaubert."]
+	quest.40258842B0359A2D.title: "Ironwood Armor"
+	quest.40888A2C17D8FFF6.quest_desc: ["Lege einen Toten Busch in den &cBlood Infuser&r. Dieser wird dann in &9Undead Saplings&r umgewandelt. "]
+	quest.40A383384E1ED4CE.quest_desc: [
+		"Sigil of Unnaming – What It Does"
+		""
+		"Got an affixed item with a name that’s way too long?"
+		"Use a Sigil of Unnaming in a Smithing Table to remove most of the name."
+		"Only the material, weapon type, and rarity color will remain."
+	]
+	quest.40A383384E1ED4CE.title: "&#AB9E9ES&#AB9E9Ei&#AB9E9Eg&#AB9E9Ei&#AB9E9El &#AB9E9Eo&#AB9E9Ef &#AB9E9EU&#AB9E9En&#AB9E9En&#AB9E9Ea&#AB9E9Em&#AB9E9Ei&#AB9E9En&#AB9E9Eg"
+	quest.40ADAB71DB70EF32.quest_subtitle: "Generiert Energie durch Nahrung"
+	quest.40E572DFDB7216EF.quest_desc: ["Stelle ein Manabecken her."]
+	quest.40E572DFDB7216EF.quest_subtitle: "speichert Mana"
+	quest.4101F8275B41C79B.quest_desc: [""]
+	quest.4193303999597249.quest_desc: ["Um ein Portal zum &9Twilight FOrest&r zu erzeugen, musst du ein 2x2 Loch im Boden machen und mit Wasser füllen. Danach mit Blumen umranden und einen Dia ins Wasser werfen."]
+	quest.4193303999597249.quest_subtitle: "Portal bauen"
+	quest.4194397DFD0199C2.quest_desc: [
+		"Die &9Crafter&r können miteinander verbunden werden, um einen riesigen Crafting Table zu bilden."
+		""
+		"Die Pfeile auf den &9Crafter&r müssen auf demselben &9Crafter&r zusammenlaufen, um das Rezept fertigzustellen. Du kannst die Pfeile drehen, indem du mit dem Schraubenschlüssel mit der rechten Maustaste darauf klickst."
+	]
+	quest.41D880CB15E1A369.quest_desc: [
+		"Wird für einige Items benötigt. Braucht &5Source&r um zu funktionieren."
+		""
+		"Der &9Arcane Core&r wird unten Platziert. Darüber brauchst du den &6Enchanting Apparatus&r. "
+		"Außenrum kannst du noch 8 &3Arcane Pedestals&r platzieren."
+	]
+	quest.41EB0C570FC54F43.quest_desc: [""]
+	quest.41EB0C570FC54F43.quest_subtitle: "Speichert Gas"
+	quest.4204702AA6FBF40B.quest_desc: [
+		"Wenn du dich hier drauf stellst, llädst du alle Items in deinem Inventar auf, die Strom benötigen."
+		""
+		"Wird auch für den &9Robit&r benötigt."
+	]
+	quest.42705F4BE69FF027.quest_subtitle: "Ab in den Nether"
+	quest.427C3AFC0FF131CD.quest_subtitle: "Sammelt und Platziert Flüssigkeiten"
+	quest.427C3AFC0FF131CD.title: "Flüssigkeiten"
+	quest.427D48FD392504E1.quest_desc: [""]
+	quest.4285510271B5223D.quest_desc: ["Die &9Gearbox&r kann die Drehrichtung in jede beliebige Richtung um 90 Grad drehen."]
+	quest.42CDD69527871332.quest_desc: [
+		"Durch die Durchführung des &cPathway to the Endless Realm&r-Rituals erhältst du Zugang zum richtigen Dämonenreich."
+		""
+		"Dies ist der einzige Ort, an dem du &9Demonite Ore&r finden kannst. Dies wird zur Herstellung des Tier 5 Altars verwendet."
+	]
+	quest.42DB63E57E884514.quest_desc: ["Hält ihr beim Abbauen die Taste \"&l&4^&r\"&r gedrückt, könnt ihr 128 Blöcke der selben Art auf einmal abbauen."]
+	quest.42DB63E57E884514.quest_subtitle: "Veinminer"
+	quest.42DD6CFCAA682845.quest_desc: [
+		"In dieser Mod heißt der \"Strom\" &5Source&r."
+		""
+		"Um &5Source&r zu speichern, benötigst du den &9Source Jar&r."
+	]
+	quest.431C44439CA54077.quest_desc: [
+		"Um den Altar zu verbessern brauchst du 56 &9Blank Runes&r (verbesserte gehen auch)"
+		""
+		"Für den Bau am besten wieder das Buch verwenden."
+	]
+	quest.431C44439CA54077.quest_subtitle: "Verbesserung des Altars"
+	quest.431C44439CA54077.title: "Stufe 4"
+	quest.4389E906A2A74867.title: "Flüssigkeitenspeicher"
+	quest.43E8912CB307E421.quest_desc: ["Um zu sehen, was in deinem Netzwerk gespeichert ist, benötigst du ein &9Grid&r."]
+	quest.4410B00B8D8F5B19.quest_subtitle: "&2Mit dem kannst du dich frei austoben und deine wichtigsten Sachen ausrüsten, so das du deine Werkbank einfach mitnehmen kannst."
+	quest.4410B00B8D8F5B19.title: "Ein Werkzeugkasten im gepäck?"
+	quest.4434D7B66521D69A.quest_subtitle: "Transportiert Gas"
+	quest.44881E39AB1D62AA.quest_desc: ["Hier werden Rezepte gelagert. Sobald du eines hier lagerst, kannst du dem &9Crafter&r sagen, dass er es für dich herstellen soll."]
+	quest.44881E39AB1D62AA.quest_subtitle: "Automatisches Crafting"
+	quest.450E3698E39CC0A1.quest_desc: [
+		"Logikschaltkreise selbst werden im Schaltkreistisch des Ingenieurs hergestellt."
+		""
+		"Diese Werkbank benötigt Strom, der von hinten zugeführt wird, sowie eine gewisse Menge an Schaltkreis-Backplanes, Anschlussdrähten und Vakuumröhren. Unterschiedliche Logikoperationen erfordern unterschiedliche Mengen."
+		""
+		"Schaltkreise werden mit einem Operator sowie Eingangs- und Ausgangsfarben programmiert. Wenn der fertige Schaltkreis fertig ist, wird er von der rechten Seite der GUI herausgezogen. Die Ein- und Ausgänge von Schaltkreisen können neu programmiert werden, indem sie wieder in den oberen Steckplatz eingesetzt werden, aber der Operator ist bei der ersten Erstellung gesperrt."
+	]
+	quest.452F51995AD0461C.quest_desc: ["Kombiniert Items um Legierungen herzustellen."]
+	quest.453605684F2D735B.quest_desc: ["You can craft &5arcane fabric&f, which you can use to craft many magical armors."]
+	quest.453605684F2D735B.title: "Your best armor"
+	quest.4578C0EE82F66BD9.quest_desc: [
+		"Mit dem Altar der Stufe 3 kannst du mit der Durchführung von Ritualen beginnen."
+		""
+		"Für die Erstellung von Ritualen sind ein &9Master Ritual Stone&r und genügend &9regular Ritual Stones&r erforderlich."
+	]
+	quest.4578C0EE82F66BD9.title: "Tier I Rituals"
+	quest.459BA85E48B343AE.quest_desc: ["Das &9Radial Chassis&r kann ähnlich wie der &9Super Kleber&r verwendet werden. Es verbindet Blöcke in einer Linie an den Seiten, ohne dass Klebstoff erforderlich ist."]
+	quest.45B669ABB5861286.quest_desc: ["Produziert &5Source&r mit den Tränken, die im &9Potion Jar&r liegen."]
+	quest.45B669ABB5861286.quest_subtitle: "Tränke"
+	quest.45FF08E4DB6F7F0E.quest_desc: [""]
+	quest.461628E58BE144DD.quest_desc: ["36 blocks range."]
+	quest.4629B0D4BE94A046.quest_desc: ["Sammle 32 Knochenmehl um es abzugeben. Alternativ kannst du auch direkt Blumendünger (Floral Fertilizer) craften."]
+	quest.4629B0D4BE94A046.quest_subtitle: "Mit Blumendünger kannst du Blumen von Botania erhalten."
+	quest.4629B0D4BE94A046.title: "&aDünger der &bMagier&a?"
+	quest.4641C0667AF98749.title: "Max Entities"
+	quest.46535890DCA0D5BD.quest_desc: ["&2Inferium Essence&f is needed to craft every tier 1 seed in the mod."]
+	quest.4665E6FD0AAED164.quest_desc: ["Beim Tod: Du behältst deine Rüstung und deine Hotbar"]
+	quest.467CDD14AE21A850.quest_subtitle: "Erhöht Effizienz vom Treibstoff"
+	quest.468E1061F2EDDDB9.quest_desc: ["The start of your journey begins with this book."]
+	quest.468F2787CB83E147.quest_subtitle: "Kann man es Sieben?"
+	quest.469443A3BA0C3BEE.quest_desc: ["Macht aus Flüssigkeiten Blöcke/Items"]
+	quest.469663FE3DA932EF.quest_desc: ["Kombiniert Flüssigkeiten mit Items"]
+	quest.46CDC29AAFE96DD9.quest_desc: ["Wirf Geladenes Certus Quarz, Redstone und Quarz in Wasser."]
+	quest.46D6501D0C42EE09.quest_subtitle: "Kann bis zu 51 Blöcke weit alle Items in den Drawers erkennen"
+	quest.471FA44E62BE9AD6.quest_desc: [
+		"Stelle einen Runenaltar her."
+		""
+		"Um ihn mit Mana zu befüllen, muss ein Manaverbreiter neben ein Manabecken gestellt werden. Mit dem Stab kann der Verbreiter dann auf den Altar gerichtet werden."
+	]
+	quest.471FA44E62BE9AD6.quest_subtitle: "braucht Mana"
+	quest.47223A6661E69970.quest_desc: ["Das ist jetzt einer zu viel..."]
+	quest.47223A6661E69970.quest_subtitle: "Ihr seid echt verrückt."
+	quest.47A6769B6BF1A46D.quest_desc: ["Der &9Funnel&r kann Artikel aus verbundenen Inventaren importieren oder exportieren."]
+	quest.47B985B56C582D6A.quest_desc: ["Erhöht die Fließgeschwindigkeit von LP in und aus dem Altar beim Pumpen zu und von einem externen Tank um 20 % pro Rune."]
+	quest.47FC5051D0C5CC8D.quest_desc: ["Wirf Redstone / Schwarzpulver / Zucker / Glowstone oder einen Farbstoff in das Manabecken"]
+	quest.481FB6920663DC3F.quest_desc: ["27 blocks range."]
+	quest.4844DEF57A2287B4.quest_desc: [""]
+	quest.485AFAE5BBEF2FC7.title: "Tiere"
+	quest.487275B970530E3F.quest_desc: [""]
+	quest.487275B970530E3F.quest_subtitle: "Lagert 256 Demon Will"
+	quest.488DBE69595F38F8.quest_desc: [
+		"Schmelzt Items"
+		""
+		"Kann Upgegraded werden, um bis zu 9 Slots zu haben."
+	]
+	quest.48BE7DAC5082044D.quest_desc: ["Der &9Stressometer&r zeigt beim Anschließen an, wie belastet das System ist."]
+	quest.48DAD120F5F9180B.quest_desc: ["Wirf eines der beiden Items 4x in den Blütenapotheker und am Ende einen Samen dazu."]
+	quest.48DAD120F5F9180B.quest_subtitle: "Verwandelt leblose Blöcke in Lebende"
+	quest.48DAD120F5F9180B.title: "Reines Gänseblümchen"
+	quest.48E7EDF3E6C65541.quest_desc: ["Zünde Bedrock an und warte."]
+	quest.48F60CA2E6B4862F.quest_desc: ["Wirf einen Eisenbarren in das Manabecken"]
+	quest.49675EA8CBCA1388.quest_desc: [
+		"Ab jetzt brauchst du keine anderen Tools mehr :) "
+		"Ersetzt Spitzhacken, Schaufeln und Äxte"
+	]
+	quest.49675EA8CBCA1388.quest_subtitle: "Mekanism's All in one Tool"
+	quest.49713D0D3183D2E9.quest_desc: ["Grants:\\n\\n - Absorption II (3:00)\\n - Speed II (3:00)\\n - Resistance II (3:00)\\n - Regeneration II (3:00)\\n - Strength II (3:00)\\n - Haste II (3:00)"]
+	quest.4978A9B616362CCE.title: "&aRang 2&r: Mehr &cBlut&r"
+	quest.49AEA2D4E589C37D.quest_desc: ["The Flechting Table has so far only been used for Villager jobs. And the Player you asked ?? You can now use the Fleching Table instead of the crafting table to make arrows with potion effects in a cooler and more professional way."]
+	quest.49F57CE3B472FF6D.quest_desc: [
+		"Es gibt verschiedene Runentypen, die die Funktionsweise eines Altars verändern können."
+		""
+		"&9Speed Runen&r erhöhen beispielsweise die Geschwindigkeit aller Herstellungsvorgänge im Altar um 20 % pro Rune."
+	]
+	quest.4A08FA961366B72F.quest_desc: ["You will be needing to craft an &3Infusion crystal&f to upgrade your &2Inferium essences&f into higher tiers. You can use it up to 1000 times."]
+	quest.4A0C07A5CDA8C24F.quest_desc: ["What does this book do?"]
+	quest.4A0C07A5CDA8C24F.title: "Getting started"
+	quest.4A0CE9F3E4825DF2.quest_desc: ["Mythical Affixes are the most powerful stats you can acquire, and Mythical Weapons are your ultimate goal. Best of luck in obtaining one!"]
+	quest.4A0CE9F3E4825DF2.title: "&#028EFFT&#028EFFh&#028EFFe &#028EFFW&#028EFFo&#028EFFr&#028EFFl&#028EFFd&#028EFFs &#028EFFB&#028EFFe&#028EFFs&#028EFFt"
+	quest.4A198E875A6B0A64.quest_desc: [""]
+	quest.4A38F33347AA742F.quest_subtitle: "Alle Seeds/Saplings nur für 1 Emerald"
+	quest.4A38F33347AA742F.title: "Market"
+	quest.4ACC81F43B1E0589.quest_desc: ["Kombiniert magische Items, verbessert Zaubersprüche und kann die Sprüche auf ein Schwert binden."]
+	quest.4AEF4EECF33AAD14.quest_desc: ["Kühlkörper ermöglichen ein schnelleres Aufladen der Railgun und damit eine schnellere Zerstörung."]
+	quest.4AEF4EECF33AAD14.quest_subtitle: "The wheel turns and the world moves on."
+	quest.4B51189C36B8D291.quest_desc: [
+		"Um noch mehr Gegenstände aus Blut herzustellen, musst du den Altar aufwerten, indem du ihn mit &9Blank Runes&r umgibst."
+		""
+		"Du kannst die &9Blank Runes&r auch durch Runen wie die &9Speed Rune&r ersetzen. Diese Runen können die Funktionsweise des Altars beeinflussen."
+	]
+	quest.4B51189C36B8D291.quest_subtitle: "Verbesserung des Altars"
+	quest.4B51189C36B8D291.title: "Stufe 2"
+	quest.4B95D48D7525FFAD.quest_desc: [
+		"In den Sümpfen findest du einen seltsam aussehenden Hügel mit einem Eingang oben. Das ist das Minoshroom Labyrinth."
+		""
+		"Im Inneren kämpfst du gegen mehrere neue Feinde, die den &9Maze Map Focus&r fallen lassen können. Dies wird benötigt, um eine &9Maze Map&r herzustellen."
+	]
+	quest.4BC0EAB22F27D563.quest_desc: ["1"]
+	quest.4BC0EAB22F27D563.title: "Ingnore All Conditions"
+	quest.4BDE773C3359D584.quest_desc: [
+		"Kann nur auf einem &9Charge Pad&r platziert werden."
+		""
+		"Kann als Ofen, Werkbank, Amboss und zusätzliches Inventar verwendet werden."
+	]
+	quest.4C31649D721F76B5.quest_desc: [
+		"Der &9Harvester&r erntet alle Felder, die er überfährt. "
+		""
+		"Wenn es über ein angeschlossenes Inventar verfügt, werden die Items darin gelagert."
+	]
+	quest.4C72612F4538267A.quest_desc: ["Great for smelting a ton of items!"]
+	quest.4CD83943865018EA.quest_desc: ["Wird verwendet um Items aus deinem System in einen anderen Block zu ziehen. (zb. einen Ofen)"]
+	quest.4D21AD7F87D068DF.quest_subtitle: "Steigert die Lagerkapazität umd das 2 Fache"
+	quest.4D4AB60B3B1CD437.quest_desc: [
+		"Diese Rüstung wird beim Craften automatisch Verzaubert."
+		""
+		"Es gibt keinen Helm und keine Schuhe von dieser Rüstung."
+	]
+	quest.4D4AB60B3B1CD437.title: "Naga Scale Rüstung"
+	quest.4D63863B21199315.quest_desc: ["Those who wander around to cast stronger spells will often be seen wearing blue fabric like armor."]
+	quest.4E2ECE4A1E39F480.quest_subtitle: "Chopper"
+	quest.4E71F85CE9E89247.quest_subtitle: "Sendet ein Signal wenn eine Bestimmte menge ereicht ist"
+	quest.4EA030F6669F5A62.quest_desc: ["Nutze eine &2&lSilk Touch&r&r Pickaxe, um den Spawner abzubauen"]
+	quest.4EA4EDD5A7923F98.quest_desc: ["Der &9Weighted Ejector&r kann Items oder Kreaturen an einen ausgewählten Ort schleudern."]
+	quest.4EA8BA9753D0DD81.quest_desc: [
+		"Diese Maschine kann verschiedene Arten von Stein erzeugen."
+		""
+		"Platziere Lava an eine Seite und Wasser an die andere. Jetzt Produziert es &9Cobblestone&r. Für weitere Rezepte, kannst du einfach \"U\" auf den Block drücken."
+	]
+	quest.4EA8BA9753D0DD81.quest_subtitle: "Steingenerator"
+	quest.4EBED8ABC8C863A4.title: "&aRang 3&r: Noch mehr &cBlut&r"
+	quest.4EDD96EB60EF5814.quest_desc: ["Du brauchst noch mehr Strom? Dieses Upgrade ist eine gute Lösung für dein Problem :)"]
+	quest.4F429D328EB0DB81.quest_subtitle: "Veringert den Lagerspeicher um 1 Stack"
+	quest.4F4EB779CF918EAF.quest_desc: [
+		"Produziert &5Source&r durch Beeren, die in der nähe wachsen."
+		""
+		"In einem Umfeld von 3x3 wächst Myzel"
+	]
+	quest.4F4EB779CF918EAF.quest_subtitle: "Essen"
+	quest.4F95F00ED78FBAB9.quest_desc: ["Mit der Brille siehst du die Rotationsgeschwindigkeit und Spannung."]
+	quest.4FCF92036016111E.title: "Tertium armor"
+	quest.500ECD42563E2C44.quest_subtitle: "&aDieses Schwert ist wie von den Sternen gerufen "
+	quest.500ECD42563E2C44.title: "Willkommen zu Terraria"
+	quest.506D48AD9FB2E89D.quest_desc: [
+		"Bevor du die &cHellfire Forge&r herstellen kannst, musst du eine Möglichkeit finden, sie mit Energie zu versorgen. Funktioniert am besten mit &9Demon Will&r"
+		""
+		"Um mit dem Sammeln zu beginnen, musst du einige &9Seelenschlingen&r herstellen."
+		""
+		"Diese kannst du dann auf eine Kreatur werfen. Wenn weiße Partikel erscheinen, kannst du die Kreatur töten."
+	]
+	quest.50A28E1946047A6E.quest_desc: [
+		"Tau-Früchte können aus Truhen in der neuen Dimension erhalten werden. Wird benötigt um den Altar weiter zu verbessern."
+		""
+		"Wenn du die Früchte hast, kannst du sie Anpflanzen. Es gibt jedoch zwei potenzielle Produkte."
+		""
+		"Versuche der Pflanze etwas Blut zu geben."
+	]
+	quest.5123025AF0E02E61.quest_desc: [
+		"Einfache Lagerung von Massenartikeln. Artikel werden oben eingegeben und unten entnommen."
+		""
+		"Wenn Sie ein Redstone-Signal auf den unteren Block anwenden, wird dieser automatisch ausgegeben."
+	]
+	quest.5123025AF0E02E61.title: "Item Silo"
+	quest.5158F7AEB7EAB066.quest_desc: ["Hier kannst du Zaubersprüche draufschreiben mithilfe des &9Scribes Table&r"]
+	quest.515A60B89ED5440D.quest_subtitle: "Generiert Stein"
+	quest.51B24CC5E9332C1E.quest_desc: [
+		"Wenn du eine Kreatur tötest, kann es passieren, dass ein &5Rache Geist&r spawnt. "
+		""
+		"Um eine höhere Chance für die &5Geister&r zu bekommen, kannst du den &9Vengeance Ring&r craften."
+	]
+	quest.51B24CC5E9332C1E.title: "Rache der &dGeister&r"
+	quest.51B7F2FFF9FC34CA.quest_desc: [
+		"&2Growth Accelerators&f are used to let your plants grow faster. "
+		"You can stack up to 9 "
+		"&2Growth Accelerators&f on top of each other. You must place them all under a plant to be able to work."
+	]
+	quest.51BC981AB4CFAD95.quest_desc: [
+		"Eine besondere Spitzhacke, die in Labyrinthen selten zu finden ist."
+		""
+		"Diese Spitzhacke erleidet 1 Schaden, wenn Labyrinthwände durchbrochen werden, statt der 16 Schadenspunkte aller anderen Spitzhacken."
+	]
+	quest.51EA6B1452883AB2.quest_desc: ["Das &9Lineare Fahrwerk&r kann ähnlich wie der &9Super Kleber&r verwendet werden. Es verbindet Blöcke in einer Reihe, ohne dass Klebstoff erforderlich ist."]
+	quest.51FE1514A4D20043.quest_desc: ["Platziere die Hergestellte Blume und stelle die Holzblöcke und die Steinblöcke um der Blume herum auf. (Es funktioniert jede Holzart, es muss aber ein Stamm sein. Beim Stein muss es der eine sein)"]
+	quest.51FE1514A4D20043.title: "Verwandlung"
+	quest.52DFEA36FFFBCDD5.quest_desc: [
+		"Eine zuverlässige Seitenwaffe, die für jeden Revolverhelden geeignet ist."
+		""
+		"Platzieren Sie sie in der Werkbank eines Ingenieurs, um Erweiterungen hinzuzufügen oder zu entfernen."
+	]
+	quest.52DFEA36FFFBCDD5.quest_subtitle: "First comes smiles, then lies. Last is gunfire."
+	quest.53053EF46849DC2A.quest_desc: [
+		"Um ein Ritual auszuführen, benötigst du ein &9Tablet of ...&r."
+		""
+		"Damit machst du rechtsklick auf den &9Ritual Brazier&r"
+	]
+	quest.531E3FF1F2865C67.quest_subtitle: "Transportiert Hitze"
+	quest.532229D285CA4858.quest_desc: ["Wird verwendet um Items von einem verbundenen Block ins System zu ziehen."]
+	quest.5361F72BAB72D318.quest_desc: [
+		"Damit kannst du von anderen das Blut verwenden."
+		""
+		"Wenn du einen Mob innerhalb von 2 Blöcken um deinen Altar mit dem Messer schlägst, stirbt es sofort und die LP werden in den Altar geleitet."
+	]
+	quest.53A79338994088FD.quest_desc: ["Bekommst du von der Schneekönigin. Schießt 3 Pfeile aufeinmal, verbraucht aber nur einen."]
+	quest.540B857F043C24D5.quest_desc: [
+		"Reaktor: Verarbeitet Organische Materialien zu Biofuel"
+		""
+		"Generator: Verbrennt Biofuel und Produziert RF"
+	]
+	quest.540B857F043C24D5.title: "Bio Strom"
+	quest.542204BFBEACB96E.quest_desc: ["The &5ender power &fflowing inside you will be noticed from now on."]
+	quest.546222019B6470BA.quest_desc: ["Das Hinzufügen von etwas Schmiermittel zu einem Bohrer oder einer Säge, die für robuste Grabarbeiten und das Schneiden von hartem Material bestimmt sind, kann die Lebensdauer des Werkzeugs erheblich verlängern."]
+	quest.549DF401A15F81ED.quest_subtitle: "Zeigt an wie voll ein Drawer ist"
+	quest.55188348E3AA9951.title: "Supremium Tools"
+	quest.55451EB47BCFBF31.quest_desc: ["I feel almost as steady as something in the &4Nether&f."]
+	quest.55820773BDD5319D.title: "Industrial Foregoing"
+	quest.55967A80E68D3201.quest_desc: ["The infusion altar will be your best friend in this mod. It is used for getting all the seeds you need."]
+	quest.55ADB01F3C9FF9A4.title: "Prudentium armor"
+	quest.55C8DD9A754545BD.quest_desc: ["Pulverisiert Erze in Pulver. Hat eine 25% Chance, ein extra Pulver zu generieren."]
+	quest.55F12D063F9D9430.quest_desc: ["Durch das töten von bestimmten Kreaturen kannst du 4 unterschiedliche &9Element Shards&r bekommen."]
+	quest.55F12D063F9D9430.title: "ElementalCraft"
+	quest.5619EF8C3300D184.quest_desc: ["Übersteht Explosionen und den Wither"]
+	quest.56353853075B8AEA.quest_desc: ["Stelle eine Endoflamme her indem du die benötigten Items in den, mit Wasser befüllten, Blütenapotheker wirfst. Am Ende muss noch ein Samen dazu geworfen werden."]
+	quest.56353853075B8AEA.quest_subtitle: "Produziert Mana mit brennbaren Items"
+	quest.5780EFCF4644C69C.quest_desc: [
+		"Um ein Terrastahl herzustellen, wird sehr viel Mana benötigt. "
+		""
+		"Platziere die Sparks auf die Terrestrisch Agglomerationsplatte und auf ein Manabecken."
+	]
+	quest.5780EFCF4644C69C.title: "Sparks"
+	quest.57940981E8DE55D4.quest_desc: ["In der nähe von Obsidian Türmen, findest du Raben."]
+	quest.57940981E8DE55D4.title: "Raven Feathers"
+	quest.57A7A5C79389A96A.quest_desc: ["Wenn du mehr über ein Item wissen möchtest, kannst du einfach W darauf gedrückt halten."]
+	quest.57C4A0BAE739E903.quest_desc: ["Wird für neue Rezepte benötigt"]
+	quest.57E80545B8DE8F47.quest_desc: ["I feel like my hands are on fire..."]
+	quest.580B0DC9027C652D.quest_desc: [
+		"IHR WOLLT MEHR GLÜCK?"
+		""
+		"IHR BEKOMMT MEHR GLÜCK!"
+	]
+	quest.5821D39C01B08A90.quest_desc: ["The nature powers are yours to be controlled now."]
+	quest.587A19FC348387C5.quest_desc: ["Kombiniert Gas, Items und Flüssigkeiten um neue Items zu produzieren. Produziert auch Nebenprodukte."]
+	quest.5886C648D14180E1.quest_desc: [
+		"Um den Altar auf Stufe 3 zu verbessern, musst du insgesamt 28 Runen besorgen."
+		""
+		"Wie der Altar genau gebaut wird, kannst du am besten im Buch nachschauen unter \"Blood Altars\" -> \"The Blood Altar\"."
+		""
+		"&cHinweis&r: Du kannst im Buch auf \"visualize\" (Auge im Bild) drücken, dann einen Block rechtsklicken um dann einen Bauplan zu sehen."
+	]
+	quest.5886C648D14180E1.quest_subtitle: "Verbesserung des Altars"
+	quest.5886C648D14180E1.title: "Stufe 3"
+	quest.58A63698E34B0A14.quest_desc: ["Wird verwendet um deine Zaubersprüche zu verwenden."]
+	quest.58B125BD4876054C.quest_desc: ["Osmium wird für sehr viele Dinge in Mekanism benötigt."]
+	quest.58B125BD4876054C.title: "&dMekanism&r"
+	quest.58BD1063A19777DC.quest_desc: ["Töte ein paar Trolls um Zauberbohnen zu erhalten."]
+	quest.58BD1063A19777DC.title: "Besuche die Riesen"
+	quest.58C6BAC128155B4E.quest_subtitle: "Erhöht den Gewinn von Nebenprodukten, verbraucht mehr Energie"
+	quest.59036A2741E7A8AA.quest_desc: [
+		"Du willst eine Kreatur mit einem Spawnei erschaffen? Mit dieser Maschine ist es möglich!"
+		""
+		"Du brauchst dafür nur Blut, ein Ei und eine Box mit der Kreatur, die du als Ei haben möchtest."
+		""
+		"&cWichtig:&r Nicht alle Kreaturen können zu Spawneier umgewandelt werden."
+	]
+	quest.59036A2741E7A8AA.title: "Erstelle &9Mob Spawneier&r"
+	quest.5963FBEB78A79668.quest_desc: ["Kann für die Plattenherstellung verwendet werden."]
+	quest.59B40B497E3C1863.quest_desc: ["Be aware of the shadows."]
+	quest.59E1B884DA49DE4D.quest_desc: [
+		"Manapylon kann für den Zaubertisch als Bücherregal ersatz verwendet werden. 2 davon reichen aus um level 30 Verzaubern zu können. "
+		""
+		"Naturapylon wird benötigt, um das Portal zu aktivieren."
+		"2 Naturapylonen auf 2 volle Manabecken platzieren. Rechtsklick mit dem Stab des Waldes auf den Weltenbaumextrakt."
+	]
+	quest.59F5ED931FD70C55.quest_desc: ["&9Patterns&r brauchst du um Rezepte für Autocrafting zu erstellen."]
+	quest.59F5ED931FD70C55.title: "Autocrafting"
+	quest.5A46DB43D2EB0A0C.title: "Elementare Erz Verdopplung"
+	quest.5A75FFC20E5C705A.title: "Redstone active"
+	quest.5ADDFEF29302E145.quest_desc: ["You'll need to use Soulium to make the Soulium Dagger and Soul Jars. Using the dagger to kill mobs, you'll be able to gather their souls, which are used in the Infusion Altar to create the respective mob seeds."]
+	quest.5B36DE3826F26963.quest_desc: ["&9Shafts&r sind dafür da, Rotationsenergie zu transportieren und Maschinen miteinander zu verbinden. "]
+	quest.5B681BC43371CC5C.quest_subtitle: "Transportiert Items"
+	quest.5B9262DF5C61E29E.title: "(Better) Reforing Table"
+	quest.5BF29A151A04FEF0.quest_desc: [
+		"Der &cWeak Blood Orb&r wird zur Speicherung von &cBlut&r (oder LP) verwendet oder für Rezepte."
+		""
+		"Um es herzustellen, musst du einen Dia auf dem &4Blutaltar&r platzieren. Er saugt das Blut aus dem Altar auf und verwandelt sich dann sobald er genug Blut hat."
+	]
+	quest.5BF29A151A04FEF0.quest_subtitle: "Holds a max of 5k LP"
+	quest.5BF29A151A04FEF0.title: "Portable Blood Storage"
+	quest.5C423795EE5AE9FA.quest_desc: ["Exportiert Items aus dem ME System"]
+	quest.5CBA8C89FE717B9C.quest_desc: ["Mit der Riesenspitzhacke kannst du in den Troll Höhlen &9Giant Obsidian&r finden und abbauen. Daraus bekommst du verschiedene Items."]
+	quest.5D17ABD8DEA5C1D3.quest_desc: ["Gibt dir unendlich Reichweite auch über andere Dimensionen hinweg"]
+	quest.5D39C9CF0365FC71.quest_desc: ["Wird für den &9 Enchanting Apparatus&r und für den &9Ritual Brazier&r benötigt."]
+	quest.5D85D503B1F4FB43.quest_desc: ["Mit dem Iron Mesh kannst du dir Redstone besogen! Fragst dich wie? Ganz einfach statt Gravel einfach Dust hineingeben."]
+	quest.5DC892BA79EB52EC.quest_desc: ["Der &9Mixer&r kann in Kombination mit dem Becken zum herstellen von Items verwendet werden."]
+	quest.5E029A2BA469F42D.quest_subtitle: "Lagert Elemente"
+	quest.5E029A2BA469F42D.title: "Small Elemental Storage"
+	quest.5E116409DC7D30BB.quest_desc: ["Damit kannst du einige Maschinen drehen. Du kannst ebenfalls Kabel einstellen, ob sie etwas rein oder raus holen sollen."]
+	quest.5E116409DC7D30BB.quest_subtitle: "Mekanism's Wrench"
+	quest.5E2CB036B00758AE.quest_desc: [
+		"&6Teleposition Sigil&r – Teleportiert den Benutzer zum Preis von 1000 LP zu einem verbundenen Teleposer. Du kannst wenn du Shift gedrückt hältst mit dem Siegel auf einen Teleposer klicken, um den Standort festzulegen."
+		""
+		"&9Suppression Sigil&r – Du kannst Flüssigkeiten in einem Radius von 6 Blöcken von dir wegdrücken."
+	]
+	quest.5E2D15E4A410B5DA.quest_desc: ["Versuche eine Kreatur auf die Pflanze zu bringen. Die Pflanze zieht aus der Kreatur Blut."]
+	quest.5E61474A5CA05CBC.quest_desc: [""]
+	quest.5E6BFCE92C0AE433.quest_subtitle: "Crafte mich mit 3 weiteren zusammen"
+	quest.5E6FEF5A1CF4D18C.quest_desc: [
+		"Affixed Weapons: Identification and Features"
+		""
+		"Affixed Weapons have long names that usually include the weapon type and the previous owner. They are colored according to their rarity (green for uncommon, blue for rare, etc.) and often come with bonus stats or an enchantability increase."
+	]
+	quest.5E6FEF5A1CF4D18C.title: "Affixed Items"
+	quest.5ECC93FB8F676E3F.quest_desc: ["Benötigt Treibstoff (zb. Kohle) um &9Coal Coke&r zu Produzieren."]
+	quest.5F385CBA98795C62.quest_desc: ["Wird für die meisten Maschinen benötigt"]
+	quest.5F6235F86AF32A4F.quest_desc: ["Diese Bäume findest du in der Overworld"]
+	quest.5FDEAA78891874FD.quest_desc: ["Lädt Items auf, die darin Platziert werden"]
+	quest.5FDEAA78891874FD.quest_subtitle: "Items aufladen"
+	quest.600F66B13B29708B.quest_desc: ["Mit dem Fleisch von einem &aSpieler&r oder eines &dWerwolfs&r kannst du dir eine unendliche Essensquelle erschaffen."]
+	quest.607D592CE102C82E.title: "Knightmetal Tools"
+	quest.6092490EC9008A05.quest_desc: [""]
+	quest.6092490EC9008A05.quest_subtitle: "Baut Blöcke ab"
+	quest.60FC2DAEA954A849.quest_desc: [
+		"Dieser Gegenstand ist wie ein Fackelwerfer. Es schleudert &9Moonworms&r auf den Zielblock, die den Block zum Leuchten bringen."
+		""
+		"Findest du in Truhen die im Hollow Hill und im Lich Tower stehen."
+	]
+	quest.610DEC4FC4FBB63E.quest_desc: [
+		"Das kannst du herstellen, indem du einen &9Rosenkristall&r und &9Sandpapier&r herstellst."
+		""
+		"Die &9Rosenkristalle&r kannst du einfach auf den Boden werfen und mit dem &9Sandpapier&r rechtsklick gedrückt halten."
+	]
+	quest.610F9E9D0B5131C7.quest_desc: ["Beim Tod: Verhindert das du deine Rüstung und die Items in deiner Main und Offhand verlierst."]
+	quest.61166EEA922D8AD5.quest_desc: ["Wenn du bessere Zaubersprüche machen möchtest, brauchst du diesen Tisch."]
+	quest.6139D9E826D66CA9.quest_desc: ["COME HERE MY MINIONS"]
+	quest.616CFD4078D67B51.quest_subtitle: "Transportiert Items"
+	quest.61BCE8789E5D74D5.quest_subtitle: "Noch schnellerer Transport"
+	quest.61E2FC5D363A5CA4.quest_subtitle: "Verringert Energie verbrauch und Geschwindigkeit"
+	quest.62625CAF6649AB53.quest_desc: ["Wenn du keine &9Festplatten&r magst, kannst du stattdessen diesen Block verwenden."]
+	quest.626C07DB8B8C5A04.quest_desc: [""]
+	quest.626C07DB8B8C5A04.quest_subtitle: "Lagert 1024 Demon Will"
+	quest.627D6FDC3D8C42F6.quest_desc: ["Konvertiert Flüssigkeiten in Items oder in andere Flüssigkeiten."]
+	quest.62A262A706CFCAF0.quest_desc: [
+		"Der vorherige Prozess war etwas aufwändig für die neuen Gems oder?"
+		"Hier ist ein Besserer Weg :)"
+		""
+		"Wenn du in diese Maschine einen &0Dark Gem&r reinlegst, wird er verwandelt. Deutlich Effizienter als der vorherige Weg :)"
+	]
+	quest.62CE0FFAF6352287.quest_desc: [
+		"EvilCraft Maschinen können mit &9Promises&r verbessert werden. Jedes &9Promise&r hat andere Effekte."
+		""
+		"Bevor etwas damit verbessert werden kann, brauchst du einen &9Promise of Tenacity: Tier 1&r. Normalerweiße erhöht es nur den Speicherplatz von Blut, aber beim &cBlood Infuser&r schaltet es neue Rezepte frei."
+	]
+	quest.62CE0FFAF6352287.title: "&aVerbesserung der Maschinen&r"
+	quest.63AE4568375DD1BF.quest_desc: ["Mit &dGarmonbozia&r kannst du jetzt deinen eigenen &aEnvironmental Accumulator&r herstellen. "]
+	quest.63C12978A59528F6.quest_desc: ["Your religious nature will shine brighter than ever with this armor!"]
+	quest.643C1D223ED82B7B.quest_desc: ["Durch das Sieben erhält ihr Rohstoff-\"Pieces\". Diese könnt ihr z.B. im Inventar zusammen Craften, um Schmelzbare Rohstoffe zu erhalten."]
+	quest.649B2BE167E09F11.quest_desc: ["The Augmenting Table doesn’t run on just anything – it needs Sigils of Enhancement as fuel."]
+	quest.649B2BE167E09F11.title: "&#FF7C00S&#FF7C00i&#FF7C00g&#FF7C00i&#FF7C00l &#FF7C00o&#FF7C00f &#FF7C00E&#FF7C00n&#FF7C00h&#FF7C00a&#FF7C00n&#FF7C00c&#FF7C00e&#FF7C00m&#FF7C00e&#FF7C00n&#FF7C00t"
+	quest.64E85274D24FE394.quest_desc: ["Zeigt dir die aktuelle Zahl eines Items im System an."]
+	quest.64EC182B81BD8B86.quest_desc: [
+		"Du brauchst mindestens 5 Eimer Blut in dem &cBlood Extractor&r. "
+		""
+		"Baue dir ein Loch mit 5 freien Feldern. Dort Platzierst du jetzt das &cBlut&r. "
+		"Zum Schluss musst du nurnoch einen &0Dark Gem&r reinwerfen."
+	]
+	quest.65043E0B6CB2D5D0.quest_desc: ["Diesen Block stellst du her, indem du einen normalen Certus Block zusammen mit Geladenem Certus Quarz in Wasser wirfst."]
+	quest.650F8ED52289B8AC.quest_desc: ["Ein außergewöhnliches Schneidegerät, mit dem sich Blöcke aus Stein, Eis oder Glas sauber herausschneiden lassen und das effektiv als Werkzeug mit seidenartiger Berührung fungiert."]
+	quest.650F8ED52289B8AC.quest_subtitle: "A Clean Job"
+	quest.6543C50443C20195.quest_desc: ["Dont fall down..."]
+	quest.655FEC29C624F44A.quest_desc: ["&2Inferium seeds &fwill give you &2inferium essence&f. And you will be needing a ton of it."]
+	quest.65C147F5282E8FCD.quest_desc: ["Lädt die Infinity Items mit Strom auf"]
+	quest.65C8A43FEDBA3835.quest_desc: [""]
+	quest.6710934AE2013C55.title: "Supremium armor"
+	quest.675DC7C92B2A8757.quest_desc: ["Platziere Lapis oder Amethysten in den &9Imbuement Chamber&r. Daraus werden dann &5Source Gems&r"]
+	quest.677B4FD0F8D8EFBD.quest_desc: ["Jetzt könnt ihr einen Barrel mit Wasser füllen und mit einem Dust rechtsklicken."]
+	quest.677B4FD0F8D8EFBD.title: "Clay"
+	quest.67959A83195EAA69.quest_desc: ["Wirf eine Enderperle in das Manabecken"]
+	quest.679B3A0DC388CFD9.quest_desc: ["18 blocks range."]
+	quest.68318811CCC28320.quest_desc: ["Dieses Item ist eines der Hauptbestandteile zum craften weiterer Maschinen."]
+	quest.683213567D8A52AB.title: "Unendlich Cobble/Wasser"
+	quest.683369EB142A2638.quest_desc: ["What is this book?"]
+	quest.683369EB142A2638.title: "Getting started"
+	quest.687C9701A98F050B.quest_desc: ["Von Hochleistungslampen und Aushubwerkzeugen bis hin zu Revolvern und Schienenkanonen bietet Immersive Engineering für nahezu jede Aufgabe das passende Werkzeug."]
+	quest.687C9701A98F050B.title: "Tools and Utility"
+	quest.688C911ECFB2F134.quest_desc: [
+		"Im Dunklen Wald ist der Dunkle Turm."
+		""
+		"Um einzutreten, suche nach den wieder auftauchenden Blöcken an der Basis. Finde den Weg durch das Labyrinth bis zur letzten Etage, um gegen den Ur-Ghast zu kämpfen."
+		""
+		"Am besten im Fernkampf bekämpfen. Auf der Boss-Etage gibt es 4 Ghast Fallen, mit denen man dem Ur-Ghast Schaden zufügen kann."
+	]
+	quest.6904EC449FBEE387.quest_desc: ["&9Kabel&r werden verwendet um Maschinen mit deinem System zu verbinden."]
+	quest.690A7E4B737DC711.quest_desc: ["Du kannst die Flasche auf den Stein in der Mitte werfen (aus dem der Strahl kommt), um das aktuelle Wetter in ein Glas zu bekommen."]
+	quest.69302BB89FD09549.quest_desc: [
+		"Einfache Lagerung von Flüssigkeiten in großen Mengen. Flüssigkeiten werden oben zugeführt und unten entnommen."
+		""
+		"Wenn Sie ein Redstone-Signal an den unteren Block anlegen, wird die Ausgabe automatisch durchgeführt."
+	]
+	quest.69302BB89FD09549.title: "Fluid Tank"
+	quest.69C4E9422B0C695A.quest_desc: [
+		"Die Railgun ist eine gefährliche Waffe, da sie Geschosse mit enormer Geschwindigkeit abfeuern und Ziele ungestraft in Stücke reißen kann."
+		""
+		"Zur geeigneten Munition gehören Eisen- und Stahlstangen sowie Graphitelektroden und vieles mehr."
+		""
+		"Platzieren Sie sie in der Werkbank eines Ingenieurs, um Erweiterungen hinzuzufügen oder zu entfernen."
+	]
+	quest.69C4E9422B0C695A.quest_subtitle: "See the TURTLE, ain't he keen?"
+	quest.69CCE63FCDE46FC2.quest_desc: [
+		"Hier kannst du &9Source Gems&r herstellen."
+		""
+		"Es produziert von sich selbst aus eine kleine Menge &5Source&r. Kann schneller durch einen &9Source Jar&r betrieben werden."
+	]
+	quest.6AAB831CB3FB536A.quest_desc: ["Wenn du einen Stein im Altar platzierst, werden leere Schiefertafeln erstellt. Benötigt 1000LP"]
+	quest.6B04FC81351CD1AB.quest_desc: [""]
+	quest.6B04FC81351CD1AB.quest_subtitle: "Wireless System"
+	quest.6C001E18093FC037.quest_subtitle: "Anbauen und Ernten"
+	quest.6C001E18093FC037.title: "Pflanzen"
+	quest.6C0D4CBC089988ED.quest_desc: ["Erhöht die Kapazität des Altars um einen multiplikativen Betrag von 7,5 % pro Rune."]
+	quest.6C25D42C36175BF4.quest_desc: [
+		"1 Rohes Erz wird zu 2 Klumpen verarbeitet. Um daraus Barren zu bekommen, müssen die Klumpen zuerst durch einen &9Crusher&r, danach durch den &9Enrichment Chamber&r und zum Schluss muss es nur noch geschmolzen werden."
+		""
+		"Benötigt Sauerstoff um zu funktionieren. "
+		"Sauerstoff bekommst du, indem du Wasser in einen &9Electrolytic Separator&r packst."
+	]
+	quest.6C57FF70679AF123.quest_desc: [
+		"Erzeugt einen internen Puffer von 1000 LP, wenn der Altar nicht zum Herstellen oder Füllen von Blutkugeln verwendet wird."
+		""
+		"Immer wenn ein Gegenstand in den Altar gelegt wird, verbraucht er sofort die gespeicherte Ladung und wendet sie auf den Gegenstand an."
+	]
+	quest.6C5C1FD516800CDF.quest_desc: ["You are now OP."]
+	quest.6C6547325519CD90.quest_desc: ["Importiert Items in das ME System"]
+	quest.6CB1BFBA10DF24E4.quest_desc: [
+		"Damit kannst du Gegnern Leben entziehen."
+		""
+		"Um das Zepter wieder aufzuladen, kombiniere es mit fermentierten Spinnenaugen."
+	]
+	quest.6CC3DD15C7DB9DDA.quest_subtitle: "Kann bis zu 16 Stacks eines Items lagern"
+	quest.6CD1720B76F47806.quest_desc: ["Verbrennt &9Biofuel&r um Strom zu erzeugen."]
+	quest.6CE4ED7A2642674F.quest_desc: [
+		"Diese Rune erhöht die Menge an LP, die durch Blut von Spielern gewonnen wird."
+		""
+		"Jede Rune gibt einen Bonnus von 10%."
+	]
+	quest.6D185DB13F466B7C.quest_desc: ["Fermentation findet in der einen oder anderen Form schon seit Jahrtausenden statt. Früher ließ man Früchte mehrere Tage lang auf natürliche Weise gären, heute dauert dieser Prozess dank industrieller Magie deutlich weniger Zeit."]
+	quest.6D185DB13F466B7C.title: "Fermenter"
+	quest.6DB1AAAD926486BC.quest_desc: ["Kann als Eimer verwendet werden"]
+	quest.6DB1AAAD926486BC.quest_subtitle: "Speichert Flüssigkeiten"
+	quest.6DF4B859ACBCD408.quest_subtitle: "Erhöht Tank Kapazität"
+	quest.6E63BE5CA3D411F2.quest_desc: ["If you were banished this is just the grimoire for you."]
+	quest.6F67079A453DAABE.quest_desc: [
+		"Dieses Item kannst du nur einmal verwenden. Es verhindert dass du stirbst. "
+		""
+		"Kann nur in Kisten gefunden werden."
+	]
+	quest.6FD41DF7704466A4.quest_desc: [
+		"Durch das Besiegen des Alpha Yeti wird das Gletscherbiom freigeschaltet."
+		""
+		"Oben im Aurora Palast wird die Schneekönigin Eiskristalle beschwören, um sich zu schützen."
+		""
+		"Außerdem lässt sie Eisblöcke niederschmettern, die den Boden zerstören und massiven Schaden anrichten."
+		""
+		"Du kannst nur ihre obere Hälfte treffen, da sie durch Eisblöcke geschützt ist."
+		""
+		"Nachdem du die Schneekönigin besiegt hast, schaltest du den Zugang zu den Highlands frei."
+	]
+	quest.6FF04DD735346BED.quest_desc: ["Verarbeitet Latex zur vorstufe von Plastik"]
+	quest.6FF4F047D8267A50.quest_desc: [
+		"Der Fluid Router ist ein fortschrittlicher Artikelsortierer, der für die Verwendung mit Fluid Pipes entwickelt wurde."
+		""
+		"Auf einer Seite eingefüllte Flüssigkeiten werden in jeden Tank oder jede Flüssigkeitsleitung auf der zum Filter passenden Seite ausgegeben. Wenn eine Flüssigkeit keinem Filter entspricht, wird sie auf die nicht gefilterte Seite umgeleitet."
+	]
+	quest.7026E46FD8B3A81D.quest_desc: [
+		"Fernkampfangriffe sind nicht so effektiv."
+		""
+		"Sobald du ihn besiegt hast, kannst du den nächsten Boss im Dunklen Wald finden."
+	]
+	quest.702CB7261D9176F1.quest_desc: ["Trough this mod Shears an Anvils have new and more Enchantments.                                                              Shears get all normal enchants and 3 new one. Shears can now get Growth Sereum, Chrmoatic Aberation and Workers Exploitation.                                                                         Anvils can now be enchanted with Unbreaking and two new ones!!! Obleritation and Splitting. Both are used on the Anvil to drop it on an Enchanted Book.                                      "]
+	quest.704229E64132FAAE.quest_desc: ["Um einen Blast Furnace aufzubauen, braucht ihr genau 27 Blast Bricks. Diese platziert ihr in einem 3x3x3 Feld, innerhalb eines Chunkes. Am ende mit dem Hammer auf die Mitte rechtsklicken und schon steht euer Furnace. Nun könnt ihr euch Steel herstellen."]
+	quest.704229E64132FAAE.quest_subtitle: "Nun geht es weiter mit Immersive Engineering"
+	quest.7044EAB5EDF32BBC.quest_desc: [""]
+	quest.715E252C7A29606E.quest_desc: ["Farme die Notwendigen Ressource für die nächste Quest"]
+	quest.71B1B53A03A16296.quest_desc: [
+		"Das &9Portable Interface&r arbeitet paarweise. Du musst einen auf der Welt und einen anderen auf einem sich bewegenden Objekt wie einem Minecart platzieren."
+		""
+		"Wenn die beiden Grenzflächen einander zugewandt sind, verbinden sie sich und übertragen Flüssigkeiten untereinander."
+	]
+	quest.7215DE7DCCEA0835.quest_desc: ["Mit besseren Materialien werden größere, leistungsfähigere Maschinen vorbereiten."]
+	quest.7215DE7DCCEA0835.title: "Heavy Machinery"
+	quest.72C1C2CE02DCBDFF.quest_desc: ["Funktioniert mit Lapis, Dias und Emeralds"]
+	quest.72C1C2CE02DCBDFF.quest_subtitle: "Generiert Energie mit Edelsteinen"
+	quest.72DCE154E1714890.quest_desc: [
+		"Die &9Säge&r baut Bäume ab. Es kann auch als Sägewerk genutzt werden. "
+		""
+		"Wenn es über ein angeschlossenes Inventar verfügt, werden die Items darin gelagert."
+	]
+	quest.72F4183F5ECEB474.quest_desc: ["Wenn du den &9Pure Infuser&r platzierst, wird dir angezeigt, wo du die anderen 4 Podeste platzieren musst."]
+	quest.730AF9210F00018E.quest_desc: ["Drop aus dem Minoshroom. Beim Sprinten verursacht es mehr Schaden."]
+	quest.73601458FDC51B7B.quest_subtitle: "Kann Drawers öffnen oder schließen"
+	quest.74200A48498DD7F8.quest_desc: ["Produziert Strom durch Sonnenlicht"]
+	quest.744842B2AED28344.quest_desc: ["Hiermit kannst du Wireless auf dein System zugreifen."]
+	quest.748284A3CE93AB12.quest_desc: ["Apotheosis changes the normal and boring growth height of Sugarcane Cacti ( from 3 Blocks ) and Bamboo aaaaaaaall the way to the Clouds.                                                    Cloudy with a Chance of Sugarcane and Bamboo :)."]
+	quest.748284A3CE93AB12.title: "Crops just really really Tall"
+	quest.74A7C47690B24CB3.quest_subtitle: "Generiert Cobblestone"
+	quest.74B0308336F5E017.quest_desc: [
+		"Diese Kiste kann dafür verwendet werden, Items mit &cBlut&r zu reparieren."
+		""
+		"Benutzen auf eigene Gefahr :)"
+	]
+	quest.74B0308336F5E017.title: "Repariere Tools mit &cBlut&r"
+	quest.74DD4F8A13EAD3ED.quest_desc: [""]
+	quest.74DD4F8A13EAD3ED.quest_subtitle: "Steigert Geschwindigkeit, verbraucht mehr Energie"
+	quest.74F524F4F0231A78.quest_desc: ["Wird verwendet um Items aufzuladen, Maschinen zu erweitern oder Items mit Flüssigkeiten aufzufüllen. "]
+	quest.7509E4093010EA4C.quest_desc: ["Bekommst du von der Schneekönigin. Verfehlt kein Ziel!"]
+	quest.750CDC42B0BB4FBB.quest_desc: ["54 blocks range."]
+	quest.750CF8A33C514CBB.title: "Tertium Tools"
+	quest.75102873B374BFC5.quest_desc: ["Der Crucible erzeugt aus z.B. Saplings und Blätter Wasser. Dafür müsst ihr diese in den Crucible reinpacken und abwarten."]
+	quest.753B3EF7CC94A6DD.quest_desc: ["Bekommst du nur von Spielern. (auch von dir selbst)"]
+	quest.75692ECC829EB1CB.quest_desc: ["Hier kannst du Zaubersprüche herstellen."]
+	quest.75B14A09FE39EDDA.quest_desc: ["Der &9Gantry Carriage&r kann an &9Gantry Shafts&r befestigt werden und wenn sich der Shaft dreht, bewegt er den Schlitten daran entlang."]
+	quest.75CBB5BD8C1DFEA1.quest_desc: ["Das &9Becken&r wird für Rezepte verwendet, hauptsächlich für die &9Mechanische Presse&r und des &9Mechanischen Mixers&r."]
+	quest.75CF9EAB75C3907E.quest_desc: [
+		"Die &cDark Tanks&r können 16 Eimer Flüssigkeit speichern. "
+		""
+		"&4Hinweis:&r Kann im Craftingfeld kombiniert werden, um den Speicherplatz zu verdoppeln"
+	]
+	quest.75CF9EAB75C3907E.title: "&aSpeichere&r &cFlüssigkeiten&r"
+	quest.7604D8B3C9FCCFD9.quest_desc: ["Wird für jede Festplatte benötigt. "]
+	quest.76084BE1BBCF941F.quest_desc: ["Upgrade für alle Thermal Maschinen"]
+	quest.76084BE1BBCF941F.quest_subtitle: "Tier 1 Base Upgrade"
+	quest.763FB27929E053BE.quest_subtitle: "Trennt Wasser und schweres Wasser"
+	quest.765DB60D1D074BD9.quest_subtitle: "Schnellerer Transport"
+	quest.767C43032130A8DB.quest_desc: ["The better the Gem, the better the stats! Flawless is second best while Perfect is the best."]
+	quest.767C43032130A8DB.title: "Fawless Gems"
+	quest.76CBFA38D021AC95.quest_desc: ["Kombiniere es mit &9Radial Chassis&r, um eine sehr leistungsstarke Windmühle mit hoher Belastbarkeit zu schaffen."]
+	quest.76FD217FBED8BF5B.quest_desc: ["The &7prosperity seeds&f are the main ingredient for making all the seeds in the mod."]
+	quest.77382D4114E901CB.quest_desc: ["Der &9Hose Pulley&r ist eine Pumpe, die Flüssigkeiten absaugen oder transportieren kann."]
+	quest.7778937DF377C1B4.quest_desc: ["Je höher du ein &9Windrad&r aufstellst, desto mehr Strom produziert es."]
+	quest.77808FB6743046CA.quest_desc: [
+		"Sigil of Rebirth – What It Does"
+		""
+		"The Sigil of Rebirth is the fuel for the Simple and Better Reforging Tables."
+		"You still need the item you want to change and the other required materials for it to work."
+	]
+	quest.77808FB6743046CA.title: "&#CF20FFS&#CF20FFi&#CF20FFg&#CF20FFi&#CF20FFl &#CF20FFo&#CF20FFf &#CF20FFR&#CF20FFe&#CF20FFb&#CF20FFi&#CF20FFr&#CF20FFt&#CF20FFh"
+	quest.77897030E3A4DD40.quest_desc: ["Why didnt i bring a jacket?"]
+	quest.77BEE803A98822D1.quest_desc: ["Almost like i've seen this skin somewhere before..."]
+	quest.781636091E4AC5B0.quest_desc: ["You might use this &darcane anvil&f to level up your spells, but there is another feature to it..."]
+	quest.78656C89EEE80DB5.quest_desc: [""]
+	quest.78656C89EEE80DB5.quest_subtitle: "Bessere Filter funktion"
+	quest.78D19FEABD21BC6F.quest_desc: ["Wenn ein Bereich geflutet werden muss, egal ob groß oder klein, ist ein Fluid Outlet das perfekte Werkzeug für diese Aufgabe. Platzieren Sie ihn einfach und leiten Sie Flüssigkeiten auf beliebige Weise hinein. Er beginnt damit, die Flüssigkeit in den Bereich darunter zu leiten und füllt sie von unten nach oben."]
+	quest.78F1CEECA4880BD1.quest_desc: ["Sammelt Items in der nähe auf."]
+	quest.7A22166B8FE8FCBE.quest_desc: ["Im Buch können mehrere Sprüche gelagert und eingesetzt werden."]
+	quest.7A40F85DB06C4716.quest_desc: ["Prosperity shards are an important material, mainly used for crafting &7prosperity seeds&f."]
+	quest.7A40F85DB06C4716.title: "Prosperity shards"
+	quest.7ADCF15A8D9D0DE4.quest_desc: [
+		"Das ist der Flux Sieve, der hilft euch weiter falls ihr zu Automatisierung greifen möchtet!"
+		""
+		"Einfach das gewüschte Material was ihr sieben wollt rein und schon geht's los! (Mit ein bisschen Strom selbstverständlich)"
+		""
+		"Der Anfang von was großem!"
+	]
+	quest.7ADCF15A8D9D0DE4.quest_subtitle: "Die Automatisierung steht uns uns bevor!"
+	quest.7ADCF15A8D9D0DE4.title: "Auto Sieve"
+	quest.7AE502EDB73BD57A.quest_desc: ["Kann Biomaterialien (zb. Brot) in &9Biofuel&r umwandeln."]
+	quest.7AED461A7A21CC1D.quest_subtitle: "Jetzt fängt das Modpack richtig an. :D"
+	quest.7B0DFA55B4D8B16D.quest_desc: ["Um ein eigenes Portal zu erstellen, brauchst du ein 4x3 (3 Breit, 4 Hoch) Konstrukt. Unten mittig brauchst du einen &9Teleporter&r, der Rest wird mit &9Teleporter Frame&r gebeaut. "]
+	quest.7B0DFA55B4D8B16D.title: "Custom Portals!"
+	quest.7B10248FB048B2E8.quest_desc: ["Can only be obtained by salvaging a Mythic item."]
+	quest.7B524DAD8A33BF85.quest_desc: ["Wenn du mehr Blut von Monstern brauchst, ist dieses Schwert eine gute Lösung."]
+	quest.7B5A757F27DCC627.quest_desc: [
+		"Um den Guarden of Gaia zu spawnen, benötigst du eine große ebene Fläche. "
+		""
+		"Aktiviere das Leuchtfeuer und rechtsklicke es mit einem Terrastahlbarren."
+		"Stelle jetzt die 4 Gaiapylonen auf die markierten stellen."
+		""
+		"Wenn alles richtig gemacht wurde, kannst du erneut rechtsklick mit dem Barren auf das Leuchtfeuer machen um den Boss zu spawnen."
+	]
+	quest.7BA086472D87D705.quest_desc: [
+		"Die &4Hellfire Forge&r ist einer der Hauptblöcke, die zur Herstellung bestimmter Gegenstände in &cBlood Magic&r benötigt werden."
+		""
+		"Es wird von &9Demon Will&r betrieben und kann zur Herstellung mehrerer Gegenstände verwendet werden."
+	]
+	quest.7BE613C7DA6E226E.quest_subtitle: "Versteckt oder Zeigt die Itembezeichnung"
+	quest.7C83735C2D746162.quest_subtitle: "Erhöht Energie Produktion, verbraucht mehr Treibstoff"
+	quest.7C8CDD259495A31A.quest_desc: ["Die Tunnel können auf Förderbänder platziert werden und filtern die durch sie hindurchgehenden Gegenstände. Du kannst mehrere Tunnel verbinden, indem du sie nebeneinander platzieren."]
+	quest.7C8D74692C963000.quest_desc: [
+		"Verbesserung der Soul Slare"
+		""
+		"Mit dem Sentient Sword kannst du &9Demon Will&r viel einfacher sammeln. Töte einfach einen feindlichen Mob mit dem Schwert und der Mob lässt &9Demon Will&r fallen."
+	]
+	quest.7C8D74692C963000.title: "The Sentient Sword"
+	quest.7CA3AE708F46CEBF.quest_desc: [""]
+	quest.7CC2D826CA6BBDDB.quest_desc: [
+		"Der &9Alchemietisch&r kann verschiedene Objekte, Katalysatoren und mehr herstellen, indem er LP aus dem Seelennetzwerk verwendet."
+		""
+		"Dieser Tisch kann auch viele Dinge umwandeln, wie Rotten Flesh in Leder, Wolle in Fäden..."
+	]
+	quest.7CC49360D07086B8.quest_desc: ["Hiermit kannst du alles Wireless transportieren."]
+	quest.7CC49360D07086B8.quest_subtitle: "Wireless Strom, Gas, Flüssigkeit."
+	quest.7CFA40FE99FCEAD0.quest_desc: ["Is there nothing important here?"]
+	quest.7D5564579FC51291.quest_desc: ["Stelle einen Manaverbreiter her."]
+	quest.7D5564579FC51291.quest_subtitle: "Versammelt das Mana welches du mit einer Blume produziert hast"
+	quest.7DB966984F293079.title: "Baby Time"
+	quest.7E39FB9F3E973009.quest_desc: [""]
+	quest.7E79F52147B606F9.quest_desc: [
+		"Um Blut zu sammeln, brauchst du einen &cBlood Extractor&r. "
+		""
+		"Solange du ihn im Inventar hast, extrahiert er automatisch &cBlut&r von den Mobs, die du tötest."
+		""
+		"Kann auch &cBlutspuren&r auf dem Boden extrahieren."
+		""
+		"Sobald 1.000ml Blut darin gespeichert sind, kannst du das &cBlut&r auf den Boden legen "
+		"(funktioniert wie ein Eimer)"
+		""
+		"Nach einer gewissen Zeit, verhärtet das &cBlut&r"
+		""
+		"&4Hinweis:&r Kann im Craftingfeld kombiniert werden, um den Speicherplatz zu verdoppeln"
+	]
+	quest.7E79F52147B606F9.title: "&aSammle&r &cBlut&r"
+	quest.7EA4E88D7230D94D.quest_desc: [
+		"Casull-Patronen sind die billigste, einfachste Munition, haben aber trotzdem eine ziemliche Durchschlagskraft."
+		""
+		"Panzerbrechende Patronen erledigen gut gepanzerte Gegner schnell und Silberpatronen sind wirksam gegen Untote."
+		""
+		"Um große Menschenmengen unter Kontrolle zu halten, sollten Sie etwas Stärkeres in Betracht ziehen, wie Schrot- oder Drachenhauchpatronen, die eine kegelförmige Salve auf kurze Distanz abfeuern. Und wenn Sie einfach nicht gut zielen können, sollten Sie die Wolfpack-Patrone in Betracht ziehen, die beim Aufprall explodiert und zielsuchende Splitter in alle Richtungen abfeuert, die alles, was ihnen begegnet, schnell erledigen."
+		""
+		"Erkunden Sie Ihre Optionen und lesen Sie mehr im Ingenieurhandbuch."
+	]
+	quest.7EA4E88D7230D94D.quest_subtitle: "...and the gunslinger followed."
+	quest.7EA4E88D7230D94D.title: "Ammo Cartridges"
+	quest.7EA6B942D1294ED6.quest_desc: ["Hat einige Einstellungen, wie zb. dass die abgebauten Blöcke mit Cobblestone ersetzt werden."]
+	quest.7EA6B942D1294ED6.quest_subtitle: "Farmt für dich!"
+	quest.7EE6C4BFE4FEE1F1.quest_desc: [
+		"This is just an upgraded golden apple."
+		""
+		"Grants:"
+		""
+		"-Absorption II (3:00)"
+	]
+	quest.7EED2502F1F38147.quest_desc: ["Wenn du es in der Hand hältst, kannst du mit der rechten Maustaste klicken, um einen Wasserquellblock für 100 LP zu erstellen. "]
+	quest.7F0D59EC1573FDC0.quest_desc: ["Das &9Depot&r lagert Items."]
+	quest.7F4F164226134E87.quest_subtitle: "Jedes Ende ist ein neuer Anfang"
+	quest.7F4F164226134E87.title: "Skyblock?"
+	quest.7F72E36182D83196.quest_desc: ["To awaken your Supremium Essence, you'll need to create a new Altar and 4 new Pedestals, as well as 4 &cEssence Vessels&r.\\n\\nThe Essence Vessels will require the starter Element Essences to fill: Fire, Water, Earth, and Air."]
+	quest.7FE2EED58AB791E8.quest_desc: ["funktioniert mit Tree Oil, Creosote Oil, Refined Fuel"]
+	quest.7FE2EED58AB791E8.quest_subtitle: "Generiert Energie mit Flüssigem Treibstoff"
+	task.01F664CF4E06A01A.title: "Mit Wasser befüllen"
+	task.079D81D008511C2D.title: "Gems"
+	task.094B00D35914CFB6.title: "Inferium Tools"
+	task.0DDDE793EA22AC7D.title: "Apotheosis"
+	task.1A73F817ED410EAB.title: "Tertium Tools"
+	task.27E1DB0973BDD23B.title: "Prudentium Tools"
+	task.2F608F433D9A3363.title: "Expanded RF Coil"
+	task.36895C38861F58CE.title: "Market"
+	task.36FDD73176203DC4.title: "Money money money money money"
+	task.3861678346D376C1.title: "Auxiliary Reaction Chamber"
+	task.38CC65552B63A66C.title: "Imperium Tools"
+	task.396CE6C3760B8473.title: "Mending?"
+	task.3D6A9C7EE22C2ADF.title: "Multi-Cycle Injectors"
+	task.3F2B4E04B76A57EE.title: "Supremium Tools"
+	task.52D6F14FEB974305.title: "Betrete einen Dark Temple"
+	task.54B2D510E3EA6C02.title: "Wither proof blocks"
+	task.60F930336D5CE473.title: "Awakened Supremium Tools"
+	task.618B184D5A0C17CC.title: "KOTD"
+	task.695EA135D2B5FDC8.title: "Betrete den Twilight Forest"
+	task.69CB089CDD3160B6.title: "Basic Changes"
+	task.7B5C9FA866C0588A.title: "Stabilized RF Coil"
+}

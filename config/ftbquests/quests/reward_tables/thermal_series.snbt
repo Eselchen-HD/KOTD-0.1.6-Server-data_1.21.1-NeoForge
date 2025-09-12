@@ -1,0 +1,87 @@
+{
+	id: "50FC0793B5E0EA44"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 2
+			id: "3F3C26E7D95D522F"
+			item: {
+				count: 1
+				id: "alltheores:enderium_ingot"
+			}
+			random_bonus: 1
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "146637EC62FD82E1"
+			item: {
+				count: 1
+				id: "alltheores:signalum_ingot"
+			}
+			random_bonus: 1
+			weight: 0.25f
+		}
+		{
+			count: 2
+			id: "6BBE817DDA96987A"
+			item: {
+				count: 1
+				id: "alltheores:lumium_ingot"
+			}
+			random_bonus: 1
+			weight: 0.25f
+		}
+		{
+			count: 2
+			id: "3DDCA740A6A34297"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:machine_frame"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "327DFED93C9566BA", item: { components: { "ftbquests:missing_item": "thermal:upgrade_augment_1" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			id: "767025451824F32B"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:upgrade_augment_3"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.25f
+		}
+		{
+			id: "21324DFAC0B0D422"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:upgrade_augment_2"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "5ECD0C934011E482"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:blizz_rod"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.05f
+		}
+		{ id: "0D5837ED923BC1ED", item: { components: { "ftbquests:missing_item": "thermal:machine_speed_augment" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3B8D675893A23908", item: { components: { "ftbquests:missing_item": "thermal:dynamo_fuel_augment" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3979BC90B43B5ECC", item: { components: { "ftbquests:missing_item": "thermal:dynamo_output_augment" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3B45B7523C8502F6", item: { components: { "ftbquests:missing_item": "thermal:machine_output_augment" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+}

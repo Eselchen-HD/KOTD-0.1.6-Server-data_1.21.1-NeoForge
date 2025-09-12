@@ -1,0 +1,521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_drawers"
+	group: "4B962CBA93919BC4"
+	id: "3BEA22F5E3DAB03B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "396651A19AF834A4"
+			rewards: [
+				{
+					count: 2
+					id: "51E912746011B04E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32B6FC72512C0EEF"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E83092338C83720"
+				item: { count: 1, id: "storagedrawers:oak_full_drawers_1" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			id: "73601458FDC51B7B"
+			rewards: [
+				{
+					count: 2
+					id: "1A374A4AB8FF3194"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D2F539C1B8DD94A"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5371BEF59E028838"
+				item: { count: 1, id: "storagedrawers:drawer_key" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			id: "3371CDEDFFE924A6"
+			rewards: [
+				{
+					count: 2
+					id: "023D56BC9D16EBA8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "420AF75334AF7417"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09AA241162400B97"
+				item: { count: 1, id: "storagedrawers:oak_full_drawers_2" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "04A6B38121BED6B8"
+			rewards: [
+				{
+					count: 2
+					id: "1C6856A46BA28EA2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0958E15F3F7FD0BC"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36B6861D51B578F4"
+				item: { count: 1, id: "storagedrawers:oak_full_drawers_4" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "6CC3DD15C7DB9DDA"
+			rewards: [
+				{
+					count: 2
+					id: "55FFC0FC4B18DD6B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "40D3F56723A20F2A"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08964580BCD59094"
+				item: { count: 1, id: "storagedrawers:oak_half_drawers_1" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			id: "2BFA3C7E51CBBE79"
+			rewards: [
+				{
+					count: 2
+					id: "71B8A8D75E20BCFA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DAE75329AF24292"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1660902E53654403"
+				item: { count: 1, id: "storagedrawers:oak_half_drawers_2" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "297BD068C2CAADF2"
+			rewards: [
+				{
+					count: 2
+					id: "2D9985D3F30B2BE7"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "462DF9F4AA02764C"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3958141346C460F2"
+				item: { count: 1, id: "storagedrawers:oak_half_drawers_4" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "4D21AD7F87D068DF"
+			rewards: [
+				{
+					count: 2
+					id: "48A08AE3FC4D1373"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "36880F3E73B0649E"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39C8103C54F53864"
+				item: { count: 1, id: "storagedrawers:obsidian_storage_upgrade" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "4F429D328EB0DB81"
+			rewards: [
+				{
+					count: 2
+					id: "58D34DB8AD611448"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3BA85FB50DF2A191"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "278ECC6B239EEDDC"
+				item: { count: 1, id: "storagedrawers:one_stack_upgrade" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "4E71F85CE9E89247"
+			rewards: [
+				{
+					count: 2
+					id: "64E2D51727EFD7F1"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "18B2B0AD39703046"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "523068DA0010D66F"
+				item: { count: 1, id: "storagedrawers:redstone_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "549DF401A15F81ED"
+			rewards: [
+				{
+					count: 2
+					id: "0D3F607631290FF2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "289F9A6C7C4E3155"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "014F72E542959850"
+				item: { count: 1, id: "storagedrawers:fill_level_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "0F575A97FC131C70"
+			rewards: [
+				{
+					count: 2
+					id: "0179366DFFD9BFA9"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0BE383D543CD2EB0"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3951F155D08E7765"
+				item: { count: 1, id: "storagedrawers:illumination_upgrade" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "7BE613C7DA6E226E"
+			rewards: [
+				{
+					count: 2
+					id: "06CB6997BDCE7991"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "469C4B5F978B6F13"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C23B7B7C3F0E9C6"
+				item: { count: 1, id: "storagedrawers:shroud_key" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "0DEE7955FFD17C8A"
+			rewards: [
+				{
+					count: 2
+					id: "7BF2789AF82C426F"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "70DFF01E8C2D6129"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "166AE30D1D731E26"
+				item: { count: 1, id: "storagedrawers:quantify_key" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "01AC1BF1B22B22BE"
+			rewards: [
+				{
+					count: 2
+					id: "6F77C88AB1D8F689"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B6777FC0122C153"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5135FCE43C93CF3F"
+				item: { count: 1, id: "storagedrawers:void_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "08C9FCA25A274DAF"
+			rewards: [
+				{
+					count: 2
+					id: "44173AF4B6548DC7"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22E15D2B0AB14753"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F7AD99F6B8052F5"
+				item: { count: 1, id: "storagedrawers:compacting_drawers_3" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "46D6501D0C42EE09"
+			rewards: [
+				{
+					count: 2
+					id: "24EA31FDFCEFB1E8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09A54CC82009A202"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50FD69D92A8C373F"
+				item: { count: 1, id: "storagedrawers:controller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+	]
+}

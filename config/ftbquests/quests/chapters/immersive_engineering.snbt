@@ -1,0 +1,1891 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "06FD30CD760A0669"
+	id: "0000000000000002"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_visible: true
+			id: "0000000000000004"
+			rewards: [
+				{
+					count: 3
+					id: "7B54B7BEEA99667F"
+					item: {
+						count: 1
+						id: "minecraft:raw_copper"
+					}
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4FF7AF9F9291375A"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "697A8DC0065A223E"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0000000000000004"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:toolbox"
+			}
+			id: "0000000000000007"
+			min_width: 300
+			rewards: [
+				{
+					id: "3BF8541C59B3BEF2"
+					item: {
+						count: 1
+						id: "immersiveengineering:toolbox"
+					}
+					type: "item"
+				}
+				{
+					id: "2384EACCE2F58FDD"
+					item: {
+						count: 1
+						id: "immersiveengineering:screwdriver"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70012D3C41592ABE"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "3EDE28A52F82187C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "20930556EBD4C23B"
+					item: { count: 1, id: "immersiveengineering:wirecutter" }
+					type: "item"
+				}
+				{
+					id: "7C8E589C206AE047"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2E14B84D1594EBE0"]
+			hide_dependency_lines: true
+			id: "0000000000000009"
+			rewards: [
+				{
+					count: 8
+					id: "005141C1DD66742D"
+					item: {
+						count: 1
+						id: "immersiveengineering:coal_coke"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09B4789D1DFCD12F"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+				id: "7AEAEA5C633940CF"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0C5F307C84EECADF"]
+			hide_dependency_lines: true
+			id: "000000000000000D"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000000615"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_copper_ins"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B9FB1D9554AC708"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F85F6F7D9545328"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "000000000000000E"
+					item: { count: 1, id: "immersiveengineering:windmill" }
+					type: "item"
+				}
+				{
+					id: "0000000000000016"
+					item: { count: 1, id: "immersiveengineering:dynamo" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0000000000000007"]
+			id: "000000000000000F"
+			min_width: 300
+			rewards: [
+				{
+					id: "037A95D087A8DA21"
+					item: {
+						count: 1
+						id: "immersiveengineering:current_transformer"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08376DCF034D965B"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "1AA4A6F67B02B957"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0AE7B5D00B5553AE"
+					item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+					type: "item"
+				}
+				{
+					id: "6D8191D801881F75"
+					item: { count: 1, id: "immersiveengineering:connector_lv_relay" }
+					type: "item"
+				}
+				{
+					id: "01AD4C17478C8D52"
+					item: { count: 1, id: "immersiveengineering:connector_lv" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["000000000000000F"]
+			id: "0000000000000014"
+			rewards: [
+				{
+					count: 16
+					id: "000000000000060C"
+					item: {
+						count: 1
+						id: "immersiveengineering:hemp_fiber"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "777789A2C34F5A1B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A25CCB571A7DF82"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1C6E6308A26AE326"
+				item: { count: 1, id: "immersiveengineering:wirecoil_copper_ins" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000000F"]
+			hide_dependency_lines: true
+			id: "0000000000000017"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "008012C4EFA4890A"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "4E3EEF53AC3737FD"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "735467CC60E67A4E"
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E14B84D1594EBE0"]
+			hide_dependency_lines: true
+			id: "0000000000000019"
+			rewards: [
+				{
+					count: 8
+					id: "0911E6C5BB0AF5E5"
+					item: {
+						count: 1
+						id: "immersiveengineering:component_iron"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "470469DEBFD33E61"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "038CD3DD9FA8B13D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "000000000000001A"
+					item: { count: 1, id: "immersiveengineering:workbench" }
+					type: "item"
+				}
+				{
+					id: "16E5DF7E27BAB713"
+					item: { count: 1, id: "immersiveengineering:blueprint" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C5F307C84EECADF"]
+			hide_dependency_lines: true
+			id: "000000000000001B"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000000617"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_copper_ins"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75EE9E921DBD145E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D80F14C1ECED509"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "000000000000001C"
+					item: { count: 1, id: "immersiveengineering:watermill" }
+					type: "item"
+				}
+				{
+					id: "000000000000001D"
+					item: { count: 1, id: "immersiveengineering:dynamo" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0000000000000007"]
+			id: "000000000000001E"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "19F6AACAF3817E88"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C091911594CAA8D"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "000000000000001F"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "3568588D632F654C"
+					item: { count: 1, id: "immersiveengineering:conveyor_extract" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2E14B84D1594EBE0"]
+			hide_dependency_lines: true
+			id: "0000000000000020"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DC2D180B023F244"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "3B48081FBB9723B3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+				id: "73A3A0763A628DCA"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E14B84D1594EBE0"]
+			hide_dependency_lines: true
+			id: "0000000000000022"
+			rewards: [
+				{
+					count: 4
+					id: "7F2B5F17614297A4"
+					item: {
+						count: 1
+						id: "alltheores:steel_plate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "756AADF60AE75224"
+					item: {
+						count: 1
+						id: "alltheores:iron_plate"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "194DBFA08F517BD0"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "450557543D6AFD09"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "68D5D441C57AF2A7"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E14B84D1594EBE0"]
+			hide_dependency_lines: true
+			id: "0000000000000024"
+			rewards: [
+				{
+					id: "3CBE6D35769D7AB8"
+					item: {
+						count: 1
+						id: "alltheores:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61410DADD58E3710"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "4C04862161B817E1"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+				criterion: ""
+				id: "40B68AA204AA3B9B"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7215DE7DCCEA0835"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "0000000000000032"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "092E6BDA0483D8C3"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "292C7423E9168A67"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65B8D8C7AB99F58E"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "2A89FD4150194660"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "765A2861DA4F973F"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["687C9701A98F050B"]
+			hide_dependency_lines: true
+			id: "0000000000000034"
+			rewards: [
+				{
+					count: 2
+					id: "4A0D3E41F0A5CD5D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A2D3D87FB5CB141"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0000000000000035"
+				item: { count: 1, id: "immersiveengineering:furnace_heater" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C5F307C84EECADF"]
+			hide_dependency_lines: true
+			id: "0000000000000036"
+			rewards: [
+				{
+					count: 4
+					id: "0000000000000618"
+					item: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 4
+					id: "09E2626C1188341A"
+					item: {
+						count: 1
+						id: "immersiveengineering:storage_uranium"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A5729FBE4872E0D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB30E39BDA0A01C"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0000000000000037"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E14B84D1594EBE0"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "0000000000000038"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D56628DAECCD9B2"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "1DBCBB6D3B107B79"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000039"
+				item: { count: 1, id: "immersiveengineering:sawblade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7215DE7DCCEA0835"]
+			hide_dependency_lines: true
+			id: "000000000000003A"
+			rewards: [
+				{
+					count: 24
+					id: "0000000000000619"
+					item: {
+						count: 1
+						id: "immersiveengineering:seed"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C39D61B437B848"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "6683F73AEB3B9771"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_squeezer"
+				criterion: ""
+				id: "3432F8205B18C255"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C5F307C84EECADF"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "000000000000003C"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "355FC4903F040AD3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "722967F757724C65"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
+				criterion: ""
+				id: "65D6B7BEBDB3E283"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000061"]
+			id: "0000000000000040"
+			rewards: [
+				{
+					count: 2
+					id: "481CBF95FC351478"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08A6627F3B9EBA2E"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "69411BDD259E4AD7"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["687C9701A98F050B"]
+			hide_dependency_lines: true
+			id: "0000000000000061"
+			rewards: [
+				{
+					id: "63F8CD5DAAB0252B"
+					item: {
+						count: 1
+						id: "immersiveengineering:survey_tools"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75EE2EB265CE476C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28349082ED4F3C3D"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0000000000000062"
+				item: { count: 1, id: "immersiveengineering:sample_drill" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["687C9701A98F050B"]
+			hide_dependency_lines: true
+			id: "0000000000000241"
+			rewards: [
+				{
+					count: 2
+					id: "6A01E33258A61CF8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "486FE7B4239FBC26"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0000000000000242"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["687C9701A98F050B"]
+			hide_dependency_lines: true
+			id: "0000000000000243"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "0000000000000610"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "355A1D1AC6C5BA7D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "497CFB369DD45A8F"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000244"
+					item: { count: 1, id: "immersiveengineering:electric_lantern" }
+					type: "item"
+				}
+				{
+					id: "0000000000000245"
+					item: { count: 1, id: "immersiveengineering:floodlight" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7215DE7DCCEA0835"]
+			hide_dependency_lines: true
+			id: "09AEE48CED288DD1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A5B15995A236D54"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "0F3DE124530B5A6E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
+				criterion: ""
+				id: "5D798D395DAC8BEA"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7215DE7DCCEA0835"]
+			hide_dependency_lines: true
+			id: "37F3086A687795FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52B655112A8797F2"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "095A535AF72216B0"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_mixer"
+				criterion: ""
+				id: "16DEFFC91A0B7748"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["000000000000001E"]
+			hide_dependency_lines: true
+			id: "215AD1198A1BF8D0"
+			min_width: 325
+			rewards: [
+				{
+					count: 2
+					id: "136C013ACA3BB616"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66B81EF1E87EB521"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "003B96D16776DCBA"
+				item: { count: 1, id: "immersiveengineering:item_batcher" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["000000000000001E"]
+			hide_dependency_lines: true
+			id: "0EBE89982E3C95BB"
+			min_width: 250
+			rewards: [
+				{
+					count: 8
+					id: "68122104D91373C0"
+					item: {
+						count: 1
+						id: "immersiveengineering:conveyor_basic"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0638125734E46ED2"
+					item: {
+						count: 1
+						id: "immersiveengineering:conveyor_vertical"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5ED8B0A200A17975"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627DE12CC4221C09"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "49A0F91EA799410B"
+				item: { count: 1, id: "immersiveengineering:sorter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000001E"]
+			hide_dependency_lines: true
+			id: "5123025AF0E02E61"
+			rewards: [
+				{
+					count: 2
+					id: "3A7868C3D302D14E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B15B1C47BC4770F"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_silo"
+				criterion: ""
+				id: "2295398074D77345"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1848E59BC6D42342"]
+			hide_dependency_lines: true
+			id: "69302BB89FD09549"
+			rewards: [
+				{
+					count: 2
+					id: "7D2FD987BE5D5370"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DF35212D1494CB6"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_tank"
+				criterion: ""
+				id: "30798057C7E1C152"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7215DE7DCCEA0835"]
+			hide_dependency_lines: true
+			id: "6D185DB13F466B7C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30260E558E472AEE"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "2A529B42A4C21896"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "5B25806696BE0AF3"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000007"]
+			id: "1848E59BC6D42342"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "0AC549CB72712364"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D570B2DCFC2A820"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "32483092ACA5790F"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "18DFE3F19EC99FA1"
+					item: { count: 1, id: "immersiveengineering:fluid_pump" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1848E59BC6D42342"]
+			hide_dependency_lines: true
+			id: "78D19FEABD21BC6F"
+			rewards: [
+				{
+					count: 2
+					id: "759CEC8E6097114C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B92A43ECE26CDA7"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "56EA9B37492A1787"
+				item: { count: 1, id: "immersiveengineering:fluid_placer" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1848E59BC6D42342"]
+			hide_dependency_lines: true
+			id: "6FF4F047D8267A50"
+			rewards: [
+				{
+					count: 2
+					id: "2A631487831260CF"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C9A73D87A6BE78C"
+					table_id: 1983531326186138460L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E563D72FD601783"
+				item: { count: 1, id: "immersiveengineering:fluid_sorter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["687C9701A98F050B"]
+			hide_dependency_lines: true
+			id: "1487479CFA348530"
+			rewards: [
+				{
+					id: "4AA86E1E20DADE27"
+					item: {
+						count: 1
+						id: "mekanism:advanced_fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "4FAD2C6B55D34714"
+					item: {
+						components: {
+							"ftbquests:missing_item": "thermal:fluid_reservoir"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D58DABA7F794500"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "716019716B2915F9"
+				item: { count: 1, id: "immersiveengineering:buzzsaw" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["687C9701A98F050B"]
+			hide_dependency_lines: true
+			id: "52DFEA36FFFBCDD5"
+			rewards: [
+				{
+					count: 64
+					id: "02E988D98405DAFB"
+					item: {
+						components: {
+							"ftbquests:missing_item": "immersiveengineering:casull"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "137AA63C9451F0B5"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54E76BD7C4FB9D97"
+				item: { count: 1, id: "immersiveengineering:revolver" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["687C9701A98F050B"]
+			hide_dependency_lines: true
+			id: "0A476C6332EB6477"
+			rewards: [
+				{
+					id: "5D7232BCA248639D"
+					item: {
+						count: 1
+						id: "mekanism:advanced_fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "151E1697923A9F23"
+					item: {
+						components: {
+							"ftbquests:missing_item": "thermal:fluid_reservoir"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "368864E135233AC8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B3CC19ED97DFA26"
+				item: { count: 1, id: "immersiveengineering:drill" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["687C9701A98F050B"]
+			hide_dependency_lines: true
+			id: "69C4E9422B0C695A"
+			rewards: [{
+				count: 2
+				id: "579D57F3D00C9771"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "404F5C421F8FFFD5"
+				item: { count: 1, id: "immersiveengineering:railgun" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "3FC9C9BA6C4B9597"
+			rewards: [{
+				count: 2
+				id: "44385BE317F4D78E"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "46FB2138D39F9238"
+				item: { count: 1, id: "immersiveengineering:speedloader" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "3C6A4FF4F12DCAB2"
+			rewards: [{
+				count: 2
+				id: "3A8EBAAEE5EB7DDA"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4E1995B3908BE0A1"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_revolver_bayonet" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69C4E9422B0C695A"]
+			id: "4AEF4EECF33AAD14"
+			rewards: [{
+				count: 2
+				id: "7AFB9AEE00F2996C"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1722BA00297D1CD5"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_railgun_capacitors" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69C4E9422B0C695A"]
+			id: "375C292687CF5637"
+			rewards: [{
+				count: 2
+				id: "0B6745B38D5832C4"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "258019F9C44FA366"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_railgun_scope" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69C4E9422B0C695A"]
+			id: "149EC37E85BC39BB"
+			rewards: [{
+				count: 2
+				id: "34ADB4924C5F8448"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0946F869835964E3"
+				item: { count: 1, id: "immersiveengineering:powerpack" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "7EA4E88D7230D94D"
+			rewards: [{
+				count: 2
+				id: "4AF5CFC1E0D01A3B"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 24L
+				id: "4CB6420672716C4A"
+				item: { count: 1, id: "immersiveengineering:bullet_armor_piercing" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1487479CFA348530"]
+			id: "650F8ED52289B8AC"
+			rewards: [{
+				count: 2
+				id: "26F78012E42DC630"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "07CF70C497212059"
+				item: { count: 1, id: "immersiveengineering:rockcutter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A476C6332EB6477"]
+			id: "322F7E60078AC6F6"
+			rewards: [{
+				count: 2
+				id: "6CE6187B023ED6B5"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4D1F4C0716B593B9"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_drill_waterproof" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A476C6332EB6477"]
+			id: "13AA0065B8167EF4"
+			rewards: [{
+				count: 2
+				id: "1A6C9ECD03DACFF1"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6A6D387D221FEC38"
+					item: { count: 1, id: "immersiveengineering:drillhead_steel" }
+					type: "item"
+				}
+				{
+					id: "03A1EB2454A18FF1"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_drill_damage" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0A476C6332EB6477"
+				"1487479CFA348530"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "546222019B6470BA"
+			rewards: [{
+				count: 2
+				id: "48D05211CE557802"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4A295A3D115FE1F2"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_drill_lube" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1487479CFA348530"]
+			id: "283516E560D1D20E"
+			rewards: [{
+				count: 2
+				id: "48678A916EE147BF"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "59195DC2ADAA355B"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_buzzsaw_spareblades" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["000000000000000F"]
+			id: "0C38206737A0C56B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "167A947808ACF10B"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "480B4E1478B8C789"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A31F59D23A2104F"
+				item: { count: 1, id: "immersiveengineering:transformer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000004"]
+			hide_dependency_lines: true
+			id: "2E14B84D1594EBE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62FB3D97A61E5AE9"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "184263D9F93DAC2E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2586897BA15CD9DC"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000004"]
+			hide_dependency_lines: true
+			id: "0C5F307C84EECADF"
+			rewards: [
+				{
+					count: 2
+					id: "5E1FF59DF1CB3A7C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2945414F94F8B41E"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AEF2FE8FD6823E3"
+				item: { count: 1, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000004"]
+			hide_dependency_lines: true
+			id: "687C9701A98F050B"
+			rewards: [{
+				count: 2
+				id: "705D79634FB59F8C"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42A76305EEBB144C"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0A476C6332EB6477"
+				"1487479CFA348530"
+			]
+			hide_dependency_lines: true
+			id: "34A1207AFB990E5F"
+			rewards: [{
+				count: 2
+				id: "7F26D1F2CB707D74"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "49D43A2B61EA6055"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_drill_capacity" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000004"]
+			hide_dependency_lines: true
+			id: "7215DE7DCCEA0835"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EC4E03C443D9527"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "5A6AA8AD05A4999B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C2422FB3EC892C1"
+				item: { count: 1, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000007"]
+			id: "0E74E2DD26D0CED0"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62DB0B35D0E5540E"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "19DE75D9C19A1E5B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "331513BCEF9DB266"
+					item: { count: 1, id: "immersiveengineering:wirecoil_redstone" }
+					type: "item"
+				}
+				{
+					id: "5B720046B5C4804C"
+					item: { count: 1, id: "immersiveengineering:connector_redstone" }
+					type: "item"
+				}
+				{
+					id: "4156BFD406536986"
+					item: { count: 1, id: "immersiveengineering:connector_probe" }
+					type: "item"
+				}
+				{
+					id: "52E953FB8E657C76"
+					item: { count: 1, id: "immersiveengineering:connector_bundled" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B554ECB7BEADD2E"]
+			id: "450E3698E39CC0A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17AC288C7A4393AD"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "2A43EBA2F8502EF4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76EDD0FD849B8FCF"
+					item: { count: 1, id: "immersiveengineering:circuit_table" }
+					type: "item"
+				}
+				{
+					id: "5292A3A2D527E4D6"
+					item: { count: 1, id: "immersiveengineering:circuit_board" }
+					type: "item"
+				}
+				{
+					id: "69C8769558674D0D"
+					item: { count: 1, id: "immersiveengineering:wire_lead" }
+					type: "item"
+				}
+				{
+					id: "347CE2E6F0E7E6C5"
+					item: { count: 1, id: "immersiveengineering:electron_tube" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E74E2DD26D0CED0"]
+			id: "3B554ECB7BEADD2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E2065C2B0F98DAE"
+					table_id: 1983531326186138460L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "5A56FD57E084E5FD"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4347610AA3797AF1"
+				item: { count: 1, id: "immersiveengineering:logic_unit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+	]
+}

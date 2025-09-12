@@ -1,0 +1,880 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "die_macht_der_magie"
+	group: "590ACDB4C189F8D5"
+	id: "2AC4B5C6BC48D02E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"08755AACDAC3C0AB"
+				"4629B0D4BE94A046"
+			]
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			id: "0F401FE63291A1A7"
+			rewards: [
+				{
+					id: "4A1CEDA218158011"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "204E428432CE3932"
+					table_id: 1340875193044128734L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54A7743B009D788E"
+				item: { components: { "ftbquests:missing_item": "botania:apothecary_default" }, count: 1, id: "ftbquests:missing_item" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10AF409CFB4F3CC5"]
+			hide_until_deps_visible: true
+			id: "56353853075B8AEA"
+			rewards: [
+				{
+					count: 3
+					id: "30A7EE0EC4ACCB6C"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:manasteel_ingot"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76CBF31962D1F6D9"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1200D32CED302DDB"
+					item: { components: { "ftbquests:missing_item": "botania:endoflame" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B0F21DD2EEB4CA0"
+					item: { components: { "ftbquests:missing_item": "62x botania:brown_mushroom" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "60FAB0B9F37AC916"
+					item: { components: { "ftbquests:missing_item": "63x botania:light_gray_mushroom" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5BD4C7E668A00837"
+					item: { components: { "ftbquests:missing_item": "63x botania:red_mushroom" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08755AACDAC3C0AB"]
+			id: "4629B0D4BE94A046"
+			rewards: [
+				{
+					count: 16
+					id: "00FEC84D3F234456"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:fertilizer"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0CD88E0F84EADB3B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "4A45061EEE46372F"
+					item: { count: 1, id: "minecraft:bone_meal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "0BD052077429DE6B"
+					item: { components: { "ftbquests:missing_item": "botania:fertilizer" }, count: 1, id: "ftbquests:missing_item" }
+					only_from_crafting: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F401FE63291A1A7"]
+			hide_until_deps_visible: true
+			id: "10AF409CFB4F3CC5"
+			rewards: [{
+				count: 2
+				id: "6E9FAE4B7B683676"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "01F664CF4E06A01A"
+					type: "checkmark"
+				}
+				{
+					count: 8L
+					id: "70E2BB681A7C409C"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10AF409CFB4F3CC5"]
+			hide_until_deps_visible: true
+			id: "48DAD120F5F9180B"
+			rewards: [
+				{
+					count: 32
+					id: "41E239C0CEDAFC1F"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5B5DD0754860F0B5"
+					item: {
+						count: 1
+						id: "minecraft:stone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DF5FC3A92152581"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1894B6B2BB5F5671"
+					item: { components: { "ftbquests:missing_item": "botania:white_mushroom" }, count: 1, id: "ftbquests:missing_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "6F68ABDFAAD361F0"
+					item: { components: { "ftbquests:missing_item": "botania:white_petal" }, count: 1, id: "ftbquests:missing_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "22B4182AEABFBADF"
+					item: { components: { "ftbquests:missing_item": "botania:pure_daisy" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48DAD120F5F9180B"]
+			hide_until_deps_visible: true
+			id: "51FE1514A4D20043"
+			rewards: [
+				{
+					count: 16
+					id: "695DF5877FC71895"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:livingwood_log"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "39A188351E8D5135"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:livingrock"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D4D580C069E8EAE"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "048E7A7AB1F8343A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "botania:livingwood_log"
+					type: "observation"
+				}
+				{
+					id: "30CFAFBD9BACB78D"
+					observe_type: 0
+					timer: 0L
+					to_observe: "botania:livingrock"
+					type: "observation"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23FA4FC3761C50AB"]
+			hide_until_deps_visible: true
+			id: "40E572DFDB7216EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5ED007C0E6C0E234"
+					table_id: 1340875193044128734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "38C44D555DF16BF4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6514E7CC6958E2B2"
+				item: { components: { "ftbquests:missing_item": "botania:mana_pool" }, count: 1, id: "ftbquests:missing_item" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"51FE1514A4D20043"
+				"7D5564579FC51291"
+			]
+			hide_until_deps_visible: true
+			id: "23FA4FC3761C50AB"
+			rewards: [{
+				count: 2
+				id: "61E5324C78E52200"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "674BF43257C41BDD"
+				item: { components: { "ftbquests:missing_item": "botania:twig_wand" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40E572DFDB7216EF"]
+			hide_until_deps_visible: true
+			id: "48F60CA2E6B4862F"
+			rewards: [{
+				count: 2
+				id: "0E5483B3B18F8510"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B976D679F5C2352"
+				item: { components: { "ftbquests:missing_item": "botania:manasteel_ingot" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40E572DFDB7216EF"]
+			hide_until_deps_visible: true
+			id: "67959A83195EAA69"
+			rewards: [{
+				count: 2
+				id: "23632ABD3620FA41"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EB0C124A8AACF9B"
+				item: { components: { "ftbquests:missing_item": "botania:mana_pearl" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40E572DFDB7216EF"]
+			hide_until_deps_visible: true
+			id: "3BE5AE7A9835E4A8"
+			rewards: [{
+				count: 2
+				id: "3A7418D13B699ED0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C981F594D3A4D03"
+				item: { components: { "ftbquests:missing_item": "botania:mana_diamond" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3BE5AE7A9835E4A8"
+				"67959A83195EAA69"
+			]
+			id: "471FA44E62BE9AD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "764A1C37A83F579C"
+					table_id: 1340875193044128734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2A8E291B42B701C3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17553C3C1A3EA4CC"
+				item: { components: { "ftbquests:missing_item": "botania:runic_altar" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40E572DFDB7216EF"]
+			hide_until_deps_visible: true
+			id: "47FC5051D0C5CC8D"
+			rewards: [{
+				count: 2
+				id: "15CB246323BA85D6"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67AA14E94CC20B58"
+				item: { components: { "ftbquests:missing_item": "botania:mana_powder" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56353853075B8AEA"]
+			id: "7D5564579FC51291"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A652F91ABA59311"
+					table_id: 1340875193044128734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "0A876C2F5A6FF542"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4529A35FAE611336"
+				item: { components: { "ftbquests:missing_item": "botania:mana_spreader" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"47FC5051D0C5CC8D"
+				"471FA44E62BE9AD6"
+				"48F60CA2E6B4862F"
+			]
+			hide_until_deps_visible: true
+			id: "3F72BF5DCBF87719"
+			rewards: [{
+				count: 2
+				id: "55B0B75B35C0610B"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "085C80D046DE5174"
+					item: { count: 1, id: "minecraft:white_carpet" }
+					type: "item"
+				}
+				{
+					id: "07049DDF51A9919B"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+				{
+					id: "1BD7510C990BA55F"
+					item: { count: 1, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					id: "436EF673656E4137"
+					item: { components: { "ftbquests:missing_item": "botania:manasteel_ingot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0A6581B7FA162E2C"
+					item: { components: { "ftbquests:missing_item": "botania:mana_powder" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "66463170D78A98D1"
+					item: { components: { "ftbquests:missing_item": "botania:livingrock" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F72BF5DCBF87719"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "3DF01ADB6A441391"
+			rewards: [
+				{
+					id: "6FC39FF89CAE660F"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:rune_water"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "13CD63B7B3610762"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:rune_fire"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "6CB6DB01EC9CE329"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:rune_earth"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "51B460379F5E3A2D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:rune_air"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "2D9FB2353860BFA7"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:rune_mana"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "032C872A832CE08E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71D265C67BFB6D4D"
+				item: { components: { "ftbquests:missing_item": "botania:terra_plate" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DF01ADB6A441391"]
+			hide_until_deps_visible: false
+			id: "5780EFCF4644C69C"
+			rewards: [{
+				id: "084F792E966C3ACE"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "3B6B7211D925BA40"
+					item: { components: { "ftbquests:missing_item": "botania:spark" }, count: 1, id: "ftbquests:missing_item" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2D8CBEAD4309DA1F"
+					item: { components: { "ftbquests:missing_item": "botania:terrasteel_ingot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09BD4B0F5660A3B6"]
+			id: "59E1B884DA49DE4D"
+			rewards: [{
+				id: "664E3CAF9B821510"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2007FF102A300C8C"
+					item: { components: { "ftbquests:missing_item": "botania:mana_pylon" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "224BFE0D5B2F05E0"
+					item: { components: { "ftbquests:missing_item": "botania:natura_pylon" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5780EFCF4644C69C"]
+			hide_until_deps_visible: false
+			id: "09BD4B0F5660A3B6"
+			rewards: [{
+				count: 2
+				id: "318FF12C9F780F0B"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BDC77CE24E8CA26"
+					item: { components: { "ftbquests:missing_item": "botania:alfheim_portal" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "39C656268D54DA94"
+					item: { components: { "ftbquests:missing_item": "botania:glimmering_livingwood_log" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3AF89C1D7A8DD887"
+					item: { components: { "ftbquests:missing_item": "botania:livingwood" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["59E1B884DA49DE4D"]
+			id: "519E223F1996BC55"
+			rewards: [{
+				count: 2
+				id: "73CC881CE8271A97"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "23F4E6F6A6EF8D4E"
+					item: { components: { "ftbquests:missing_item": "botania:dragonstone" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5099BEA21959DA9A"
+					item: { components: { "ftbquests:missing_item": "botania:elementium_ingot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["519E223F1996BC55"]
+			id: "7B5A757F27DCC627"
+			rewards: [{
+				id: "5DF5B47CE346DF0D"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "28CA3E352A87F074"
+					item: { components: { "ftbquests:missing_item": "botania:gaia_pylon" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5AF655104F26C7B0"
+					item: { count: 1, id: "minecraft:beacon" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B5A757F27DCC627"]
+			icon: {
+				id: "reliquary:mob_charm"
+			}
+			id: "24C326CBFBD4594D"
+			rewards: [{
+				id: "34AC756F59E4EB96"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B5814F4433D3BD8"
+					item: { components: { "ftbquests:missing_item": "botania:life_essence" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					entity: "botania:doppleganger"
+					id: "15F42E58A1713E6E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["48F60CA2E6B4862F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4410B00B8D8F5B19"
+			rewards: [{
+				count: 2
+				id: "36488E15B6576855"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "456D3161BF7B112B"
+				item: { components: { "ftbquests:missing_item": "botania:crafting_halo" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3BE5AE7A9835E4A8"
+				"67959A83195EAA69"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
+			id: "0888F8EABF24BEB2"
+			rewards: [
+				{
+					id: "2B8E0FDA569DB5CA"
+					item: {
+						components: {
+							"ftbquests:missing_item": "botania:mana_tablet"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1BB7983929E948D4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B36641576464453"
+				item: { components: { "ftbquests:missing_item": "botania:mana_tablet" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["519E223F1996BC55"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
+			id: "500ECD42563E2C44"
+			rewards: [{
+				id: "40FD612B2D89122F"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F345F37CDCFD715"
+				item: { components: { "ftbquests:missing_item": "botania:star_sword" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+	]
+}

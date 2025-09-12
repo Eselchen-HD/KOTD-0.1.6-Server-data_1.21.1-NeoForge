@@ -1,0 +1,172 @@
+{
+	id: "4F7310810CCDCD00"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			id: "1EC21A5A4A435587"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:blankslate"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 3
+			weight: 100.0f
+		}
+		{
+			id: "359F013607637549"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:reinforcedslate"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 50.0f
+		}
+		{
+			id: "4C61F0A055194C7D"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:infusedslate"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 10.0f
+		}
+		{ id: "484C14BF4FD79DD1", item: { components: { "ftbquests:missing_item": "bloodmagic:demonslate" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			id: "09BFDE5B55C0C362"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:blankrune"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 3
+			weight: 50.0f
+		}
+		{
+			id: "26E11EE869E96638"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:speedrune"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "61023F33AAC10551"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:sacrificerune"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "7967EBF3ABA9A471"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:selfsacrificerune"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "61C4D4EB5788FD3E"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:altarcapacityrune"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "3C5A8CC90FB9613D"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:basemonstersoul"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 100.0f
+		}
+		{
+			id: "1B6270B2DB1090B0"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:basemonstersoul"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			id: "1AF128431C96FCA6"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:basemonstersoul"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{ id: "714AEB026B3C997B", item: { components: { "ftbquests:missing_item": "bloodmagic:basemonstersoul" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			id: "394DCEAAD798A1CA"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:simplekey"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "2986FF6E0B73DF5A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:ritualstone"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			id: "1DCF77076C695496"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:soulsnare"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 3
+			weight: 100.0f
+		}
+	]
+	use_title: true
+}

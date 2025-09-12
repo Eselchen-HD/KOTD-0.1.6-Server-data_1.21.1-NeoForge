@@ -1,0 +1,31 @@
+{
+	id: "6985498CEEAB1DCC"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			count: 4
+			id: "76EA819C82536C7C"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+		}
+		{
+			count: 4
+			id: "7474FB141C38BD0E"
+			item: {
+				count: 1
+				id: "minecraft:ghast_tear"
+			}
+		}
+		{
+			count: 4
+			id: "72AD8DA5FC365230"
+			item: {
+				count: 1
+				id: "minecraft:magma_cream"
+			}
+		}
+	]
+}

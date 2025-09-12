@@ -1,0 +1,26 @@
+{
+	id: "3787F5188902B0FD"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 5
+			id: "35B20A09088023DD"
+			item: {
+				count: 1
+				id: "ae2:silicon"
+			}
+		}
+		{
+			count: 5
+			id: "50B023C8160F7A94"
+			item: {
+				count: 1
+				id: "refinedstorage:quartz_enriched_iron"
+			}
+			weight: 2.0f
+		}
+		{ id: "22D01117531C445A", item: { count: 1, id: "refinedstorage:machine_casing" } }
+	]
+	use_title: true
+}

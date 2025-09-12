@@ -1,0 +1,735 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elementalcraft"
+	group: "590ACDB4C189F8D5"
+	icon: {
+		id: "patchouli:guide_book"
+	}
+	id: "4351A2B2F092D7AF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "patchouli:guide_book"
+			}
+			id: "55F12D063F9D9430"
+			rewards: [
+				{
+					id: "740DFA8F51630C10"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "5FC72B57C8D35A0B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6C74591E8DEA104D"
+				item: { count: 1, id: "patchouli:guide_book" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F12D063F9D9430"]
+			id: "04C3CDC36ED3DA81"
+			rewards: [
+				{
+					count: 2
+					id: "4070E931A1327998"
+					item: {
+						components: {
+							"ftbquests:missing_item": "elementalcraft:contained_crystal"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "44F3745FD267D292"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73DD538F07BAF5B0"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:contained_crystal" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E029A2BA469F42D"]
+			id: "023C2C0632BC0934"
+			rewards: [
+				{
+					id: "0602E484B1FD2ADB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "42FF4B1801185C2D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F879853AC71119A"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:extractor" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "44A01683531707A4"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:evaporator" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04C3CDC36ED3DA81"]
+			id: "1AC819882704B814"
+			rewards: [
+				{
+					count: 4
+					id: "58989F867695C769"
+					item: {
+						components: {
+							"ftbquests:missing_item": "elementalcraft:elementpipe_impaired"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "591CB227B2D0B5B6"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E9FE2D6EA484356"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:elementpipe_impaired" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E029A2BA469F42D"]
+			id: "06AAC66822DE0F2C"
+			rewards: [
+				{
+					id: "252A2D00EB5429FC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "4DE5A56B75B49CA3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DB67FC59A760562"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:infuser" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AC819882704B814"]
+			id: "5E029A2BA469F42D"
+			rewards: [
+				{
+					id: "660C1E9798CF4734"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "2DF40CC2C6AAFF40"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "187FFED3F1787FFA"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:small_container" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06AAC66822DE0F2C"]
+			id: "12BBC87D40762F6E"
+			rewards: [
+				{
+					id: "2D618CF175F89CDE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "76A3EB2CFBC4AA9F"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2EBC4AE6123DAECC"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:firecrystal" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6528028151D7D157"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:watercrystal" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7B2016E40EE73614"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:earthcrystal" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "515BCE0EAD3B6531"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:aircrystal" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06AAC66822DE0F2C"]
+			id: "5E25F6AE2AFF8E7D"
+			rewards: [
+				{
+					count: 8
+					id: "66EFD5A5705354FE"
+					item: {
+						components: {
+							"ftbquests:missing_item": "elementalcraft:drenched_iron_ingot"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "623E565B53BD2AAF"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "688574510ACAAEFD"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:drenched_iron_ingot" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E25F6AE2AFF8E7D"]
+			id: "765DB60D1D074BD9"
+			rewards: [
+				{
+					count: 8
+					id: "4C8C23965698E907"
+					item: {
+						components: {
+							"ftbquests:missing_item": "elementalcraft:elementpipe"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7E5009ED1A958ED3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6109E2771BDAF398"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:elementpipe" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75692ECC829EB1CB"]
+			id: "2B4D6CED2D33C18C"
+			rewards: [
+				{
+					count: 2
+					id: "5D91309AE8303A3F"
+					item: {
+						components: {
+							"ftbquests:missing_item": "elementalcraft:scroll_paper"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61BF552CB74B14C2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "679E5B4830572CD2"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:scroll_paper" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5E25F6AE2AFF8E7D"
+				"12BBC87D40762F6E"
+			]
+			dependency_requirement: "all_started"
+			id: "590E8784699B7906"
+			rewards: [
+				{
+					id: "6E01EC0DC8A3E1C1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "533F937320F068AD"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0898309D2B8DFE06"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:element_holder_fire" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "10EC251BDCF6518A"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:element_holder_water" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6261CD24C4296CAF"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:element_holder_earth" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "2676C9F4870761A5"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:element_holder_air" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["765DB60D1D074BD9"]
+			id: "07405FDC188781AC"
+			rewards: [
+				{
+					id: "25717A5F6DBA7509"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "170651AE68E91A1E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78D4C60E278C7ED0"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:binder" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07405FDC188781AC"]
+			id: "15D76014F814293F"
+			rewards: [
+				{
+					count: 4
+					id: "1BE815F3587B3653"
+					item: {
+						components: {
+							"ftbquests:missing_item": "elementalcraft:swift_alloy_ingot"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A7401C4B719B922"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D754B223EC99D18"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:swift_alloy_ingot" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72F4183F5ECEB474"]
+			id: "79A2E00852D325F1"
+			rewards: [{
+				count: 2
+				id: "3CECD549DE93ACBD"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "224C2FF59F14422D"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:purecrystal" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E25F6AE2AFF8E7D"]
+			id: "75692ECC829EB1CB"
+			rewards: [
+				{
+					id: "76E7D92DAE18ACE0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "04CF94BB7A103CE0"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EEAEA5E6FD664B8"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:spell_desk" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "7A22166B8FE8FCBE"
+			rewards: [
+				{
+					id: "405601E17E990ED1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3D3396B1F65A75AF"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19E1DAC72ED749A5"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:spell_book" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1E2791803EDCDD5B"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:focus" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "72F4183F5ECEB474"
+			rewards: [{
+				count: 2
+				id: "2460B27D222EC2AE"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F6A447A45406252"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:pureinfuser" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "191BB9F3A9380970"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:pedestal_fire" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1550B4BA6B455367"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:pedestal_water" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "09A87AD7683D1FC0"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:pedestal_earth" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "36AF12C9ACC1E3C5"
+					item: { components: { "ftbquests:missing_item": "elementalcraft:pedestal_air" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "020AF1B40EF414AC"
+			rewards: [{
+				count: 2
+				id: "74FF4A0D7C10F13B"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71BB450DA300FF37"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:shrine_upgrade_core" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["765DB60D1D074BD9"]
+			id: "2049298DC63A1C32"
+			rewards: [
+				{
+					id: "0CA3906B6B6C7C72"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "37B209B6E8B3D1DA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10EEDACCF6392A72"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:shrinebase" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79A2E00852D325F1"]
+			id: "6AFB420A3A13E01B"
+			rewards: [{
+				count: 2
+				id: "7D84EB83692FDC5E"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48B02663E4C10C46"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:extractor_improved" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79A2E00852D325F1"]
+			id: "5A46DB43D2EB0A0C"
+			rewards: [{
+				count: 2
+				id: "24D8553FEB2ADE00"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71AB051EB788D0D9"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:purifier" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72F4183F5ECEB474"]
+			id: "5619EF8C3300D184"
+			rewards: [{
+				count: 2
+				id: "194B062B39998168"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EA510E798086178"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:purerock" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A22166B8FE8FCBE"]
+			dependency_requirement: "all_started"
+			id: "3FFF4844A0878D85"
+			rewards: [
+				{
+					id: "66299890367C6043"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "54104CB5EAE5CA60"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B53FD127ACEE889"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:staff" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "61BCE8789E5D74D5"
+			rewards: [{
+				count: 2
+				id: "2E70004AC0997B2D"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69396F98DFB75A68"
+				item: { components: { "ftbquests:missing_item": "elementalcraft:elementpipe_improved" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+	]
+}

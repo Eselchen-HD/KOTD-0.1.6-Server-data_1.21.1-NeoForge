@@ -1,0 +1,35 @@
+{
+	id: "3183DFB374F0B096"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 3
+			id: "4BB7EC254AEA8270"
+			item: {
+				count: 1
+				id: "refinedstorage:basic_processor"
+			}
+			random_bonus: 3
+			weight: 40.0f
+		}
+		{
+			count: 2
+			id: "1AEF4700D13601D5"
+			item: {
+				count: 1
+				id: "refinedstorage:improved_processor"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "6B1844060ADB49B4"
+			item: {
+				count: 1
+				id: "refinedstorage:advanced_processor"
+			}
+			weight: 5.0f
+		}
+	]
+	use_title: true
+}

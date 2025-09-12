@@ -1,0 +1,1121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "refined_storage"
+	group: "4B962CBA93919BC4"
+	id: "15AAF17B6665223D"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01F18150EC923482"
+			rewards: [
+				{
+					id: "13BC4987B9B25D15"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "762245D6E1A1C755"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "58C1F0DC4E105A56"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "196B8B6D59ABFC74"
+				item: { count: 1, id: "refinedstorage:controller" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7604D8B3C9FCCFD9"]
+			id: "4101F8275B41C79B"
+			rewards: [
+				{
+					id: "0E75917E7E00D711"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1E19EB23C6FDA5CA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1121780C6403D660"
+				item: { count: 1, id: "refinedstorage:1k_storage_part" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4101F8275B41C79B"]
+			id: "3FD801D7DE9176FB"
+			rewards: [
+				{
+					id: "45B99CC9C8BFE5A7"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1AA17F063FA91391"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1420D2099CBB6833"
+				item: { count: 1, id: "refinedstorage:4k_storage_part" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FD801D7DE9176FB"]
+			id: "03C78165C5CBD9E1"
+			rewards: [
+				{
+					id: "52C389613C90C469"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6446D1FEE439CAC9"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0346A00E2F8F7532"
+				item: { count: 1, id: "refinedstorage:16k_storage_part" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03C78165C5CBD9E1"]
+			id: "3F8EEE1AD4420702"
+			rewards: [
+				{
+					id: "4E028E9A2CD6831A"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4F22D9131E610FDF"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "02A8CBA1DAC84DAE"
+				item: { count: 1, id: "refinedstorage:64k_storage_part" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65C8A43FEDBA3835"]
+			id: "44881E39AB1D62AA"
+			min_width: 300
+			rewards: [
+				{
+					id: "6831B9D1AB4346E0"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "7A7E9FB332E33420"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "30D9BF3E294D8508"
+				item: { count: 1, id: "refinedstorage:autocrafter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["44881E39AB1D62AA"]
+			hide_until_deps_visible: true
+			id: "45FF08E4DB6F7F0E"
+			rewards: [
+				{
+					count: 2
+					id: "78D26C79FAC05CFF"
+					item: {
+						count: 1
+						id: "refinedstorage:pattern"
+					}
+					type: "item"
+				}
+				{
+					id: "784DBA5C53E77B0F"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "553F8A8596154012"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ED2706B229F3AA7"
+				item: { count: 1, id: "extrastorage:iron_crafter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["45FF08E4DB6F7F0E"]
+			hide_until_deps_visible: true
+			id: "4A198E875A6B0A64"
+			rewards: [
+				{
+					count: 3
+					id: "5ACCF4B3C45E2989"
+					item: {
+						count: 1
+						id: "refinedstorage:pattern"
+					}
+					type: "item"
+				}
+				{
+					id: "0F53B827EFCD88B3"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "050848AE07266B2C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AA53ECBAE795C70"
+				item: { count: 1, id: "extrastorage:gold_crafter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4A198E875A6B0A64"]
+			hide_until_deps_visible: true
+			id: "189018F641FBB44E"
+			rewards: [
+				{
+					count: 4
+					id: "23E76AEB4BEA3B45"
+					item: {
+						count: 1
+						id: "refinedstorage:pattern"
+					}
+					type: "item"
+				}
+				{
+					id: "3659A7F955F0E035"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3DEC1741A5DABAD8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "461E78CF8E7FCD04"
+				item: { count: 1, id: "extrastorage:diamond_crafter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["189018F641FBB44E"]
+			hide_until_deps_visible: true
+			id: "24BD32102AFA1691"
+			rewards: [
+				{
+					count: 5
+					id: "09E39857FC64780B"
+					item: {
+						count: 1
+						id: "refinedstorage:pattern"
+					}
+					type: "item"
+				}
+				{
+					id: "5706B3CCE55E4250"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "68EC1D4D2E704763"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FEB0889EEBC1BDA"
+				item: { count: 1, id: "extrastorage:netherite_crafter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			id: "3FAD086F7D9CCAE9"
+			rewards: [
+				{
+					id: "182081F231AA3B51"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "65E3200B7773C007"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "411F819314EF6C57"
+				item: { count: 1, id: "refinedstorage:wrench" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			id: "6904EC449FBEE387"
+			rewards: [
+				{
+					count: 8
+					id: "3940AD01E5D76358"
+					item: {
+						count: 1
+						id: "refinedstorage:cable"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "1174925025CC0A56"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "17E179B6CFE4BA3F"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "1A2C2B95FDA9D2DA"
+				item: { count: 1, id: "refinedstorage:cable" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			hide_until_deps_visible: true
+			id: "532229D285CA4858"
+			rewards: [
+				{
+					id: "1DE253380778110D"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3D245B9B0DD313DA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E57EE9B975D05C3"
+				item: { count: 1, id: "refinedstorage:importer" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			hide_until_deps_visible: true
+			id: "6092490EC9008A05"
+			rewards: [
+				{
+					id: "706F07A4768DE9FA"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3782B466C5EECD41"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5762E9CE9A7D3FCA"
+				item: { count: 1, id: "refinedstorage:destructor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			hide_until_deps_visible: true
+			id: "2CFEE04BA574921E"
+			rewards: [
+				{
+					id: "3CDBEEDBD20A61DE"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "5A1C12AD8D716253"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BB33FEBA2B071DF"
+				item: { count: 1, id: "refinedstorage:constructor" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			hide_until_deps_visible: true
+			id: "4CD83943865018EA"
+			rewards: [
+				{
+					id: "40C3EDC23E165575"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2C993756DEFC7166"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "528F054C15BB7191"
+				item: { count: 1, id: "refinedstorage:exporter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			hide_until_deps_visible: true
+			id: "253657BE5D9D9162"
+			min_width: 300
+			rewards: [
+				{
+					id: "33EE37E408A14D2A"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "119284F9C119EDF5"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D9E7CCF420BDE8C"
+				item: { count: 1, id: "refinedstorage:external_storage" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			id: "43E8912CB307E421"
+			rewards: [
+				{
+					id: "673FBE94CC27445E"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "0E35D05AA810F2C0"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "79D4D84C351A7E69"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "68A80F00CAFF427D"
+				item: { count: 1, id: "refinedstorage:grid" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			id: "0F00BBDF3618B3BA"
+			rewards: [
+				{
+					id: "41A66CDD13A10EFB"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "53189DA11AA43777"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3AA4DEEA2DC7432D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5B74E6CB7AB75F92"
+				item: { count: 1, id: "refinedstorage:crafting_grid" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59F5ED931FD70C55"]
+			hide_until_deps_visible: true
+			id: "65C8A43FEDBA3835"
+			min_width: 300
+			rewards: [
+				{
+					id: "3FAE50501AEA16E9"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "0FCE549D1F1E18A4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "79E70744DBC24777"
+				item: { count: 1, id: "refinedstorage:pattern_grid" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			id: "744842B2AED28344"
+			rewards: [
+				{
+					id: "6B5DF00E7050694D"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "553AC9C05E0564EA"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3DCC2C6CFE73B67E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7724DEE62B19D862"
+				item: { count: 1, id: "refinedstorage_quartz_arsenal:wireless_crafting_grid" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			id: "12A43F82FC67A289"
+			rewards: [
+				{
+					id: "4657EF2161AC3ADD"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "0B750449B490A597"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "293712A45085CB63"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3724447C3E0F9942"
+				item: { count: 1, id: "refinedstorage:disk_drive" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			hide_until_deps_visible: true
+			id: "4844DEF57A2287B4"
+			rewards: [
+				{
+					id: "70D006DD94C36966"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2AF1B5E385FC4599"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B28BB4C29E7E33A"
+				item: { count: 1, id: "refinedstorage:disk_interface" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			id: "59F5ED931FD70C55"
+			rewards: [
+				{
+					id: "1FA71DB84EE6B7D8"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "4348758E87B788AE"
+					item: {
+						count: 1
+						id: "refinedstorage:pattern"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5482638797E6B27E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "45359CC3EC90B74B"
+				item: { count: 1, id: "refinedstorage:pattern" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.449999999999999d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			hide_until_deps_visible: true
+			id: "64E85274D24FE394"
+			optional: true
+			rewards: [
+				{
+					id: "6AC46C5C8136A9C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1491EF64254BB838"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "54967B71AF2E32BE"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "59E1432B592B686C"
+				item: { count: 1, id: "refinedstorage:storage_monitor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: false
+			id: "6B04FC81351CD1AB"
+			rewards: [
+				{
+					id: "5050A99AB9DA31EE"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "072F8FCFCB9F86EA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "48935A6041672A29"
+				item: { count: 1, id: "refinedstorage:wireless_transmitter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E2811D1A0F2A492"]
+			id: "3E0D29502690E02F"
+			rewards: [
+				{
+					id: "020CFD2156077264"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "77301A3136E1E657"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "0636DE3A178E6F8C"
+				item: { count: 1, id: "rsinfinitybooster:infinity_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			dependency_requirement: "one_started"
+			hide_until_deps_visible: true
+			id: "7604D8B3C9FCCFD9"
+			min_width: 300
+			rewards: [
+				{
+					id: "2A14130CAC3461EA"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "0AD3BB831ACC3EF2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "546B04909ABE8383"
+				item: { count: 1, id: "refinedstorage:storage_housing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			id: "3E890BABC4C41370"
+			min_width: 300
+			rewards: [
+				{
+					id: "7D644616E6416286"
+					item: {
+						count: 1
+						id: "refinedstorage:network_card"
+					}
+					type: "item"
+				}
+				{
+					id: "7D1DCEA1DB748856"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "7321631CFD0F9E9D"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "09E76EDEB297E5CA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E028480454ECBB5"
+					item: { count: 1, id: "refinedstorage:network_transmitter" }
+					type: "item"
+				}
+				{
+					id: "1CB0AFE99559C1B5"
+					item: { count: 1, id: "refinedstorage:network_receiver" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4101F8275B41C79B"]
+			id: "62625CAF6649AB53"
+			optional: true
+			rewards: [
+				{
+					id: "2757EAF400D978C1"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "67F02A6E515FDDCA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4540AB0231FE3B1A"
+				item: { count: 1, id: "refinedstorage:1k_storage_block" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
+			id: "2B27E4E04A628C60"
+			rewards: [
+				{
+					id: "10EE1EA9372509F0"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "4B859F9679182D36"
+					item: {
+						count: 1
+						id: "refinedstorage:speed_upgrade"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "66BD1FFE99AE3BAA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0B3AB478E6493DBC"
+					item: { count: 1, id: "refinedstorage:speed_upgrade" }
+					type: "item"
+				}
+				{
+					id: "2B39C12AEFA55C59"
+					item: { count: 1, id: "refinedstorage:stack_upgrade" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			hide_until_deps_visible: true
+			id: "2E2811D1A0F2A492"
+			rewards: [
+				{
+					id: "56D7CD357A4D790B"
+					item: {
+						count: 1
+						id: "refinedstorage:range_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "3A61D12F2542D63D"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "05769083817EAD9C"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "7AB53C2469B768E0"
+				item: { count: 1, id: "refinedstorage:range_upgrade" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E0D29502690E02F"]
+			id: "3EE9958D84A1252C"
+			rewards: [
+				{
+					id: "07BCC4BCD1A84D6E"
+					table_id: 1739527894044761161L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2D49E3DBFEE1D47D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "46D5EE19AF045684"
+				item: { count: 1, id: "rsinfinitybooster:dimension_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65C8A43FEDBA3835"]
+			id: "7044EAB5EDF32BBC"
+			rewards: [
+				{
+					id: "70D5957342CD81E6"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "566184EFEA58D66A"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "49BDB7BFD4639111"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "02ABC9B7BAB93552"
+				item: { count: 1, id: "refinedstorage:autocrafting_monitor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+	]
+}

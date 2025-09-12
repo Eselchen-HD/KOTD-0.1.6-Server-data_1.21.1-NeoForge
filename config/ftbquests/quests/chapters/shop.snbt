@@ -1,0 +1,599 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: ""
+	id: "2F64E10FDEF94643"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "34173E17A12A4147"
+			rewards: [{
+				id: "04F57BBC27269E17"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "36FDD73176203DC4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "3EF0681AC9AA823C"
+			rewards: [{
+				id: "22C777B5E344BF74"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "45AD1B00080D77DE"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "638F98C43EFE2C38"
+			rewards: [{
+				id: "45B461CC5400B3E3"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "224CDD216DE8A7C7"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "01F3629F5DC3FAB3"
+			rewards: [{
+				id: "09215B2F5D1A9B70"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king_corpse"
+				id: "0E1432B80B960D8E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "1ECAAFCF3B7A560F"
+			rewards: [{
+				count: 3
+				id: "3D7E38E71E007868"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "3B0E76D94836AA58"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "753A1BB43FE8E909"
+			rewards: [{
+				count: 3
+				id: "7207A9B6EFB34E43"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "37D2C32CCF991224"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "025499322F8E7396"
+			rewards: [{
+				count: 6
+				id: "2E358E101E65F9BA"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "14B5356C5022448E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "6F03C55E1A800495"
+			rewards: [{
+				count: 2
+				id: "3D8C3724D088D7C8"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "13AF342CCCD08E92"
+				type: "kill"
+				value: 2000L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "3A98A891DACF99EA"
+			rewards: [{
+				count: 3
+				id: "21B5B7B74667B153"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "314B973D22CC3D95"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "6B7340661EBD332C"
+			rewards: [{
+				count: 9
+				id: "418E8C72AB5EEC6F"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4AA2F604DACF8FC9"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "1E2B616EF0D16707"
+			rewards: [{
+				id: "79EB0166D6FF94A5"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "420603EB33F824C1"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "6CA0963D24CAF6B1"
+			rewards: [{
+				id: "5B9D2055636CF41F"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "allthemodium:piglich"
+				id: "4AC2430DE10FD244"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "7725250C70B8576B"
+			rewards: [{
+				count: 9
+				id: "248B7EEB4D7949C1"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "0243CAF9379D05B4"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "6962BE98689493CB"
+			rewards: [{
+				count: 192
+				id: "4117F86F7FCAE45C"
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "036955D122B569FF"
+				item: { count: 4, id: "lightmanscurrency:coin_copper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "59C8C1847F8AABA9"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "3808754BFEC9873B"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "0D7BB208E06CDC7C"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "7330F1A26749E78E"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "75B539215A8F0DBC"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "247B08BA71F96B20"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "17ADB85AF891712C"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "499D985189BD9F54"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "26EA7F90DEBDF552"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "67DBE014DCA5C912"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "47B71F5CCCAE9A30"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "14C7F4770B3EEBC5"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "3B9FF609ECB6B338"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "733685CE6C69C365"
+			rewards: [{
+				id: "2BD4526C738D412D"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E82E0490B30248D"
+				item: { count: 1, id: "twilightforest:hydra_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "1032F95695203C5C"
+			rewards: [{
+				id: "0099EE9FB8E1FBCE"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ADBE6758BDCD071"
+				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "65FA777D99EC5CC1"
+			rewards: [{
+				id: "50FF901F3C7EE8E9"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F51771D05997A57"
+				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "6D9CD9FFFE5DFD3B"
+			rewards: [{
+				count: 4
+				id: "55C8B2DE888BECFB"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "207519DDAF6F9509"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "3A02C681003A0D76"
+			rewards: [{
+				id: "445236F803352C31"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "496C2A1B390B4359"
+				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "4C8F59B7A28C2258"
+			rewards: [{
+				id: "4FEBB11D99441340"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "7D4118F69F4977D3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "5BC78960ACB1755E"
+			rewards: [{
+				count: 4
+				id: "7BECF6E15DFA3141"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "62E45B3AA687BD68"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34173E17A12A4147"]
+			hide_dependent_lines: true
+			id: "7C7E2756B0D3E2BA"
+			rewards: [{
+				count: 2
+				id: "7DAFFEEC3997398E"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "0178D5254D6C9191"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+}
