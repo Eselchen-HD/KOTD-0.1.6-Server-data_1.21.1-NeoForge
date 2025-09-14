@@ -8,7 +8,6 @@ We are using [NeoForge-21.1.203](https://maven.neoforged.net/releases/net/neofor
 
 Need Help?
 ======
-When reporting an issue, please follow the templates!
 
 |You can also find us on Discord for help<br>or just to chat|
 |:------------:|
