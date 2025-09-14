@@ -1,8 +1,10 @@
- -KOTD- 
+-KOTD- 
 ======
 This is the official repository and issue-tracker for KOTD 1.21.1 NeoForge
 
-"Knights of the dark" the community project, everyone is invited to help and create an *amazing* modpack.
+We are using [NeoForge-21.1.203](https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.203/neoforge-21.1.203-installer.jar).
+
+"__Knights of the dark__" the community project, everyone is invited to help and create an *amazing* modpack.
 
 Need Help?
 ======
