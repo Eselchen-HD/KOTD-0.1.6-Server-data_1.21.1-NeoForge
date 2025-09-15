@@ -6,18 +6,25 @@
 
 # A good default for a modded server is 4GB.
 # Uncomment the next line to set it.
--Xms4G
--Xmx12G
--XX:+UseG1GC 
--XX:MaxGCPauseMillis=50 
--XX:+UnlockExperimentalVMOptions 
--XX:+ParallelRefProcEnabled 
--XX:+AlwaysPreTouch 
--XX:+DisableExplicitGC 
--XX:G1NewSizePercent=30 
--XX:G1MaxNewSizePercent=40 
--XX:G1HeapRegionSize=8M 
--XX:G1ReservePercent=20 
--XX:InitiatingHeapOccupancyPercent=15 
--Dusing.aikars.flags=true 
--Daikars.new.flags=true
+-Xms2G
+-Xmx18G
+-d64 -server
+-XX:+AggressiveOpts
+-XX:ParallelGCThreads=3
+-XX:+UseConcMarkSweepGC
+-XX:+UnlockExperimentalVMOptions
+-XX:+UseParNewGC
+-XX:+ExplicitGCInvokesConcurrent
+-XX:MaxGCPauseMillis=10
+-XX:GCPauseIntervalMillis=50
+-XX:+UseFastAccessorMethods
+-XX:+OptimizeStringConcat
+-XX:NewSize=84m
+-XX:+UseAdaptiveGCBoundary
+-XX:NewRatio=3
+-Dfml.readTimeout=90
+-Ddeployment.trace=true
+-Ddeployment.log=true
+-Ddeployment.trace.level=all
+-Dfml.debugNetworkHandshake=true
+-Dfml.badPacketCounter=10
